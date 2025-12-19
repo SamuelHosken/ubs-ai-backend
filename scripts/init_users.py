@@ -28,10 +28,15 @@ def create_initial_users():
         existing_users = db.query(User).count()
         if existing_users > 0:
             print(f"⚠️  Já existem {existing_users} usuário(s) no banco.")
-            response = input("Deseja continuar e adicionar novos usuários? (s/n): ")
-            if response.lower() != 's':
-                print("Operação cancelada.")
-                return
+            # Em produção (Railway), não pedir input
+            import os
+            if os.getenv("RAILWAY_ENVIRONMENT") or os.getenv("ENVIRONMENT") == "production":
+                print("Ambiente de produção detectado, continuando...")
+            else:
+                response = input("Deseja continuar e adicionar novos usuários? (s/n): ")
+                if response.lower() != 's':
+                    print("Operação cancelada.")
+                    return
 
         # Criar usuário dev
         dev_email = "dev@ubs.com"
