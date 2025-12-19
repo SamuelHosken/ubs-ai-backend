@@ -27,12 +27,18 @@ init_db()
 allowed_origins = settings.get_allowed_origins_list()
 logger.info(f"CORS allowed origins: {allowed_origins}")
 
+# Se está em produção e não tem origens configuradas, permitir todas (temporário para debug)
+if settings.ENVIRONMENT == "production" and allowed_origins == ["http://localhost:3000"]:
+    logger.warning("⚠️ CORS: No production origins configured, allowing all origins temporarily")
+    allowed_origins = ["*"]
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
-    allow_credentials=True,
-    allow_methods=["*"],
+    allow_credentials=True if "*" not in allowed_origins else False,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
     allow_headers=["*"],
+    expose_headers=["*"],
 )
 
 # Routes
