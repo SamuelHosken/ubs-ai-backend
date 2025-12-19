@@ -43,14 +43,33 @@ def create_user(
 @router.post("/login", response_model=Token)
 def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
     """Login e obter token JWT"""
+    import logging
+    logger = logging.getLogger(__name__)
+
+    logger.info(f"🔐 Login attempt for: {form_data.username}")
+
     user = db.query(User).filter(User.email == form_data.username).first()
 
-    if not user or not verify_password(form_data.password, user.hashed_password):
+    if not user:
+        logger.warning(f"❌ User not found: {form_data.username}")
+        # Log all users for debug
+        all_users = db.query(User).all()
+        logger.info(f"📋 Available users: {[u.email for u in all_users]}")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Incorrect email or password",
             headers={"WWW-Authenticate": "Bearer"},
         )
+
+    if not verify_password(form_data.password, user.hashed_password):
+        logger.warning(f"❌ Invalid password for: {form_data.username}")
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Incorrect email or password",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+    logger.info(f"✅ Login successful for: {form_data.username}")
 
     if not user.is_active:
         raise HTTPException(
