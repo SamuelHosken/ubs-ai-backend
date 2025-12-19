@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-02",
+    "reference_date": "2009-03-25",
+    "client_name": "BR Crans",
+    "program": "UBS Managed Fund Portfolio",
+    "investment_strategy": "Mandate RE"
+  },
+  "totals": {
+    "net_assets": 29408,
+    "_corrected_from_consolidated": true
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Real Estate",
+      "market_value": 29408,
+      "percentage": 100.0
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "market_value": 29408,
+      "percentage": 100
+    }
+  ],
+  "performance": {
+    "ytd_pct": 2.7,
+    "qtd_pct": 2.7,
+    "since_inception_pct": 2.7,
+    "monthly_returns": [
+      {
+        "month": "Feb",
+        "return_pct": 2.68
+      },
+      {
+        "month": "Mar",
+        "return_pct": 0.0
+      }
+    ]
+  },
+  "positions": [
+    {
+      "name": "Shs UBS Wealth Management - Global Property Fund Ltd - class EUR",
+      "isin": null,
+      "security_number": "1968401",
+      "category": "Real Estate",
+      "currency": "EUR",
+      "quantity": 2815,
+      "cost_price": null,
+      "market_price": 10.4469,
+      "cost_value": null,
+      "market_value": 29408,
+      "percentage": -1.85,
+      "unrealized_pnl": null,
+      "performance_pct": 100.0
+    }
+  ],
+  "transactions": [],
+  "balance": {},
+  "_classification": {
+    "total_pages": 10,
+    "by_type": {
+      "cover": 1,
+      "contents": 1,
+      "total_assets": 1,
+      "asset_allocation": 1,
+      "performance_ytd": 1,
+      "performance_history": 1,
+      "positions_overview": 1,
+      "detailed_positions": 1,
+      "additional_info": 2
+    },
+    "skip_count": 3,
+    "position_pages": 2,
+    "transaction_pages": 0
+  },
+  "_consolidated_totals": [
+    {
+      "portfolio_number": "268-913017-01",
+      "net_assets": 423635,
+      "currency": "EUR"
+    },
+    {
+      "portfolio_number": "268-913017-02",
+      "net_assets": 29408,
+      "currency": "EUR"
+    }
+  ],
+  "_total_consolidated": 453043,
+  "_extraction_meta": {
+    "pages_processed": 10,
+    "classification_tokens": 19237,
+    "extraction_tokens": -5128,
+    "total_tokens": 14109,
+    "errors": []
+  },
+  "_document_info": {
+    "doc_id": "2009_20090325_portfolio_02",
+    "year": "2009",
+    "date": "2009-03-25",
+    "portfolio_type": "02",
+    "source_folder": "/Users/samuelhosken/code/hosken/analise-das-imagens/portfolios_corrigidos/09/09.03.25-Statement of Assets-Dispatch Address",
+    "processed_at": "2025-12-16T14:04:16.732957",
+    "validation": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": [],
+      "fixes_applied": [
+        "Fixed portfolio_type:  -> 02",
+        "Fixed net_assets from _consolidated_totals: None -> 29408",
+        "Swapped pct/perf for Shs UBS Wealth Management - Gl: percentage 100.0% > 50%",
+        "Created Real Estate allocation (Portfolio 02)"
+      ]
+    }
+  }
+}

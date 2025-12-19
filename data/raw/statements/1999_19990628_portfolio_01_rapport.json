@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "portfolio_number": "268-912.154-01",
+    "reference_date": "1999-06-28",
+    "structure_date": "1999-06-25",
+    "client_name": "CQUE 912154",
+    "program": "Mandat de Gestion de Fortune",
+    "investment_strategy": "Rendement",
+    "document_type": "Rapport",
+    "document_language": "French",
+    "branch": "Avenue du Général Guisan 1, 3960 Sierre",
+    "branch_phone": "+41 27 452 81 11",
+    "branch_fax": "+41 27 452 81 10",
+    "currency": "CHF",
+    "bank": "UBS SA",
+    "advisor": {
+      "name": "Philippe Poisson",
+      "phone": "+41 27 486 91 22"
+    }
+  },
+  "totals": {
+    "net_assets": 1865630,
+    "currency": "CHF"
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Liquidités",
+      "asset_class_en": "Money Market / Liquidity",
+      "percentage": 10.59
+    },
+    {
+      "asset_class": "Obligations",
+      "asset_class_en": "Bonds",
+      "percentage": 69.42
+    },
+    {
+      "asset_class": "Actions",
+      "asset_class_en": "Shares / Equities",
+      "percentage": 19.99
+    },
+    {
+      "asset_class": "Autres",
+      "asset_class_en": "Others",
+      "percentage": 0.00
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "CHF",
+      "liquidites_pct": 10.55,
+      "obligations_pct": 47.93,
+      "actions_pct": 8.73,
+      "autres_pct": 0,
+      "total_pct": 67.21
+    },
+    {
+      "currency": "EUR",
+      "liquidites_pct": 0,
+      "obligations_pct": 15.91,
+      "actions_pct": 6.96,
+      "autres_pct": 0,
+      "total_pct": 22.87
+    },
+    {
+      "currency": "USD",
+      "liquidites_pct": -0.02,
+      "obligations_pct": 5.58,
+      "actions_pct": 0,
+      "autres_pct": 0,
+      "total_pct": 5.56
+    },
+    {
+      "currency": "GBP",
+      "liquidites_pct": 0.06,
+      "obligations_pct": 0,
+      "actions_pct": 2.97,
+      "autres_pct": 0,
+      "total_pct": 3.03
+    },
+    {
+      "currency": "Autres",
+      "liquidites_pct": 0,
+      "obligations_pct": 0,
+      "actions_pct": 1.33,
+      "autres_pct": 0,
+      "total_pct": 1.33
+    }
+  ],
+  "bonds_by_currency": [
+    {
+      "currency": "CHF",
+      "percentage": 69.04
+    },
+    {
+      "currency": "EUR",
+      "percentage": 22.92
+    },
+    {
+      "currency": "USD",
+      "percentage": 8.04
+    }
+  ],
+  "shares_by_country": [
+    {
+      "country": "CH",
+      "country_name": "Switzerland",
+      "percentage": 43.67
+    },
+    {
+      "country": "GB",
+      "country_name": "Great Britain",
+      "percentage": 14.86
+    },
+    {
+      "country": "Autres",
+      "country_name": "Others/Diverse",
+      "percentage": 41.47
+    }
+  ],
+  "performance": {
+    "historical_annual": {
+      "evaluation_period": "04.01.1996 - 25.06.1999",
+      "currency": "CHF",
+      "values_in_thousands": true,
+      "years": [
+        {
+          "year": 1996,
+          "fractional_period": true,
+          "valeur_depart": 1901,
+          "flux_net": -142,
+          "valeur_finale": 2020,
+          "capital_investi_moyen": 1821,
+          "resultat_placement": 262,
+          "performance_mwr_pct": 14.40,
+          "performance_twr_pct": null,
+          "performance_cumulee_pct": 14.40
+        },
+        {
+          "year": 1997,
+          "fractional_period": false,
+          "valeur_depart": 2020,
+          "flux_net": -100,
+          "valeur_finale": 2113,
+          "capital_investi_moyen": 1961,
+          "resultat_placement": 193,
+          "performance_mwr_pct": 9.85,
+          "performance_twr_pct": null,
+          "performance_cumulee_pct": 25.67
+        },
+        {
+          "year": 1998,
+          "fractional_period": false,
+          "valeur_depart": 2113,
+          "flux_net": -124,
+          "valeur_finale": 2054,
+          "capital_investi_moyen": 2045,
+          "resultat_placement": 65,
+          "performance_mwr_pct": 3.20,
+          "performance_twr_pct": 3.03,
+          "performance_cumulee_pct": 29.69
+        },
+        {
+          "year": 1999,
+          "fractional_period": true,
+          "note": "H1 1999 only (to 25.06.1999)",
+          "valeur_depart": 2054,
+          "flux_net": -208,
+          "valeur_finale": 1866,
+          "capital_investi_moyen": 1929,
+          "resultat_placement": 20,
+          "performance_mwr_pct": 1.03,
+          "performance_twr_pct": 1.06,
+          "performance_cumulee_pct": 31.03
+        }
+      ],
+      "summary": {
+        "total_cumulative_performance_pct": 31.03,
+        "average_annual_performance_pct": 8.09,
+        "period_years": 3.5
+      }
+    },
+    "monthly_1999": {
+      "evaluation_period": "31.12.1998 - 25.06.1999",
+      "currency": "CHF",
+      "values_in_thousands": true,
+      "months": [
+        {
+          "month": "01.1999",
+          "month_name": "January",
+          "valeur_depart": 2054,
+          "flux_net": 0,
+          "valeur_finale": 2081,
+          "capital_investi_moyen": 2054,
+          "resultat_placement": 27,
+          "performance_mwr_pct": 1.29,
+          "performance_twr_pct": 1.29,
+          "performance_cumulee_pct": 1.29
+        },
+        {
+          "month": "02.1999",
+          "month_name": "February",
+          "valeur_depart": 2081,
+          "flux_net": -10,
+          "valeur_finale": 2060,
+          "capital_investi_moyen": 2074,
+          "resultat_placement": -11,
+          "performance_mwr_pct": -0.53,
+          "performance_twr_pct": -0.53,
+          "performance_cumulee_pct": 0.76
+        },
+        {
+          "month": "03.1999",
+          "month_name": "March",
+          "valeur_depart": 2060,
+          "flux_net": -337,
+          "valeur_finale": 1729,
+          "capital_investi_moyen": 2012,
+          "resultat_placement": 7,
+          "performance_mwr_pct": 0.34,
+          "performance_twr_pct": 0.35,
+          "performance_cumulee_pct": 1.10
+        },
+        {
+          "month": "04.1999",
+          "month_name": "April",
+          "valeur_depart": 1729,
+          "flux_net": 139,
+          "valeur_finale": 1902,
+          "capital_investi_moyen": 1799,
+          "resultat_placement": 34,
+          "performance_mwr_pct": 1.89,
+          "performance_twr_pct": 1.89,
+          "performance_cumulee_pct": 3.00
+        },
+        {
+          "month": "05.1999",
+          "month_name": "May",
+          "valeur_depart": 1902,
+          "flux_net": 0,
+          "valeur_finale": 1875,
+          "capital_investi_moyen": 1902,
+          "resultat_placement": -28,
+          "performance_mwr_pct": -1.45,
+          "performance_twr_pct": -1.45,
+          "performance_cumulee_pct": 1.51
+        },
+        {
+          "month": "06.1999",
+          "month_name": "June",
+          "fractional_period": true,
+          "valeur_depart": 1875,
+          "flux_net": 0,
+          "valeur_finale": 1866,
+          "capital_investi_moyen": 1875,
+          "resultat_placement": -9,
+          "performance_mwr_pct": -0.47,
+          "performance_twr_pct": -0.47,
+          "performance_cumulee_pct": 1.03
+        }
+      ],
+      "summary": {
+        "ytd_cumulative_performance_pct": 1.03,
+        "average_monthly_performance_pct": 0.18
+      }
+    }
+  },
+  "cash_flows": {
+    "period": {
+      "start_date": "1999-01-01",
+      "end_date": "1999-06-25"
+    },
+    "transactions": [
+      {
+        "date": "1999-02-08",
+        "amount_original": -10000,
+        "currency": "CHF",
+        "sortie_chf": 10000,
+        "description": "Ordre"
+      },
+      {
+        "date": "1999-03-05",
+        "amount_original": -20000,
+        "currency": "USD",
+        "sortie_chf": 29245,
+        "description": "Ordre"
+      },
+      {
+        "date": "1999-03-09",
+        "amount_original": -10000,
+        "currency": "CHF",
+        "sortie_chf": 10000,
+        "description": "Ordre"
+      },
+      {
+        "date": "1999-03-29",
+        "amount_original": -100000,
+        "currency": "USD",
+        "sortie_chf": 148875,
+        "description": "Ordre"
+      },
+      {
+        "date": "1999-03-29",
+        "amount_original": -100000,
+        "currency": "USD",
+        "sortie_chf": 148875,
+        "description": "Ordre"
+      },
+      {
+        "date": "1999-04-15",
+        "amount_original": 99980,
+        "currency": "USD",
+        "entree_chf": 148645.26,
+        "description": "QN77088ZU1245515 PBS152017-OEWE-2KM-8437"
+      },
+      {
+        "date": "1999-04-15",
+        "amount_original": -10000,
+        "currency": "CHF",
+        "sortie_chf": 10000,
+        "description": "Ordre"
+      }
+    ],
+    "summary": {
+      "total_entrees_chf": 148645.26,
+      "total_sorties_chf": 356995,
+      "flux_net_chf": -208349.74
+    }
+  },
+  "glossary": {
+    "structure_de_la_fortune": {
+      "graphique_echeances": "Les échéances du capital sont enregistrées la 1ère année en tenant compte des revenus anticipés et les années suivantes sans tenir compte des revenus anticipés."
+    },
+    "euro": "Toutes les monnaies de la zone euro seront enregistrées sous la monnaie 'EURO'",
+    "evolution_de_la_fortune": {
+      "moyenne": "Ø représente la Moyenne",
+      "twr": "La performance publiée 'Time Weighted Rate of Return' (TWR) est calculée de telle sorte que les entrées et les sorties de fonds n'ont aucune influence sur le résultat.",
+      "mwr": "Par contre, les effets produits par les mouvements d'argent frais sur la performance sont pris en compte dans le 'Money Weighted Rate of Return' (MWR). Si les fonds n'ont subi aucune mutation, les deux modes de calcul génèrent le même résultat."
+    },
+    "flux": {
+      "impots_source": "Les impôts à la source ne sont ni reconnus ni enregistrés comme flux de fonds."
+    }
+  },
+  "_classification": {
+    "total_pages": 6,
+    "by_type": {
+      "cover": 1,
+      "structure_fortune": 1,
+      "evolution_historique": 1,
+      "evolution_mensuelle": 1,
+      "flux": 1,
+      "legende": 1
+    }
+  },
+  "_document_info": {
+    "doc_id": "1999_19990628_portfolio_01_rapport",
+    "year": "1999",
+    "quarter": "Q2",
+    "date": "1999-06-28",
+    "portfolio_type": "01",
+    "document_language": "French",
+    "document_format": "UBS Rapport de Gestion",
+    "source_folder": "99_06_28-Raport",
+    "processed_at": "2025-12-16T23:00:00.000000"
+  },
+  "_notes": [
+    "PERFORMANCE REPORT complementing the Etat de Fortune of same date",
+    "Contains valuable historical performance data from 1996 to 1999",
+    "Net Assets: CHF 1,865,630 (slightly different from Etat de Fortune due to timing)",
+    "Portfolio 912.154 - same as Etat de Fortune, before EUR conversion",
+    "Cumulative performance since 1996: +31.03%",
+    "Average annual performance: +8.09%",
+    "Best year: 1996 with +14.40%",
+    "1998 showed slowdown: only +3.20% (market volatility)",
+    "H1 1999: +1.03% YTD with significant volatility",
+    "Large USD withdrawals in March 1999: USD 200,000 (CHF ~297,750)",
+    "Significant cash outflow: CHF -208,349.74 net in H1 1999",
+    "Currency allocation very CHF-heavy: 67.21%",
+    "Bond-heavy portfolio: 69.42% in obligations",
+    "Handwritten note on page 2: 'EURO - Balanced' suggests upcoming strategy change",
+    "Handwritten notes on page 3 about simulating new portfolio",
+    "This report shows the portfolio BEFORE the November 1999 EUR conversion"
+  ]
+}

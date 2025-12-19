@@ -1,0 +1,1137 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-01",
+    "reference_date": "2008-12-31",
+    "production_date": "2009-01-02",
+    "client_name": "CQUE 913017",
+    "client_address": "BR Crans",
+    "program": "UBS Managed Fund Portfolio",
+    "product": "Classic",
+    "investment_strategy": "Yield",
+    "document_type": "Statement of Assets",
+    "branch": "CH-3963 Crans-Montana 2",
+    "currency": "EUR",
+    "bank": "UBS SA"
+  },
+  "totals": {
+    "net_assets": 477029,
+    "total_market_value": 477029,
+    "total_accrued_interest": 0,
+    "currency": "EUR"
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Bonds and Similar Investments",
+      "market_value": 213455,
+      "percentage": 44.75
+    },
+    {
+      "asset_class": "Equities and Similar Investments",
+      "market_value": 103217,
+      "percentage": 21.64
+    },
+    {
+      "asset_class": "Alternative Investments",
+      "market_value": 91842,
+      "percentage": 19.25
+    },
+    {
+      "asset_class": "Real Estate and Similar Investments",
+      "market_value": 31009,
+      "percentage": 6.50
+    },
+    {
+      "asset_class": "Asset Allocation Funds",
+      "market_value": 15219,
+      "percentage": 3.19
+    },
+    {
+      "asset_class": "Money Market and Similar Investments",
+      "market_value": 15450,
+      "percentage": 3.24
+    },
+    {
+      "asset_class": "Precious Metals & Commodities",
+      "market_value": 7835,
+      "percentage": 1.64
+    },
+    {
+      "asset_class": "Accounts",
+      "market_value": -998,
+      "percentage": -0.21
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "liquidity": 16731,
+      "bonds": 212203,
+      "equities": 54663,
+      "alternative_investments": 91842,
+      "real_estate": 31009,
+      "precious_metals": 7835,
+      "others": 15219,
+      "total": 429502,
+      "total_pct": 90.03
+    },
+    {
+      "currency": "USD",
+      "liquidity": 211,
+      "equities": 36396,
+      "total": 36607,
+      "total_pct": 7.67
+    },
+    {
+      "currency": "JPY",
+      "liquidity": -221,
+      "equities": 2989,
+      "total": 2768,
+      "total_pct": 0.58
+    },
+    {
+      "currency": "GBP",
+      "liquidity": 5,
+      "equities": 2520,
+      "total": 2525,
+      "total_pct": 0.53
+    },
+    {
+      "currency": "CHF",
+      "liquidity": -22,
+      "equities": 1270,
+      "total": 1248,
+      "total_pct": 0.27
+    },
+    {
+      "currency": "AUD",
+      "liquidity": 29,
+      "equities": 536,
+      "total": 565,
+      "total_pct": 0.12
+    },
+    {
+      "currency": "HKD",
+      "liquidity": 17,
+      "equities": 334,
+      "total": 351,
+      "total_pct": 0.07
+    },
+    {
+      "currency": "Various",
+      "liquidity": 8,
+      "equities": 3455,
+      "total": 3463,
+      "total_pct": 0.73
+    }
+  ],
+  "equities_by_country": [
+    {
+      "country": "EMU",
+      "market_value": 25609,
+      "percentage": 25.06
+    },
+    {
+      "country": "United States",
+      "market_value": 22549,
+      "percentage": 22.08
+    },
+    {
+      "country": "France",
+      "market_value": 15920,
+      "percentage": 15.58
+    },
+    {
+      "country": "Belgium",
+      "market_value": 5424,
+      "percentage": 5.31
+    },
+    {
+      "country": "Germany",
+      "market_value": 4520,
+      "percentage": 4.42
+    },
+    {
+      "country": "Various",
+      "market_value": 28141,
+      "percentage": 27.55
+    }
+  ],
+  "performance": {
+    "ytd_2008": {
+      "full_year": {
+        "period": "31.12.2007 - 31.12.2008",
+        "starting_value": 615200,
+        "inflow": 0,
+        "outflow": -32300,
+        "final_value": 477000,
+        "net_performance_eur": -105900,
+        "net_performance_pct": -17.73,
+        "tax_at_source": 0,
+        "performance_before_tax": -105900,
+        "performance_before_tax_pct": -17.73,
+        "cumulative_pct": -21.09
+      },
+      "q1_2008": {
+        "period": "31.12.2007 - 31.03.2008",
+        "starting_value": 615200,
+        "inflow": 0,
+        "outflow": -11800,
+        "final_value": 575000,
+        "net_performance_eur": -28400,
+        "net_performance_pct": -4.66,
+        "cumulative_pct": -4.66
+      },
+      "q2_2008": {
+        "period": "31.03.2008 - 30.06.2008",
+        "starting_value": 575000,
+        "inflow": 0,
+        "outflow": -3100,
+        "final_value": 560600,
+        "net_performance_eur": -11300,
+        "net_performance_pct": -1.97,
+        "cumulative_pct": -6.54
+      },
+      "q3_2008": {
+        "period": "30.06.2008 - 30.09.2008",
+        "starting_value": 560600,
+        "inflow": 0,
+        "outflow": -7400,
+        "final_value": 533700,
+        "net_performance_eur": -19500,
+        "net_performance_pct": -3.50,
+        "cumulative_pct": -9.81
+      },
+      "q4_2008": {
+        "period": "30.09.2008 - 31.12.2008",
+        "starting_value": 533700,
+        "inflow": 0,
+        "outflow": -9900,
+        "final_value": 477000,
+        "net_performance_eur": -46700,
+        "net_performance_pct": -8.78,
+        "cumulative_pct": -17.73
+      }
+    },
+    "monthly_returns_2008": [
+      {
+        "month": "01",
+        "return_pct": -2.0
+      },
+      {
+        "month": "02",
+        "return_pct": 0.5
+      },
+      {
+        "month": "03",
+        "return_pct": -0.5
+      },
+      {
+        "month": "04",
+        "return_pct": 0.5
+      },
+      {
+        "month": "05",
+        "return_pct": 0.0
+      },
+      {
+        "month": "06",
+        "return_pct": -3.0
+      },
+      {
+        "month": "07",
+        "return_pct": -0.5
+      },
+      {
+        "month": "08",
+        "return_pct": 0.0
+      },
+      {
+        "month": "09",
+        "return_pct": -5.0
+      },
+      {
+        "month": "10",
+        "return_pct": -5.0
+      },
+      {
+        "month": "11",
+        "return_pct": -2.5
+      },
+      {
+        "month": "12",
+        "return_pct": -0.5
+      }
+    ],
+    "annual_returns": [
+      {
+        "year": 2000,
+        "period": "30.12.1999 - 29.12.2000",
+        "starting_value": 1174300,
+        "inflow": 163600,
+        "outflow": -256400,
+        "final_value": 1057200,
+        "net_performance_eur": -24300,
+        "net_performance_pct": -2.03,
+        "cumulative_pct": -2.00
+      },
+      {
+        "year": 2001,
+        "period": "29.12.2000 - 31.12.2001",
+        "starting_value": 1057200,
+        "inflow": 0,
+        "outflow": -73800,
+        "final_value": 890900,
+        "net_performance_eur": -92500,
+        "net_performance_pct": -8.91,
+        "cumulative_pct": -10.67
+      },
+      {
+        "year": 2002,
+        "period": "31.12.2001 - 31.12.2002",
+        "starting_value": 890900,
+        "inflow": 57100,
+        "outflow": -77900,
+        "final_value": 780800,
+        "net_performance_eur": -89300,
+        "net_performance_pct": -10.35,
+        "cumulative_pct": -19.91
+      },
+      {
+        "year": 2003,
+        "period": "31.12.2002 - 31.12.2003",
+        "starting_value": 780800,
+        "inflow": 0,
+        "outflow": -88600,
+        "final_value": 723500,
+        "net_performance_eur": 31400,
+        "net_performance_pct": 4.25,
+        "cumulative_pct": -16.49
+      },
+      {
+        "year": 2004,
+        "period": "31.12.2003 - 30.12.2004",
+        "starting_value": 723500,
+        "inflow": 0,
+        "outflow": -67500,
+        "final_value": 674300,
+        "net_performance_eur": 18200,
+        "net_performance_pct": 2.62,
+        "cumulative_pct": -14.28
+      },
+      {
+        "year": 2005,
+        "period": "30.12.2004 - 30.12.2005",
+        "starting_value": 674300,
+        "inflow": 0,
+        "outflow": -59400,
+        "final_value": 671200,
+        "net_performance_eur": 56300,
+        "net_performance_pct": 8.74,
+        "cumulative_pct": -6.79
+      },
+      {
+        "year": 2006,
+        "period": "30.12.2005 - 29.12.2006",
+        "starting_value": 671200,
+        "inflow": 0,
+        "outflow": -50200,
+        "final_value": 637400,
+        "net_performance_eur": 16400,
+        "net_performance_pct": 2.57,
+        "cumulative_pct": -4.39
+      },
+      {
+        "year": 2007,
+        "period": "29.12.2006 - 31.12.2007",
+        "starting_value": 637400,
+        "inflow": 0,
+        "outflow": -24400,
+        "final_value": 615200,
+        "net_performance_eur": 2200,
+        "net_performance_pct": 0.32,
+        "cumulative_pct": -4.09
+      },
+      {
+        "year": 2008,
+        "period": "31.12.2007 - 31.12.2008",
+        "starting_value": 615200,
+        "inflow": 0,
+        "outflow": -32300,
+        "final_value": 477000,
+        "net_performance_eur": -105900,
+        "net_performance_pct": -17.73,
+        "cumulative_pct": -21.09
+      }
+    ],
+    "nine_year_summary": {
+      "period": "30.12.1999 - 31.12.2008",
+      "starting_value": 1174300,
+      "total_inflow": 220700,
+      "total_outflow": -730500,
+      "total_cash_flow": -509800,
+      "final_value": 477000,
+      "cumulative_net_performance_pct": -21.28,
+      "average_annual_performance_pct": -2.59
+    }
+  },
+  "positions": {
+    "accounts": [
+      {
+        "currency": "CHF",
+        "balance": 0,
+        "account_number": "CH25 0026 8268 9130 1701Q",
+        "description": "MAP Cash Account",
+        "interest_rate_pct": 0,
+        "exchange_rate": 0.675904,
+        "market_value_eur": 0,
+        "percentage": 0.00
+      },
+      {
+        "currency": "EUR",
+        "balance": -998.21,
+        "account_number": "CH12 0026 8268 9130 1779Q",
+        "description": "MAP Cash Account",
+        "interest_rate_pct": 0,
+        "exchange_rate": 1.0,
+        "market_value_eur": -998,
+        "percentage": -0.21
+      },
+      {
+        "currency": "GBP",
+        "balance": 0,
+        "account_number": "CH42 0026 8268 9130 1762M",
+        "description": "MAP Cash Account",
+        "interest_rate_pct": 0,
+        "exchange_rate": 1.034315,
+        "market_value_eur": 0,
+        "percentage": 0.00
+      },
+      {
+        "currency": "USD",
+        "balance": 0,
+        "account_number": "CH16 0026 8268 9130 1760B",
+        "description": "MAP Cash Account",
+        "interest_rate_pct": 0,
+        "exchange_rate": 0.719399,
+        "market_value_eur": 0,
+        "percentage": 0.00
+      },
+      {
+        "currency": "JPY",
+        "balance": 0,
+        "account_number": "CH48 0026 8268 9130 1761E",
+        "description": "MAP Cash Account",
+        "interest_rate_pct": 0,
+        "exchange_rate": 0.007936,
+        "market_value_eur": 0,
+        "percentage": 0.00
+      }
+    ],
+    "total_accounts": {
+      "market_value": -998,
+      "percentage": -0.21
+    },
+    "money_market": {
+      "structured_products_fx_character": [
+        {
+          "currency": "EUR",
+          "quantity": 152,
+          "security_number": "4469019",
+          "description": "EUR 12 Mts MM FRN UBS AG London 2008-21.08.2009 (exp.14.08.09) Basket of MM Bonds",
+          "risk_type": "Performance",
+          "cost_price": 101.04,
+          "market_price": 101.647,
+          "price_date": "2008-11-28",
+          "change_pct": 0.60,
+          "market_value": 15450,
+          "percentage": 3.24
+        }
+      ],
+      "subtotal_structured_products_fx": {
+        "market_value": 15450,
+        "percentage": 3.24
+      }
+    },
+    "total_money_market": {
+      "market_value": 15450,
+      "percentage": 3.24
+    },
+    "bonds": {
+      "euro": [
+        {
+          "currency": "EUR",
+          "quantity": 154.397,
+          "security_number": "2186995",
+          "description": "Shs -B- Focused Sicav-High Grade Bond EUR (u)",
+          "yield_pct": 2.80,
+          "cost_price": 105.67,
+          "market_price": 111.11,
+          "price_date": "2008-12-30",
+          "change_pct": 5.15,
+          "market_value": 17155,
+          "percentage": 3.60
+        },
+        {
+          "currency": "EUR",
+          "quantity": 164.156,
+          "security_number": "2254501",
+          "description": "Shs DCI Ireland Fund PLC Diversified Credit Investments Feeder Fund One Class -B- EUR",
+          "cost_price": 102.357,
+          "market_price": 98.5,
+          "price_date": "2008-12-24",
+          "change_pct": -3.77,
+          "market_value": 16169,
+          "percentage": 3.39
+        },
+        {
+          "currency": "EUR",
+          "quantity": 1210.977,
+          "security_number": "1240963",
+          "description": "Accum.shs PIMCO Funds: Global Investors Series PLC - Euro Bond Fund Investors",
+          "cost_price": 14.19,
+          "market_price": 13.57,
+          "price_date": "2008-12-30",
+          "change_pct": -4.37,
+          "market_value": 16433,
+          "percentage": 3.44
+        },
+        {
+          "currency": "EUR",
+          "quantity": 299.485,
+          "security_number": "2730363",
+          "description": "Shs -B- Focused Sicav - High Grade Long Term Bond EUR B",
+          "cost_price": 102.69,
+          "market_price": 110.52,
+          "price_date": "2008-12-30",
+          "change_pct": 7.62,
+          "market_value": 33099,
+          "percentage": 6.94
+        },
+        {
+          "currency": "EUR",
+          "quantity": 161.03,
+          "security_number": "3469623",
+          "description": "Units Focused SICAV - Global Bond (EUR hedged) B",
+          "yield_pct": 4.47,
+          "cost_price": 100,
+          "market_price": 100.75,
+          "price_date": "2008-12-30",
+          "change_pct": 0.75,
+          "market_value": 16224,
+          "percentage": 3.40
+        },
+        {
+          "currency": "EUR",
+          "quantity": 943.473,
+          "security_number": "226677",
+          "description": "Shs -A2- BlackRock Global Funds Sicav - Euro Bond Fund capitalisation",
+          "cost_price": 17.7,
+          "market_price": 18.05,
+          "price_date": "2008-12-30",
+          "change_pct": 1.98,
+          "market_value": 17030,
+          "percentage": 3.57
+        },
+        {
+          "currency": "EUR",
+          "quantity": 276.054,
+          "security_number": "3278720",
+          "description": "Shs -BI- UBS Multi Manager Access II Sicav - Global Fixed Income Enhanced Strategies capital.",
+          "cost_price": 100,
+          "market_price": 83.48,
+          "price_date": "2008-12-30",
+          "change_pct": -16.52,
+          "market_value": 23045,
+          "percentage": 4.83
+        },
+        {
+          "currency": "EUR",
+          "quantity": 258.834,
+          "security_number": "1735527",
+          "description": "Units Focused Fund - Bond Select EUR (B) (u)",
+          "yield_pct": 3.48,
+          "cost_price": 106.62,
+          "market_price": 118.87,
+          "price_date": "2008-12-30",
+          "change_pct": 11.49,
+          "market_value": 30768,
+          "percentage": 6.45
+        },
+        {
+          "currency": "EUR",
+          "quantity": 144.743,
+          "security_number": "3278544",
+          "description": "Shs -BI- UBS Multi Manager Access II Sicav - European Multi Credit capitalisation",
+          "cost_price": 100,
+          "market_price": 76.15,
+          "price_date": "2008-12-30",
+          "change_pct": -23.85,
+          "market_value": 11022,
+          "percentage": 2.31
+        },
+        {
+          "currency": "EUR",
+          "quantity": 58.827,
+          "security_number": "1226052",
+          "description": "Shs -P Cap- Pictet Funds (LUX) Sicav - EUR bonds capitalisation",
+          "cost_price": 362.86,
+          "market_price": 373.43,
+          "price_date": "2008-12-30",
+          "change_pct": 2.91,
+          "market_value": 21968,
+          "percentage": 4.61
+        },
+        {
+          "currency": "EUR",
+          "quantity": 245.155,
+          "security_number": "1237670",
+          "rating": "EUR 3",
+          "description": "Shs Rorento NV",
+          "cost_price": 43.79,
+          "market_price": 43,
+          "price_date": "2008-02-20",
+          "change_pct": -1.80,
+          "market_value": 10542,
+          "percentage": 2.21
+        }
+      ],
+      "subtotal_euro": {
+        "market_value": 213455,
+        "percentage": 44.75
+      }
+    },
+    "total_bonds": {
+      "market_value": 213455,
+      "percentage": 44.75
+    },
+    "equities": {
+      "belgium": [
+        {
+          "currency": "EUR",
+          "quantity": 69.591,
+          "security_number": "1318302",
+          "description": "Shs Petercam B Fund Sicav - Petercam Equities Euroland capitalisation",
+          "cost_price": 116.93,
+          "market_price": 75.9,
+          "price_date": "2008-12-30",
+          "change_pct": -35.09,
+          "market_value": 5282,
+          "percentage": 1.11
+        }
+      ],
+      "subtotal_belgium": {
+        "market_value": 5282,
+        "percentage": 1.11
+      },
+      "france": [
+        {
+          "currency": "EUR",
+          "quantity": 28.754,
+          "security_number": "1493204",
+          "description": "Shs -C- SSGA Euro Alpha Equity Fund Sicav capitalisation",
+          "cost_price": 576.278,
+          "market_price": 367.54,
+          "price_date": "2008-12-30",
+          "change_pct": -36.22,
+          "market_value": 10568,
+          "percentage": 2.22
+        }
+      ],
+      "subtotal_france": {
+        "market_value": 10568,
+        "percentage": 2.22
+      },
+      "united_states": [
+        {
+          "currency": "USD",
+          "quantity": 380.468,
+          "security_number": "2445196",
+          "description": "Shs UBS Multi Manager Access US Equities B",
+          "cost_price": 108.882,
+          "market_price": 66.49,
+          "exchange_rate": 0.719399,
+          "price_date": "2008-12-30",
+          "change_pct_price": -38.93,
+          "change_pct_fx": -4.29,
+          "change_pct_total": -41.55,
+          "market_value": 18199,
+          "percentage": 3.82
+        }
+      ],
+      "subtotal_united_states": {
+        "market_value": 18199,
+        "percentage": 3.82
+      },
+      "various_countries": [
+        {
+          "currency": "EUR",
+          "quantity": 5.606,
+          "security_number": "1433092",
+          "description": "Units UBS Access Sicav - Global Equity (EUR) B (u)",
+          "cost_price": 1504.88,
+          "market_price": 924.21,
+          "price_date": "2008-12-30",
+          "change_pct": -38.59,
+          "market_value": 5181,
+          "percentage": 1.09
+        },
+        {
+          "currency": "USD",
+          "quantity": 358.607,
+          "security_number": "3189372",
+          "description": "Units UBS Multi Manager - Global Equity USD B",
+          "cost_price": 96.17,
+          "market_price": 52.78,
+          "exchange_rate": 0.719399,
+          "price_date": "2008-12-30",
+          "change_pct_price": -45.12,
+          "change_pct_fx": 3.13,
+          "change_pct_total": -43.40,
+          "market_value": 13616,
+          "percentage": 2.85
+        }
+      ],
+      "subtotal_various_countries": {
+        "market_value": 18797,
+        "percentage": 3.94
+      },
+      "emu": [
+        {
+          "currency": "EUR",
+          "quantity": 354.195,
+          "security_number": "995890",
+          "description": "Shs -A2- BlackRock Global Funds Sicav - Euro Markets Fund capitalisation",
+          "cost_price": 16.41,
+          "market_price": 11.52,
+          "price_date": "2008-12-30",
+          "change_pct": -29.80,
+          "market_value": 4080,
+          "percentage": 0.86
+        },
+        {
+          "currency": "EUR",
+          "quantity": 256.102,
+          "security_number": "2445190",
+          "description": "Units UBS Multi Manager Access - European Equities B",
+          "cost_price": 92.836,
+          "market_price": 61.82,
+          "price_date": "2008-12-30",
+          "change_pct": -33.41,
+          "market_value": 15832,
+          "percentage": 3.32
+        },
+        {
+          "currency": "EUR",
+          "quantity": 122.062,
+          "security_number": "940812",
+          "description": "Units -(EUR) P-acc- UBS (Lux) Equity Fund FCP - Euro Countries capitalisation (u)",
+          "cost_price": 133.33,
+          "market_price": 86.67,
+          "price_date": "2008-12-30",
+          "change_pct": -35.00,
+          "market_value": 10579,
+          "percentage": 2.22
+        }
+      ],
+      "subtotal_emu": {
+        "market_value": 30491,
+        "percentage": 6.39
+      },
+      "emerging_markets_global": [
+        {
+          "currency": "USD",
+          "quantity": 253.454,
+          "security_number": "358448",
+          "description": "Shs -A (dist) USD- JPMorgan Funds Sicav - Emerging Markets Equity Fund distribution",
+          "distribution_yield_pct": 3.26,
+          "last_distribution": "2008-09-18",
+          "distribution_amount_usd": 0.55,
+          "cost_price": 29.73,
+          "market_price": 16.88,
+          "exchange_rate": 0.719399,
+          "price_date": "2008-12-30",
+          "change_pct_price": -43.22,
+          "change_pct_fx": -3.23,
+          "change_pct_total": -45.05,
+          "market_value": 3078,
+          "percentage": 0.65
+        }
+      ],
+      "subtotal_emerging_markets": {
+        "market_value": 3078,
+        "percentage": 0.65
+      },
+      "pacific": [
+        {
+          "currency": "EUR",
+          "quantity": 49.958,
+          "security_number": "914793",
+          "description": "Accum.shs GAM Star Funds Plc Asia Pacific Equity Class EUR (u)",
+          "cost_price": 125.894,
+          "market_price": 83.3585,
+          "price_date": "2008-12-30",
+          "change_pct": -33.79,
+          "market_value": 4164,
+          "percentage": 0.87
+        }
+      ],
+      "subtotal_pacific": {
+        "market_value": 4164,
+        "percentage": 0.87
+      },
+      "europe": [
+        {
+          "currency": "EUR",
+          "quantity": 51.485,
+          "security_number": "924687",
+          "description": "Accum.units GAM Star Funds Plc European Equity (u)",
+          "cost_price": 216.295,
+          "market_price": 144.9534,
+          "price_date": "2008-12-30",
+          "change_pct": -32.98,
+          "market_value": 7463,
+          "percentage": 1.56
+        }
+      ],
+      "subtotal_europe": {
+        "market_value": 7463,
+        "percentage": 1.56
+      },
+      "structured_products_equity_character": [
+        {
+          "currency": "USD",
+          "quantity": 64,
+          "security_number": "4849844",
+          "sector": "Financials",
+          "description": "Longy UBS AG 2008-25.9.2009 (exp.18.9.09) S&P 500 Index (USD 20)",
+          "risk_type": "Leverage",
+          "cost_price": 50,
+          "market_price": 55.51,
+          "exchange_rate": 0.719399,
+          "price_date": "2008-11-25",
+          "change_pct_price": 11.02,
+          "change_pct_fx": -6.56,
+          "change_pct_total": 3.73,
+          "market_value": 2556,
+          "percentage": 0.54
+        },
+        {
+          "currency": "EUR",
+          "quantity": 50,
+          "security_number": "4849848",
+          "sector": "Financials",
+          "description": "Longy UBS AG Zurich 2008-25.09.2009 (exp.18.09.09) DJ Euro STOXX 50 (EUR 20)",
+          "risk_type": "Leverage",
+          "cost_price": 50,
+          "market_price": 52.38,
+          "price_date": "2008-11-25",
+          "change_pct": 4.76,
+          "market_value": 2619,
+          "percentage": 0.55
+        }
+      ],
+      "subtotal_structured_products_equity": {
+        "market_value": 5175,
+        "percentage": 1.08
+      }
+    },
+    "total_equities": {
+      "market_value": 103217,
+      "percentage": 21.64
+    },
+    "asset_allocation_funds": [
+      {
+        "currency": "EUR",
+        "quantity": 180.964,
+        "security_number": "3185981",
+        "description": "Shs -B- UBS Manager Solutions Sicav-SIF - Tactical Overlay Fund capitalisation",
+        "cost_price": 91.835,
+        "market_price": 84.1,
+        "price_date": "2008-12-30",
+        "change_pct": -8.42,
+        "market_value": 15219,
+        "percentage": 3.19
+      }
+    ],
+    "total_asset_allocation_funds": {
+      "market_value": 15219,
+      "percentage": 3.19
+    },
+    "real_estate_funds": [
+      {
+        "currency": "EUR",
+        "quantity": 2815,
+        "security_number": "1968401",
+        "description": "Shs UBS Wealth Management - Global Property Fund Ltd - class EUR",
+        "cost_price": 10.644,
+        "market_price": 11.0155,
+        "price_date": "2008-12-18",
+        "change_pct": 3.49,
+        "market_value": 31009,
+        "percentage": 6.50
+      }
+    ],
+    "total_real_estate_funds": {
+      "market_value": 31009,
+      "percentage": 6.50
+    },
+    "alternative_investments": {
+      "hedge_funds": [
+        {
+          "currency": "EUR",
+          "quantity": 804.91,
+          "security_number": "2501629",
+          "description": "Red.ptg shs UBS Multi-Managerr Alternative Fund SPC Ltd Portfolio D - EUR Class A",
+          "cost_price": 11.088,
+          "market_price": 8.8588,
+          "price_date": "2008-11-30",
+          "change_pct": -20.11,
+          "market_value": 7131,
+          "percentage": 1.49
+        },
+        {
+          "currency": "EUR",
+          "quantity": 5400,
+          "security_number": "1751556",
+          "description": "Red.ptg shs UBS Multi-Strategy Alternative Fund Ltd UBS Mlti-Strat Euro EUR -.001",
+          "cost_price": 10,
+          "market_price": 10.02569,
+          "price_date": "2008-11-30",
+          "change_pct": 0.26,
+          "market_value": 54139,
+          "percentage": 11.35
+        },
+        {
+          "currency": "EUR",
+          "quantity": 3220.627,
+          "security_number": "2078163",
+          "description": "Red.ptg shs UBS Multi-Strategy Alternative Fund II Ltd EURO Class EUR -.001",
+          "cost_price": 10.755,
+          "market_price": 9.49267,
+          "price_date": "2008-11-30",
+          "change_pct": -11.74,
+          "market_value": 30572,
+          "percentage": 6.41
+        }
+      ],
+      "subtotal_hedge_funds": {
+        "market_value": 91842,
+        "percentage": 19.25
+      }
+    },
+    "total_alternative_investments": {
+      "market_value": 91842,
+      "percentage": 19.25
+    },
+    "precious_metals_commodities": {
+      "metals_coins_funds": [
+        {
+          "currency": "EUR",
+          "quantity": 979.539,
+          "security_number": "3181720",
+          "description": "Ptg shs -A- UBS Active Commodity Fund SPC Ltd EUR core portfolio SP EUR -.001",
+          "cost_price": 9.863,
+          "market_price": 7.9988,
+          "price_date": "2008-11-30",
+          "change_pct": -18.90,
+          "market_value": 7835,
+          "percentage": 1.64
+        }
+      ],
+      "subtotal_metals_coins": {
+        "market_value": 7835,
+        "percentage": 1.64
+      }
+    },
+    "total_precious_metals_commodities": {
+      "market_value": 7835,
+      "percentage": 1.64
+    }
+  },
+  "balance_statement": {
+    "account": "CH12 0026 8268 9130 1779Q",
+    "currency": "EUR",
+    "transactions": [
+      {
+        "date": "2008-12-30",
+        "description": "Balance",
+        "value_date": "2008-12-31",
+        "amount": -8263.22
+      },
+      {
+        "date": "2008-12-30",
+        "description": "Mutual Funds V 30.12.2008 G9072061 PFLUX EUR BD PCA 1226052",
+        "value_date": "2009-01-02",
+        "amount": 7265.01
+      }
+    ],
+    "closing_balance": -998.21
+  },
+  "exchange_rates": [
+    {
+      "currency": "CHF",
+      "description": "Swiss Franc",
+      "rate": 0.675904,
+      "base": "EUR"
+    },
+    {
+      "currency": "DKK",
+      "description": "Danish Krone",
+      "rate": 0.134350,
+      "base": "EUR"
+    },
+    {
+      "currency": "GBP",
+      "description": "Pound Sterling",
+      "rate": 1.034315,
+      "base": "EUR"
+    },
+    {
+      "currency": "NOK",
+      "description": "Norwegian Krone",
+      "rate": 0.102740,
+      "base": "EUR"
+    },
+    {
+      "currency": "SEK",
+      "description": "Swedish Krona",
+      "rate": 0.090972,
+      "base": "EUR"
+    },
+    {
+      "currency": "USD",
+      "description": "US Dollar",
+      "rate": 0.719399,
+      "base": "EUR"
+    },
+    {
+      "currency": "CAD",
+      "description": "Canadian Dollar",
+      "rate": 0.582745,
+      "base": "EUR"
+    },
+    {
+      "currency": "AUD",
+      "description": "Australian Dollar",
+      "rate": 0.501565,
+      "base": "EUR"
+    },
+    {
+      "currency": "HKD",
+      "description": "Hong Kong Dollar",
+      "rate": 0.092823,
+      "base": "EUR"
+    },
+    {
+      "currency": "JPY",
+      "description": "Yen",
+      "rate": 0.007936,
+      "base": "EUR"
+    },
+    {
+      "currency": "SGD",
+      "description": "Singapore Dollar",
+      "rate": 0.499322,
+      "base": "EUR"
+    },
+    {
+      "currency": "KRW",
+      "description": "Won",
+      "rate": 0.000571,
+      "base": "EUR"
+    }
+  ],
+  "accounts_included": [
+    {
+      "account": "268-913017.N1",
+      "currency": "EUR",
+      "type": "MAP Custody Account"
+    },
+    {
+      "account": "CH25 0026 8268 9130 1701Q",
+      "currency": "CHF",
+      "type": "MAP Cash Account",
+      "portfolio_reference": "268-913017.01Q"
+    },
+    {
+      "account": "CH12 0026 8268 9130 1779Q",
+      "currency": "EUR",
+      "type": "MAP Cash Account",
+      "portfolio_reference": "268-913017.79Q"
+    },
+    {
+      "account": "CH42 0026 8268 9130 1762M",
+      "currency": "GBP",
+      "type": "MAP Cash Account",
+      "portfolio_reference": "268-913017.62M"
+    },
+    {
+      "account": "CH16 0026 8268 9130 1760B",
+      "currency": "USD",
+      "type": "MAP Cash Account",
+      "portfolio_reference": "268-913017.60B"
+    },
+    {
+      "account": "CH48 0026 8268 9130 1761E",
+      "currency": "JPY",
+      "type": "MAP Cash Account",
+      "portfolio_reference": "268-913017.61E"
+    }
+  ],
+  "market_commentary": {
+    "economy_and_politics": {
+      "us": "Deepening recession - economic conditions deteriorated with gathering momentum. Credit conditions worsened sharply in September, jolting an already weak US economy. Expect deep recession until mid-2009.",
+      "europe": "Much of Europe had slipped into recession by H2 2008. Germany contracting due to weak export demand. UK entered severe recession after years of strong growth, rising house prices and high private debt.",
+      "asia": "2008 began well but third-quarter GDP data showed slowing growth. Fourth quarter expected to be much worse. 2009 likely to be a very difficult year for the region."
+    },
+    "asset_class_outlook": {
+      "bonds": "Government bonds generated robust positive returns during 2008, while corporate bonds posted their worst year on record. Investment-grade corporate bonds offer attractive opportunities as credit spreads rose over 6 percentage points.",
+      "equities": "Equity indices around the world almost halved in value in 2008, the worst year for equities since the early 1930s. All regions suffered as the financial crisis intensified.",
+      "hedge_funds": "Hedge funds as a group posted their worst performance since 1990. Temporary bans on short-selling and tighter lending standards created difficulties. Expect transition and consolidation ahead.",
+      "real_estate": "Commercial and residential real estate markets moved sharply lower during 2008 as the global economy spiraled into recession. Do not expect recovery before 2010.",
+      "commodities": "Demand for commodities weakened in tune with the global economic downturn. Further downward pressure expected through first half of 2009."
+    }
+  },
+  "_classification": {
+    "total_pages": 27,
+    "by_type": {
+      "cover": 1,
+      "table_of_contents": 1,
+      "asset_allocation": 1,
+      "performance_2008": 1,
+      "performance_9_years": 4,
+      "positions_overview": 1,
+      "detailed_positions": 9,
+      "balance_statement": 1,
+      "financial_market_report": 6,
+      "exchange_rates_explanations": 2,
+      "important_information": 1
+    }
+  },
+  "_document_info": {
+    "doc_id": "2008_20081231_portfolio_01",
+    "year": "2008",
+    "quarter": "Q4",
+    "date": "2008-12-31",
+    "portfolio_type": "01",
+    "document_language": "English",
+    "document_format": "UBS Managed Fund Portfolio format",
+    "source_folder": "08_12_31-Statement_of_Assets-Dispatch_Address",
+    "processed_at": "2025-12-16T21:00:00.000000"
+  },
+  "_notes": [
+    "CRITICAL DOCUMENT: Captures full impact of 2008 Global Financial Crisis",
+    "Net Assets dropped from EUR 615,200 to EUR 477,029 (-22.4% in absolute terms)",
+    "Annual performance 2008: -17.73% (worst year in portfolio history)",
+    "Cumulative 9-year performance: -21.28% (average -2.59% per year)",
+    "Equity positions devastated: most funds down 30-45%",
+    "Real Estate Fund still positive (+3.49%) - only bright spot",
+    "Alternative investments mixed: main multi-strategy fund +0.26%, others down",
+    "Q4 2008 was catastrophic: -46,700 EUR net performance in single quarter",
+    "Portfolio heavily rotated into bonds (44.75%) vs equities (21.64%)",
+    "New asset classes added: Precious Metals & Commodities (1.64%)",
+    "Cash account negative (-998 EUR) indicating margin or overdraft",
+    "Total outflows for year: EUR 32,300 (much lower than previous years)",
+    "Format changed to MAP (Managed Account Platform) Cash Accounts"
+  ]
+}

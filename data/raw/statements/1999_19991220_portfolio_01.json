@@ -1,0 +1,477 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-01",
+    "reference_date": "1999-12-20",
+    "structure_date": "1999-12-17",
+    "evaluation_period_start": "1999-11-04",
+    "evaluation_period_end": "1999-12-17",
+    "client_name": "CQUE 913017",
+    "client_address": "BR Crans",
+    "program": "Portfolio Management Agreement",
+    "investment_strategy": "Balanced",
+    "orientation": "EU",
+    "document_type": "Reporting",
+    "document_language": "English",
+    "branch": "3960 Sierre",
+    "branch_phone": "+41 27 452 81 11",
+    "currency": "EUR",
+    "bank": "UBS AG",
+    "advisor": {
+      "name": "Philippe Poisson",
+      "address": "Rue Centrale, 3963 Crans",
+      "phone": "+41 27 486 91 22",
+      "fax": "+41 27 486 91 10",
+      "email": "philippe.poisson@ubs.com"
+    }
+  },
+  "totals": {
+    "net_assets": 1158224,
+    "currency": "EUR"
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Money Market",
+      "percentage": 9.68
+    },
+    {
+      "asset_class": "Bonds",
+      "percentage": 50.35
+    },
+    {
+      "asset_class": "Shares",
+      "percentage": 39.97
+    },
+    {
+      "asset_class": "Diverse",
+      "percentage": 0.00
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "money_market_pct": 9.59,
+      "bonds_pct": 44.47,
+      "shares_pct": 21.03,
+      "diverse_pct": 0,
+      "total_pct": 75.09
+    },
+    {
+      "currency": "USD",
+      "money_market_pct": 0.03,
+      "bonds_pct": 5.88,
+      "shares_pct": 2.08,
+      "diverse_pct": 0,
+      "total_pct": 7.99
+    },
+    {
+      "currency": "GBP",
+      "money_market_pct": 0.04,
+      "bonds_pct": 0,
+      "shares_pct": 5.72,
+      "diverse_pct": 0,
+      "total_pct": 5.76
+    },
+    {
+      "currency": "JPY",
+      "money_market_pct": 0,
+      "bonds_pct": 0,
+      "shares_pct": 3.81,
+      "diverse_pct": 0,
+      "total_pct": 3.81
+    },
+    {
+      "currency": "CHF",
+      "money_market_pct": 0.02,
+      "bonds_pct": 0,
+      "shares_pct": 2.81,
+      "diverse_pct": 0,
+      "total_pct": 2.83
+    },
+    {
+      "currency": "Diverse",
+      "money_market_pct": 0,
+      "bonds_pct": 0,
+      "shares_pct": 4.52,
+      "diverse_pct": 0,
+      "total_pct": 4.52
+    }
+  ],
+  "bonds_by_currency": [
+    {
+      "currency": "EUR",
+      "percentage": 88.32
+    },
+    {
+      "currency": "USD",
+      "percentage": 11.68
+    }
+  ],
+  "shares_by_country": [
+    {
+      "country": "FR",
+      "country_name": "France",
+      "percentage": 22.72
+    },
+    {
+      "country": "GB",
+      "country_name": "Great Britain",
+      "percentage": 14.31
+    },
+    {
+      "country": "DE",
+      "country_name": "Germany",
+      "percentage": 13.21
+    },
+    {
+      "country": "JP",
+      "country_name": "Japan",
+      "percentage": 9.53
+    },
+    {
+      "country": "NL",
+      "country_name": "Netherlands",
+      "percentage": 8.01
+    },
+    {
+      "country": "Diverse",
+      "percentage": 32.22
+    }
+  ],
+  "performance": {
+    "evaluation_period": {
+      "start_date": "1999-11-04",
+      "end_date": "1999-12-17",
+      "months_covered": 2
+    },
+    "november_1999": {
+      "period": "11.99",
+      "fractional_period": true,
+      "initial_value_eur_thousands": 1136,
+      "net_flow_eur_thousands": 0,
+      "final_value_eur_thousands": 1158,
+      "average_invested_capital_eur_thousands": 1140,
+      "investment_result_eur_thousands": 22,
+      "performance_mwr_pct": 1.92,
+      "performance_twr_pct": 1.92,
+      "accumulated_performance_pct": 1.92
+    },
+    "december_1999": {
+      "period": "12.99",
+      "fractional_period": true,
+      "initial_value_eur_thousands": 1158,
+      "net_flow_eur_thousands": -9,
+      "final_value_eur_thousands": 1158,
+      "average_invested_capital_eur_thousands": 1149,
+      "investment_result_eur_thousands": 10,
+      "performance_mwr_pct": 0.87,
+      "performance_twr_pct": 0.87,
+      "accumulated_performance_pct": 2.81
+    },
+    "summary": {
+      "total_accumulated_performance_pct": 2.81,
+      "average_monthly_performance_pct": 1.95
+    }
+  },
+  "cash_flows": {
+    "period": {
+      "start_date": "1999-11-04",
+      "end_date": "1999-12-17"
+    },
+    "transactions": [
+      {
+        "date": "1999-11-04",
+        "amount_original": 37024.50,
+        "currency": "CHF",
+        "receipts_eur": 22968.05,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 10550.00,
+        "currency": "EUR",
+        "receipts_eur": 10550.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 63381.50,
+        "currency": "EUR",
+        "receipts_eur": 63381.50,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 40807.00,
+        "currency": "EUR",
+        "receipts_eur": 40807.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 18855.00,
+        "currency": "EUR",
+        "receipts_eur": 18855.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 19800.00,
+        "currency": "EUR",
+        "receipts_eur": 19800.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 31640.00,
+        "currency": "EUR",
+        "receipts_eur": 31640.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 101340.00,
+        "currency": "DEM",
+        "receipts_eur": 51814.32,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 34977.00,
+        "currency": "EUR",
+        "receipts_eur": 34977.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 29837.50,
+        "currency": "EUR",
+        "receipts_eur": 29837.50,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 71302.50,
+        "currency": "EUR",
+        "receipts_eur": 71302.50,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 26606.25,
+        "currency": "EUR",
+        "receipts_eur": 26606.25,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 35486.00,
+        "currency": "EUR",
+        "receipts_eur": 35486.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 69622.50,
+        "currency": "EUR",
+        "receipts_eur": 69622.50,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 39637.80,
+        "currency": "GBP",
+        "receipts_eur": 62173.80,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 74842.50,
+        "currency": "EUR",
+        "receipts_eur": 74842.50,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 69081.52,
+        "currency": "USD",
+        "receipts_eur": 66081.71,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 20191.50,
+        "currency": "EUR",
+        "receipts_eur": 20191.50,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 20700.00,
+        "currency": "EUR",
+        "receipts_eur": 20700.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 35929.20,
+        "currency": "AUD",
+        "receipts_eur": 21904.11,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 64414.00,
+        "currency": "EUR",
+        "receipts_eur": 64414.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 24173.00,
+        "currency": "USD",
+        "receipts_eur": 23123.30,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 12827.20,
+        "currency": "EUR",
+        "receipts_eur": 12827.20,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 42750.00,
+        "currency": "EUR",
+        "receipts_eur": 42750.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 1319100.00,
+        "currency": "JPY",
+        "receipts_eur": 12065.83,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 70207.50,
+        "currency": "EUR",
+        "receipts_eur": 70207.50,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 73620.00,
+        "currency": "EUR",
+        "receipts_eur": 73620.00,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 14930.00,
+        "currency": "CHF",
+        "receipts_eur": 9261.79,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-04",
+        "amount_original": 23232.75,
+        "currency": "USD",
+        "receipts_eur": 22223.88,
+        "description": "Rebooking DE 912154.N1 A7A AV 19,10,99"
+      },
+      {
+        "date": "1999-11-08",
+        "amount_original": 5923.76,
+        "currency": "EUR",
+        "receipts_eur": 5923.76,
+        "description": "Payment"
+      },
+      {
+        "date": "1999-11-26",
+        "amount_original": -6311.14,
+        "currency": "EUR",
+        "withdrawals_eur": 6311.14,
+        "description": "Order"
+      },
+      {
+        "date": "1999-12-02",
+        "amount_original": -15000.00,
+        "currency": "CHF",
+        "withdrawals_eur": 9374.41,
+        "description": "Order"
+      }
+    ],
+    "summary": {
+      "total_receipts_eur": 1130158.50,
+      "total_withdrawals_eur": 15685.55,
+      "net_flow_eur": 1114272.95
+    }
+  },
+  "portfolio_conversion": {
+    "description": "This report documents the conversion of portfolio 912154 (CHF-based) to portfolio 913017 (EUR-based)",
+    "conversion_date": "1999-11-04",
+    "source_portfolio": "912154.N1",
+    "target_portfolio": "913017-01",
+    "source_currency": "CHF",
+    "target_currency": "EUR",
+    "rebooking_reference": "A7A AV 19,10,99",
+    "currencies_converted": [
+      "CHF",
+      "EUR",
+      "DEM",
+      "GBP",
+      "USD",
+      "AUD",
+      "JPY"
+    ],
+    "note": "All positions from the CHF-denominated portfolio were transferred and revalued in EUR"
+  },
+  "glossary": {
+    "asset_allocation": "The asset allocation report classifies the funds by fixed investment category and currency, whereas the asset statement classifies the contents of the funds by individual investment category and currency.",
+    "euro": "All 'in' currencies will be reported under currency EURO",
+    "average_symbol": "Ø represents Average",
+    "twr": "Time Weighted Rate of Return - fund inflows/outflows do not influence the result",
+    "mwr": "Money Weighted Rate of Return - the movements of new money and their effect on performance are taken into account. If there have been no movements of funds, both calculation methods achieve the same result."
+  },
+  "_classification": {
+    "total_pages": 7,
+    "by_type": {
+      "cover": 1,
+      "portfolio_structure": 1,
+      "portfolio_evaluation": 1,
+      "cash_flows": 3,
+      "glossary": 1
+    }
+  },
+  "_document_info": {
+    "doc_id": "1999_19991220_portfolio_01",
+    "year": "1999",
+    "quarter": "Q4",
+    "date": "1999-12-20",
+    "portfolio_type": "01",
+    "document_language": "English",
+    "document_format": "UBS Portfolio Management Report",
+    "source_folder": "99_12_20-Reporting-for_your_Portfolio_Management_Agreement",
+    "processed_at": "2025-12-16T22:30:00.000000"
+  },
+  "_notes": [
+    "CRITICAL TRANSITION DOCUMENT: Shows conversion from CHF to EUR denomination",
+    "First document with account number 913.017 (previously 912.154)",
+    "Net Assets: EUR 1,158,224",
+    "All assets reboooked from portfolio 912154.N1 on 04.11.1999",
+    "Strategy changed from 'Rendement' to 'Balanced'",
+    "Orientation set to 'EU' reflecting new Euro focus",
+    "Performance in first 2 months: +2.81% accumulated",
+    "Average monthly performance: +1.95%",
+    "Net inflow of EUR 1,114,272.95 (the entire portfolio transfer)",
+    "Withdrawals of EUR 15,685.55 (CHF 15,000 + EUR 6,311)",
+    "Currency breakdown shows EUR dominance at 75.09%",
+    "Equity allocation increased to 39.97% (was 20% in June 1999 CHF portfolio)",
+    "Bond allocation decreased to 50.35% (was 74.71% in June 1999 CHF portfolio)",
+    "Geographic equity focus: France 22.72%, GB 14.31%, Germany 13.21%",
+    "DEM (Deutsche Mark) being phased out - converted at fixed rate to EUR",
+    "Advisor Philippe Poisson with contact details provided"
+  ]
+}

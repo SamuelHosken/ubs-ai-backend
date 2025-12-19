@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-9999",
+    "reference_date": "2013-12-31",
+    "client_name": "COUE 913017",
+    "program": null,
+    "investment_strategy": null
+  },
+  "totals": {},
+  "asset_allocation": [
+    {
+      "asset_class": "Liquidity",
+      "market_value": 0,
+      "percentage": 0.0
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "CHF",
+      "market_value": 0,
+      "percentage": 0.0
+    }
+  ],
+  "performance": {},
+  "positions": [],
+  "transactions": [],
+  "balance": {},
+  "_classification": {
+    "total_pages": 9,
+    "by_type": {
+      "cover": 1,
+      "contents": 1,
+      "total_assets": 1,
+      "asset_allocation": 1,
+      "positions_overview": 1,
+      "detailed_positions": 1,
+      "additional_info": 3
+    },
+    "skip_count": 4,
+    "position_pages": 2,
+    "transaction_pages": 0
+  },
+  "_consolidated_totals": [
+    {
+      "portfolio_number": "268-913017-01",
+      "net_assets": 456091,
+      "currency": "CHF"
+    },
+    {
+      "portfolio_number": "268-913017-02",
+      "net_assets": 10146,
+      "currency": "CHF"
+    }
+  ],
+  "_total_consolidated": 466237,
+  "_extraction_meta": {
+    "pages_processed": 9,
+    "classification_tokens": 267408,
+    "extraction_tokens": -48982,
+    "total_tokens": 218426,
+    "errors": []
+  },
+  "_document_info": {
+    "doc_id": "2013_20131231_portfolio_01",
+    "year": "2013",
+    "date": "2013-12-31",
+    "portfolio_type": "01",
+    "source_folder": "/Users/samuelhosken/code/hosken/analise-das-imagens/portfolios_corrigidos/13/13.12.31-Statement of assets-Dispatch address",
+    "processed_at": "2025-12-16T14:23:33.204346",
+    "validation": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": [],
+      "fixes_applied": [
+        "Fixed portfolio_type:  -> 01"
+      ]
+    }
+  }
+}

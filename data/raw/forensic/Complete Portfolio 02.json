@@ -1,0 +1,444 @@
+{
+  "documento": {
+    "titulo": "Relatório Forense Completo",
+    "subtitulo": "Portfolio 02 - UBS Global Property Fund (2009-2017)",
+    "conta": "UBS Switzerland AG | Conta 268-913017-02",
+    "data_geracao": "2024",
+    "produto": "UBS Wealth Management - Global Property Fund Ltd",
+    "isin": "GB00B0386M46",
+    "classe": "C-EUR-acc (acumulação)"
+  },
+  "secoes": [
+    {
+      "numero": 1,
+      "titulo": "Dados do Caso",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Este documento analisa o Portfolio 02, que consiste em um investimento no UBS Global Property Fund Ltd, um fundo imobiliário global gerido pela própria UBS."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Dados do Portfolio",
+          "colunas": ["Campo", "Valor", "Fonte"],
+          "linhas": [
+            {"Campo": "Portfolio", "Valor": "268-913017-02", "Fonte": "PDF: 0268-00913017-0002, página 1"},
+            {"Campo": "Produto", "Valor": "UBS Wealth Management - Global Property Fund Ltd", "Fonte": "PDF: 0268-00913017-0002, página 11"},
+            {"Campo": "ISIN", "Valor": "GB00B0386M46", "Fonte": "PDF: 0268-00913017-0002, página 11"},
+            {"Campo": "Classe", "Valor": "C-EUR-acc (acumulação)", "Fonte": "PDF: 0268-00913017-0002, página 11"},
+            {"Campo": "Período", "Valor": "Fevereiro 2009 - Dezembro 2017", "Fonte": "PDF: 09.03.25-Statement of Assets"},
+            {"Campo": "Valor Inicial", "Valor": "EUR 29.408", "Fonte": "PDF: 09.03.25-Statement of Assets, página 3"},
+            {"Campo": "Valor Final", "Valor": "EUR ~2.000", "Fonte": "PDF: 0268-00913017-0002_2017-01-23"},
+            {"Campo": "Perda Total", "Valor": "-93,2%", "Fonte": "Cálculo matemático"},
+            {"Campo": "Perfil Cliente", "Valor": "Yield (C) - Conservador", "Fonte": "PDF: 0268-00913017-0001, página 4 e 20"}
+          ]
+        },
+        {
+          "tipo": "destaque",
+          "texto": "QUESTÃO CENTRAL: Como um investimento de aproximadamente EUR 30.000 neste fundo imobiliário global resultou em um saldo final em torno de EUR 2.000?"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "O Que É o UBS Global Property Fund",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O UBS Global Property Fund, referido nos extratos como 'Mandate Real Estate', 'Mandate RE', 'Portfolio 02' ou 'UBS Managed Fund Portfolio Mandate RE', é um veículo internacional de investimento imobiliário estruturado pela UBS."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Apesar do nome sugerir um fundo tradicional, o produto se caracteriza por uma estrutura COMPLEXA, MULTIMANAGER e PREDOMINANTEMENTE ILÍQUIDA, composta por dezenas de fundos imobiliários subjacentes ao redor do mundo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Estrutura do Produto"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Um fundo de fundos imobiliários globais (fund-of-funds)",
+            "Combinando fundos listados, fundos não listados e instrumentos derivados ligados ao setor imobiliário",
+            "Com BAIXA LIQUIDEZ, dependendo de ciclos longos de venda de ativos",
+            "Voltado para INVESTIDORES QUALIFICADOS, segundo materiais promocionais do próprio UBS"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Objetivos Declarados"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Exposição diversificada ao mercado imobiliário global",
+            "Retornos de médio a longo prazo",
+            "Alvo anual entre 5% e 7%",
+            "Volatilidade inferior à de ações globais"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "O Que É Gating e O Que Aconteceu com o Fundo",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "GATING é um mecanismo de restrição ou suspensão temporária de resgates em fundos de investimento, previsto nos regulamentos do fundo e usado em situações excepcionais de stress de mercado ou falta de liquidez."
+        },
+        {
+          "tipo": "destaque",
+          "texto": "Em DEZEMBRO DE 2008, a UBS Wealth Management anunciou que tinha CONGELADO ('frozen') o seu Global Property Fund, um fundo imobiliário global de cerca de 6 BILHÕES DE DÓLARES, porque não conseguia mais lidar com o volume de pedidos de resgate dos clientes."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A própria UBS informou à imprensa que: 'O fundo ficaria frozen até o final de 2009, meaning that no one will be able to withdraw funds (ninguém poderia sacar), justificando a decisão pela strained liquidity situation in the market as a whole.'"
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Cronologia dos Eventos",
+          "colunas": ["Data", "Evento", "Fonte"],
+          "linhas": [
+            {"Data": "2004", "Evento": "Fundo lançado", "Fonte": "Wealth Briefing"},
+            {"Data": "2006", "Evento": "Entre os '10 melhores' produtos imobiliários", "Fonte": "Wealth Briefing"},
+            {"Data": "Set/2008", "Evento": "Quebra do Lehman Brothers", "Fonte": "Histórico público"},
+            {"Data": "Nov/2008", "Evento": "NAREIT -48%, S&P -39% vs ano anterior", "Fonte": "Wealth Briefing"},
+            {"Data": "DEZ/2008", "Evento": "UBS CONGELA O FUNDO (GATING)", "Fonte": "Wealth Briefing"},
+            {"Data": "FEV-MAR/2009", "Evento": "CLIENTE É ALOCADO NO FUNDO", "Fonte": "PDF Statement of Assets"},
+            {"Data": "Dez/2009", "Evento": "Fundo perde -27,44% no ano", "Fonte": "PDF P02, pág 5"},
+            {"Data": "2010", "Evento": "Fundo perde -16,62%", "Fonte": "PDF P02, pág 5"},
+            {"Data": "Abr/2018", "Evento": "Investidores ainda 'presos'", "Fonte": "Citywire"}
+          ]
+        },
+        {
+          "tipo": "destaque",
+          "texto": "O CLIENTE FOI ALOCADO NO FUNDO 3 MESES APÓS ELE TER SIDO CONGELADO. O UBS colocou o cliente em um fundo que JÁ SABIA ESTAR EM CRISE E TRAVADO."
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Para Onde Foi o Dinheiro?",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Nos relatórios da UBS, o termo OUTFLOW representa saídas efetivas de capital do portfólio (resgates, distribuições, transferências). Outflow = dinheiro que efetivamente SAIU da conta do cliente."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Análise dos Outflows (Saques)",
+          "nota": "Valores em EUR. TWR = retorno do período.",
+          "colunas": ["Ano", "Outflow EUR", "Performance TWR", "Observação"],
+          "linhas": [
+            {"Ano": "2009", "Outflow EUR": "0", "Performance TWR": "-27,44%", "Observação": "FUNDO TRAVADO - Cliente NÃO podia sacar"},
+            {"Ano": "2010", "Outflow EUR": "0", "Performance TWR": "-16,62%", "Observação": "FUNDO TRAVADO - Cliente NÃO podia sacar"},
+            {"Ano": "2011", "Outflow EUR": "2.700", "Performance TWR": "+4,30%", "Observação": "Primeiras retiradas possíveis"},
+            {"Ano": "2012", "Outflow EUR": "3.000", "Performance TWR": "-0,25%", "Observação": "-"},
+            {"Ano": "2013", "Outflow EUR": "2.100", "Performance TWR": "-16,44%", "Observação": "-"},
+            {"Ano": "2014", "Outflow EUR": "2.600", "Performance TWR": "+11,02%", "Observação": "-"},
+            {"Ano": "2015", "Outflow EUR": "3.900", "Performance TWR": "+16,45%", "Observação": "-"},
+            {"Ano": "2016", "Outflow EUR": "1.000", "Performance TWR": "-1,55%", "Observação": "-"},
+            {"Ano": "TOTAL", "Outflow EUR": "15.300", "Performance TWR": "-", "Observação": "-"}
+          ]
+        },
+        {
+          "tipo": "destaque",
+          "texto": "OBSERVAÇÃO CRÍTICA: Nos anos de MAIOR DESTRUIÇÃO DE VALOR (2009 e 2010), o OUTFLOW É ZERO. O cliente NÃO TINHA LIBERDADE DE ESCOLHA durante o colapso."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Cálculo: Quanto Foi Sacado vs Quanto Foi Perdido"
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Decomposição Matemática",
+          "colunas": ["Componente", "Valor EUR", "% do Inicial"],
+          "linhas": [
+            {"Componente": "(A) VALOR INICIAL (Fev/2009)", "Valor EUR": "29.408", "% do Inicial": "100,0%"},
+            {"Componente": "(B) TOTAL RETIRADO (2011-2016)", "Valor EUR": "15.300", "% do Inicial": "52,0%"},
+            {"Componente": "(C) SUBTOTAL (se performance = 0%)", "Valor EUR": "14.108", "% do Inicial": "48,0%"},
+            {"Componente": "(D) VALOR FINAL REAL (~2017)", "Valor EUR": "~2.700", "% do Inicial": "9,2%"},
+            {"Componente": "(E) PERDAS DE PERFORMANCE (C - D)", "Valor EUR": "~11.400", "% do Inicial": "38,8%"}
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Destino do Patrimônio",
+          "colunas": ["Categoria", "Valor EUR", "% do Inicial"],
+          "linhas": [
+            {"Categoria": "PERDIDO POR FALTA DE PERFORMANCE", "Valor EUR": "~11.400", "% do Inicial": "38,8%"},
+            {"Categoria": "SACADO PELO CLIENTE (Outflows)", "Valor EUR": "15.300", "% do Inicial": "52,0%"},
+            {"Categoria": "RESTANTE NO PORTFOLIO", "Valor EUR": "~2.700", "% do Inicial": "9,2%"},
+            {"Categoria": "TOTAL", "Valor EUR": "29.408", "% do Inicial": "100,0%"}
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "titulo": "Performance Ano a Ano",
+      "conteudo": [
+        {
+          "tipo": "tabela",
+          "titulo": "Performance Completa",
+          "colunas": ["Ano", "TWR (%)", "Acumulado", "Status"],
+          "linhas": [
+            {"Ano": "2009", "TWR (%)": "-27,44%", "Acumulado": "-27,44%", "Status": "DESASTRE"},
+            {"Ano": "2010", "TWR (%)": "-16,62%", "Acumulado": "-39,50%", "Status": "DESASTRE"},
+            {"Ano": "2011", "TWR (%)": "+4,30%", "Acumulado": "-36,90%", "Status": "Recuperação parcial"},
+            {"Ano": "2012", "TWR (%)": "-0,25%", "Acumulado": "-37,05%", "Status": "Estagnação"},
+            {"Ano": "2013", "TWR (%)": "-16,44%", "Acumulado": "-47,40%", "Status": "NOVA QUEDA"},
+            {"Ano": "2014", "TWR (%)": "+11,02%", "Acumulado": "~-40,00%", "Status": "Recuperação"},
+            {"Ano": "2015", "TWR (%)": "+16,45%", "Acumulado": "~-30,00%", "Status": "Recuperação"},
+            {"Ano": "2016", "TWR (%)": "-1,55%", "Acumulado": "~-33,00%", "Status": "Queda"},
+            {"Ano": "2017", "TWR (%)": "Liquidação", "Acumulado": "-93,2%", "Status": "FINAL"}
+          ]
+        },
+        {
+          "tipo": "destaque",
+          "texto": "Em apenas 2 anos (2009-2010), o fundo perdeu aproximadamente 40% do valor acumulado. E durante esses 2 anos, o OUTFLOW foi ZERO — o cliente estava PRESO."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Comparação com Tolerância do Perfil"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Perfil 'C - Yield': Tolerância a perda de aproximadamente 20%."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Teste de Suitability",
+          "colunas": ["Período", "Perda Acumulada", "vs Tolerância 20%", "Status"],
+          "linhas": [
+            {"Período": "2009", "Perda Acumulada": "-27,44%", "vs Tolerância 20%": "Excedeu em 7,44%", "Status": "VIOLAÇÃO"},
+            {"Período": "2009-2010", "Perda Acumulada": "-39,50%", "vs Tolerância 20%": "Excedeu em 19,50%", "Status": "VIOLAÇÃO GRAVE"},
+            {"Período": "2009-2013", "Perda Acumulada": "-47,40%", "vs Tolerância 20%": "Excedeu em 27,40%", "Status": "VIOLAÇÃO GRAVÍSSIMA"}
+          ]
+        },
+        {
+          "tipo": "destaque",
+          "texto": "A perda acumulada de -47,40% em 5 anos é MAIS QUE O DOBRO da tolerância declarada de 20%. HOUVE VIOLAÇÃO CLARA E DOCUMENTADA DE SUITABILITY."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "titulo": "De Quem Foi a Culpa?",
+      "conteudo": [
+        {
+          "tipo": "subtitulo",
+          "texto": "O Cliente Foi Responsável?"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O cliente NÃO é responsável pelas perdas principais porque: 1) Não teve escolha nos anos críticos (2009-2010) - fundo estava travado; 2) Os saques posteriores foram feitos sobre patrimônio já destruído; 3) Não há evidência de que o cliente solicitou este investimento específico."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O Mercado Foi Responsável?"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Sim, houve uma crise imobiliária global em 2008-2009. MAS: 1) O cliente foi colocado no fundo APÓS o início da crise; 2) O cliente foi colocado no fundo APÓS a suspensão de resgates; 3) Um gestor prudente NÃO TERIA ALOCADO cliente conservador em produto ilíquido em crise. O mercado explica PARTE das perdas, mas não justifica a decisão de alocação."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O UBS Foi Responsável?"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "EVIDÊNCIA 1 - Timing: Cliente alocado em Fev/Mar 2009, fundo congelado desde Dez/2008 (3 meses de diferença). O UBS colocou o cliente em um fundo que JÁ SABIA estar em crise e travado.",
+            "EVIDÊNCIA 2 - Conflito de Interesses: O Global Property Fund é PRODUTO PRÓPRIO DO UBS. O UBS ganhava taxas de gestão, distribuição e custódia.",
+            "EVIDÊNCIA 3 - Concentração Inadequada: Cliente alocado 100% no mandato imobiliário. Produtos como este são indicados como PARCELA MINORITÁRIA de portfólio diversificado.",
+            "EVIDÊNCIA 4 - Falha no Dever de Cuidado: Durante 5 ANOS de perdas, nenhuma evidência de que UBS alertou o cliente. Nenhuma recomendação de saída. Taxas continuaram sendo cobradas."
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Divisão de Responsabilidade",
+          "colunas": ["Responsável", "% Culpa", "Justificativa"],
+          "linhas": [
+            {"Responsável": "UBS", "% Culpa": "90%", "Justificativa": "Alocação inadequada, conflito de interesses, falta de cuidado"},
+            {"Responsável": "Mercado", "% Culpa": "10%", "Justificativa": "Crise imobiliária (mas UBS deveria ter protegido cliente)"},
+            {"Responsável": "Cliente", "% Culpa": "0%", "Justificativa": "Estava preso, não teve escolha"}
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "titulo": "Houve Violação de Suitability?",
+      "conteudo": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Perfil Declarado do Cliente"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Perfil 'C - Yield': Objetivo de valorização moderada no longo prazo. Volatilidade esperada ~6%. Retorno esperado ~3%. Tolerância a perda ~20%."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Comparação: O Que o Produto Exigia vs Perfil do Cliente",
+          "colunas": ["Requisito do Produto", "Perfil 'Yield'", "Compatível?"],
+          "linhas": [
+            {"Requisito do Produto": "Horizonte 8-12 anos", "Perfil 'Yield'": "Médio prazo", "Compatível?": "PARCIAL"},
+            {"Requisito do Produto": "Aceitar iliquidez total", "Perfil 'Yield'": "Liquidez moderada", "Compatível?": "NÃO"},
+            {"Requisito do Produto": "Aceitar gating", "Perfil 'Yield'": "Não previsto", "Compatível?": "NÃO"},
+            {"Requisito do Produto": "Tolerância >40% perda", "Perfil 'Yield'": "20%", "Compatível?": "NÃO"},
+            {"Requisito do Produto": "Investidor qualificado", "Perfil 'Yield'": "Conservador", "Compatível?": "NÃO"},
+            {"Requisito do Produto": "Parcela minoritária", "Perfil 'Yield'": "100% alocado", "Compatível?": "NÃO"}
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Comparação: Esperado vs Real",
+          "colunas": ["Parâmetro", "Perfil Esperado", "Realidade P02", "Status"],
+          "linhas": [
+            {"Parâmetro": "Retorno anual", "Perfil Esperado": "~3% a.a.", "Realidade P02": "Negativo", "Status": "FALHOU"},
+            {"Parâmetro": "Tolerância perda", "Perfil Esperado": "~20%", "Realidade P02": "-47,40%", "Status": "VIOLOU"},
+            {"Parâmetro": "Volatilidade", "Perfil Esperado": "~6%", "Realidade P02": ">20%", "Status": "EXCEDEU"},
+            {"Parâmetro": "Liquidez", "Perfil Esperado": "Moderada", "Realidade P02": "ZERO (gating)", "Status": "VIOLOU"}
+          ]
+        },
+        {
+          "tipo": "destaque",
+          "texto": "O UBS NÃO tinha base razoável para acreditar que este produto era adequado porque: 1) O produto estava com liquidez suspensa; 2) O produto estava em plena crise; 3) A perda potencial excedia a tolerância do perfil; 4) O cliente foi 100% alocado em produto para 'parcela minoritária'. HOUVE VIOLAÇÃO CLARA E DOCUMENTADA DE SUITABILITY."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "titulo": "Resumo das Violações e Má Conduta",
+      "conteudo": [
+        {
+          "tipo": "tabela",
+          "titulo": "Violações Documentadas",
+          "colunas": ["#", "Violação", "Evidência", "Fonte"],
+          "linhas": [
+            {"#": "1", "Violação": "Conflito de interesses", "Evidência": "Produto próprio UBS", "Fonte": "PDF P02, pág 11"},
+            {"#": "2", "Violação": "Negligência grosseira", "Evidência": "Alocação 3 meses após gating", "Fonte": "Wealth Briefing + PDF"},
+            {"#": "3", "Violação": "Violação de suitability", "Evidência": "Perda 47% vs tolerância 20%", "Fonte": "PDF P01, pág 20 + P02, pág 5"},
+            {"#": "4", "Violação": "Concentração inadequada", "Evidência": "100% em produto ilíquido", "Fonte": "PDF Statement of Assets"},
+            {"#": "5", "Violação": "Falha no dever de cuidado", "Evidência": "5 anos sem intervenção", "Fonte": "PDF P02, pág 5"},
+            {"#": "6", "Violação": "Enriquecimento sem causa", "Evidência": "Taxas durante perdas", "Fonte": "PDF P01, pág 13"}
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Sequência de Má Conduta"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "1. Alocação em momento manifestamente inadequado — 3 meses após suspensão de resgates",
+            "2. Desconsideração do risco de liquidez já materializado — fundo estava travado",
+            "3. Concentração extrema em um único produto complexo — 100% vs recomendação de 'parcela minoritária'",
+            "4. Ausência de proteção patrimonial mínima — perfil 'Yield' com tolerância 20% vs perda real 47%",
+            "5. Impossibilidade prática de correção de rota — cliente ficou preso durante período crítico",
+            "6. Conflito de interesses — produto próprio UBS gerando taxas para o banco"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "titulo": "Conclusão Final",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O investimento inicial de aproximadamente EUR 29.400 não foi destruído por decisões de retirada do cliente, mas sim por perdas de performance concentradas nos primeiros anos, especialmente entre 2009 e 2010, período em que: o mercado imobiliário global ainda se encontrava em colapso sistêmico; o próprio UBS Global Property Fund estava sob grave estresse de liquidez; os resgates estavam formalmente suspensos ('gating'); o cliente permaneceu integralmente exposto, sem possibilidade de reduzir risco."
+        },
+        {
+          "tipo": "destaque",
+          "texto": "A redução de um investimento inicial próximo a EUR 30.000 para um saldo residual em torno de EUR 2.000 não pode ser tratada como um simples 'resultado adverso de mercado'. Trata-se da consequência direta de uma ALOCAÇÃO IMPRUDENTE, INADEQUADA AO PERFIL DO CLIENTE e realizada em um contexto que o próprio banco sabia, ou deveria saber, ser altamente desfavorável."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Danos Quantificáveis",
+          "colunas": ["Categoria", "Valor EUR"],
+          "linhas": [
+            {"Categoria": "Investimento inicial", "Valor EUR": "29.408"},
+            {"Categoria": "Valor final", "Valor EUR": "~2.700"},
+            {"Categoria": "PERDA TOTAL", "Valor EUR": "~26.700"},
+            {"Categoria": "Perda percentual", "Valor EUR": "~91%"}
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Base Legal Potencial",
+          "colunas": ["Fundamento", "Evidência"],
+          "linhas": [
+            {"Fundamento": "Violação de Contrato", "Evidência": "Perfil 'Yield' com tolerância 20% vs perda real 47%"},
+            {"Fundamento": "Conflito de Interesses", "Evidência": "Produto próprio UBS suspenso"},
+            {"Fundamento": "Negligência Grosseira", "Evidência": "Alocação 3 meses após gating"},
+            {"Fundamento": "Enriquecimento Sem Causa", "Evidência": "Taxas cobradas durante perdas"},
+            {"Fundamento": "Violação de Suitability", "Evidência": "Produto inadequado para perfil conservador"},
+            {"Fundamento": "Falha no Dever Fiduciário", "Evidência": "5 anos sem intervenção documentada"}
+          ]
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "documento": "Statement of Assets UBS",
+      "data": "09.03.25",
+      "periodo_coberto": "2009",
+      "titulo_secao": "Entrada no P02"
+    },
+    {
+      "documento": "Statement of Assets UBS",
+      "data": "2017-01-23",
+      "periodo_coberto": "2009-2017",
+      "titulo_secao": "Performance e Outflows"
+    },
+    {
+      "documento": "Wealth Briefing",
+      "data": "Dezembro 2008",
+      "periodo_coberto": "2008",
+      "titulo_secao": "UBS Freezes Global Real Estate Fund"
+    },
+    {
+      "documento": "Citywire",
+      "data": "18/04/2018",
+      "periodo_coberto": "2008-2018",
+      "titulo_secao": "Trapped UBS Property Fund Investors"
+    }
+  ],
+  "resumo_executivo": {
+    "pergunta": "Como EUR 30.000 viraram EUR 2.000 no Portfolio 02?",
+    "resposta_curta": "38,8% foi perdido por má performance (EUR 11.400). 52% foi sacado pelo cliente (EUR 15.300). 9,2% restou (EUR 2.700). O cliente NÃO PODIA SACAR durante os anos de maior perda - estava preso pelo gating.",
+    "numeros_chave": {
+      "valor_inicial": "EUR 29.408 (Fev/2009)",
+      "valor_final": "EUR ~2.700 (2017)",
+      "total_saques": "EUR 15.300",
+      "perda_performance": "EUR ~11.400",
+      "perda_percentual_total": "-93,2%",
+      "perda_acumulada_2009_2010": "-39,50%",
+      "tolerancia_perfil": "20%",
+      "excesso_perda": "27,40%"
+    },
+    "decomposicao_perda": {
+      "perdido_performance": {"valor": "EUR ~11.400", "percentual": "38,8%"},
+      "sacado_cliente": {"valor": "EUR 15.300", "percentual": "52,0%"},
+      "restante": {"valor": "EUR ~2.700", "percentual": "9,2%"}
+    },
+    "responsabilidade": {
+      "ubs": {"percentual": "90%", "razao": "Alocação inadequada, conflito de interesses, falta de cuidado"},
+      "mercado": {"percentual": "10%", "razao": "Crise imobiliária"},
+      "cliente": {"percentual": "0%", "razao": "Estava preso, não teve escolha"}
+    },
+    "violacoes_principais": [
+      "Alocação 3 meses após fundo ser congelado",
+      "100% em produto para 'parcela minoritária'",
+      "Perda 47% vs tolerância 20% do perfil",
+      "Conflito de interesses - produto próprio UBS",
+      "5 anos sem intervenção documentada"
+    ],
+    "equacao_verificacao": "29.408 - 15.300 (saques) = 14.108 esperado vs 2.700 real = ~11.400 de perda"
+  }
+}

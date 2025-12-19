@@ -1,0 +1,442 @@
+{
+  "metadata": {
+    "portfolio_number": "0268 913.017-01",
+    "reference_date": "2000-12-21",
+    "client_name": "CQUE 913017",
+    "client_address": "BR CRANS",
+    "document_type": "Reporting for Portfolio Management Agreement",
+    "document_language": "English",
+    "branch": "3960 Sierre",
+    "branch_phone": "+41 27 452 81 11",
+    "branch_fax": "+41 27 452 81 10",
+    "client_advisor": {
+      "name": "Philippe Poisson",
+      "address": "Rue du Prado, 3963 Crans",
+      "phone": "+41 27 486 91 22",
+      "fax": "+41 27 486 91 10",
+      "email": "philippe.poisson@ubs.com"
+    },
+    "currency": "EUR",
+    "investment_strategy": "Balanced",
+    "orientation": "EU",
+    "bank": "UBS AG"
+  },
+  "totals": {
+    "net_assets": 1050861,
+    "currency": "EUR",
+    "valuation_date": "2000-12-21",
+    "handwritten_note": "Takes -> 1.2-"
+  },
+  "asset_allocation": {
+    "by_category": [
+      {
+        "category": "Money Market",
+        "percentage": 5.68
+      },
+      {
+        "category": "Bonds",
+        "percentage": 50.47
+      },
+      {
+        "category": "Shares",
+        "percentage": 43.85
+      },
+      {
+        "category": "Diverse",
+        "percentage": 0.00
+      }
+    ],
+    "by_currency": [
+      {
+        "currency": "EUR",
+        "money_market_pct": 5.47,
+        "bonds_pct": 45.85,
+        "shares_pct": 23.99,
+        "diverse_pct": 0,
+        "total_pct": 75.31
+      },
+      {
+        "currency": "USD",
+        "money_market_pct": 0.02,
+        "bonds_pct": 4.62,
+        "shares_pct": 5.48,
+        "diverse_pct": 0,
+        "total_pct": 10.12
+      },
+      {
+        "currency": "GBP",
+        "money_market_pct": 0.01,
+        "bonds_pct": 0,
+        "shares_pct": 5.49,
+        "diverse_pct": 0,
+        "total_pct": 5.50
+      },
+      {
+        "currency": "JPY",
+        "money_market_pct": 0,
+        "bonds_pct": 0,
+        "shares_pct": 3.87,
+        "diverse_pct": 0,
+        "total_pct": 3.87
+      },
+      {
+        "currency": "CHF",
+        "money_market_pct": 0.18,
+        "bonds_pct": 0,
+        "shares_pct": 3.07,
+        "diverse_pct": 0,
+        "total_pct": 3.25
+      },
+      {
+        "currency": "Diverse",
+        "money_market_pct": 0,
+        "bonds_pct": 0,
+        "shares_pct": 1.95,
+        "diverse_pct": 0,
+        "total_pct": 1.95
+      }
+    ],
+    "bonds_by_currency": [
+      {
+        "currency": "EUR",
+        "percentage": 90.85
+      },
+      {
+        "currency": "USD",
+        "percentage": 9.15
+      }
+    ],
+    "shares_by_country": [
+      {
+        "country": "XE",
+        "country_name": "Eurozone",
+        "percentage": 33.14
+      },
+      {
+        "country": "US",
+        "country_name": "United States",
+        "percentage": 12.50
+      },
+      {
+        "country": "FR",
+        "country_name": "France",
+        "percentage": 13.82
+      },
+      {
+        "country": "GB",
+        "country_name": "Great Britain",
+        "percentage": 12.52
+      },
+      {
+        "country": "DE",
+        "country_name": "Germany",
+        "percentage": 9.19
+      },
+      {
+        "country": "Diverse",
+        "percentage": 18.84
+      }
+    ]
+  },
+  "performance": {
+    "since_inception": {
+      "start_date": "1999-11-04",
+      "end_date": "2000-12-21",
+      "cumulative_performance_twr_pct": 2.1,
+      "note": "Performance since EUR conversion"
+    },
+    "annual": [
+      {
+        "year": 1999,
+        "period": "04.11-31.12.1999",
+        "period_type": "fractional",
+        "starting_value_eur_thousands": 1136.1,
+        "cash_flow_eur_thousands": -16.0,
+        "final_value_eur_thousands": 1174.3,
+        "net_performance_eur_thousands": 54.2,
+        "performance_twr_pct": 4.8,
+        "performance_mwr_pct": 4.8,
+        "average_invested_capital_thousands": 1132.9,
+        "cumulative_performance_pct": 4.8
+      },
+      {
+        "year": 2000,
+        "period": "01.01-21.12.2000",
+        "period_type": "fractional",
+        "starting_value_eur_thousands": 1174.3,
+        "cash_flow_eur_thousands": -92.8,
+        "final_value_eur_thousands": 1050.9,
+        "net_performance_eur_thousands": -30.6,
+        "performance_twr_pct": -2.8,
+        "performance_mwr_pct": -2.6,
+        "average_invested_capital_thousands": 1197.3,
+        "cumulative_performance_pct": 2.1
+      }
+    ],
+    "quarterly_2000": [
+      {
+        "quarter": "Q1",
+        "period": "01.01-31.03.2000",
+        "starting_value_thousands": 1174.3,
+        "cash_flow_thousands": -34.9,
+        "final_value_thousands": 1149.3,
+        "net_performance_thousands": 9.9,
+        "performance_twr_pct": 0.9,
+        "performance_mwr_pct": 0.9,
+        "average_invested_capital_thousands": 1161.4,
+        "cumulative_performance_pct": 0.9
+      },
+      {
+        "quarter": "Q2",
+        "period": "01.04-30.06.2000",
+        "starting_value_thousands": 1149.3,
+        "cash_flow_thousands": 97.2,
+        "final_value_thousands": 1235.5,
+        "net_performance_thousands": -11.0,
+        "performance_twr_pct": -1.0,
+        "performance_mwr_pct": -0.9,
+        "average_invested_capital_thousands": 1190.4,
+        "cumulative_performance_pct": -0.1,
+        "note": "Large deposit in May offset by market decline"
+      },
+      {
+        "quarter": "Q3",
+        "period": "01.07-30.09.2000",
+        "starting_value_thousands": 1235.5,
+        "cash_flow_thousands": -23.0,
+        "final_value_thousands": 1223.9,
+        "net_performance_thousands": 11.5,
+        "performance_twr_pct": 0.9,
+        "performance_mwr_pct": 0.9,
+        "average_invested_capital_thousands": 1228.3,
+        "cumulative_performance_pct": 0.9
+      },
+      {
+        "quarter": "Q4",
+        "period": "01.10-21.12.2000",
+        "period_type": "fractional",
+        "starting_value_thousands": 1223.9,
+        "cash_flow_thousands": -132.0,
+        "final_value_thousands": 1050.9,
+        "net_performance_thousands": -41.0,
+        "performance_twr_pct": -3.5,
+        "performance_mwr_pct": -3.3,
+        "average_invested_capital_thousands": 1230.8,
+        "cumulative_performance_pct": -2.6,
+        "note": "DOT-COM CRASH IMPACT + large CHF 220k withdrawal"
+      }
+    ]
+  },
+  "cash_flows": {
+    "period": {
+      "from": "2000-01-01",
+      "to": "2000-12-21"
+    },
+    "transactions": [
+      {
+        "date": "2000-01-28",
+        "amount_original": -9401.44,
+        "currency": "EUR",
+        "amount_eur": -9401.44,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-02-29",
+        "amount_original": -18873.86,
+        "currency": "EUR",
+        "amount_eur": -18873.86,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-03-24",
+        "amount_original": -500.00,
+        "currency": "CHF",
+        "amount_eur": -314.22,
+        "type": "withdrawal",
+        "description": "Cash withdrawal"
+      },
+      {
+        "date": "2000-03-30",
+        "amount_original": -6345.18,
+        "currency": "EUR",
+        "amount_eur": -6345.18,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-04-28",
+        "amount_original": -9661.84,
+        "currency": "EUR",
+        "amount_eur": -9661.84,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-05-25",
+        "amount_original": 126432.59,
+        "currency": "EUR",
+        "amount_eur": 126432.59,
+        "type": "deposit",
+        "description": "Cash.of che.as per adv.sub.to rec.of fu. 20000522"
+      },
+      {
+        "date": "2000-06-05",
+        "amount_original": -6435.01,
+        "currency": "EUR",
+        "amount_eur": -6435.01,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-06-27",
+        "amount_original": -13089.00,
+        "currency": "EUR",
+        "amount_eur": -13089.00,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-07-28",
+        "amount_original": -6525.28,
+        "currency": "EUR",
+        "amount_eur": -6525.28,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-08-24",
+        "amount_original": -6531.68,
+        "currency": "EUR",
+        "amount_eur": -6531.68,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-09-28",
+        "amount_original": -9950.25,
+        "currency": "EUR",
+        "amount_eur": -9950.25,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-10-27",
+        "amount_original": 56579.10,
+        "currency": "CHF",
+        "amount_eur": 37182.48,
+        "type": "deposit",
+        "description": "Payment"
+      },
+      {
+        "date": "2000-10-27",
+        "amount_original": -15000.00,
+        "currency": "CHF",
+        "amount_eur": -9857.66,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-11-14",
+        "amount_original": -13311.15,
+        "currency": "EUR",
+        "amount_eur": -13311.15,
+        "type": "withdrawal",
+        "description": "Order"
+      },
+      {
+        "date": "2000-12-18",
+        "amount_original": -220000.00,
+        "currency": "CHF",
+        "amount_eur": -146080.40,
+        "type": "withdrawal",
+        "description": "Order",
+        "note": "LARGE WITHDRAWAL - CHF 220,000"
+      }
+    ],
+    "summary": {
+      "total_deposits": 163615.07,
+      "total_withdrawals": -256376.97,
+      "net_flow": -92761.90
+    }
+  },
+  "comparison_with_august": {
+    "august_2000": {
+      "date": "2000-08-24",
+      "net_assets": 1251769
+    },
+    "december_2000": {
+      "date": "2000-12-21",
+      "net_assets": 1050861
+    },
+    "change": {
+      "absolute": -200908,
+      "percentage": -16.05,
+      "period_months": 4
+    },
+    "breakdown": {
+      "market_loss_estimated": -108000,
+      "net_withdrawals": -92762
+    }
+  },
+  "_classification": {
+    "total_pages": 6,
+    "by_type": {
+      "cover": 1,
+      "portfolio_structure": 1,
+      "portfolio_evaluation_annual": 1,
+      "portfolio_evaluation_quarterly": 1,
+      "cash_flows": 1,
+      "glossary": 1
+    }
+  },
+  "_document_info": {
+    "doc_id": "2000_20001221_portfolio_01",
+    "year": "2000",
+    "quarter": "Q4",
+    "date": "2000-12-21",
+    "portfolio_type": "01",
+    "document_language": "English",
+    "document_format": "UBS Reporting (Early 2000s)",
+    "source_folder": "20_12_21-Reporting-for_your_Portfolio_Management",
+    "processed_at": "2025-12-17T01:30:00.000000"
+  },
+  "_notes": [
+    "CRITICAL: Shows beginning of dot-com crash impact",
+    "Net Assets: EUR 1,050,861 - down 16% from August peak",
+    "Year 2000 performance: -2.8% TWR despite positive start",
+    "Q4 2000 was devastating: -3.5% TWR + EUR 132k net outflows",
+    "Large CHF 220,000 withdrawal on December 18, 2000",
+    "UBS reduced equity allocation from 47% to 44% (defensive move)",
+    "Bonds increased from 49% to 50% (flight to safety)",
+    "Still positive cumulative since EUR conversion: +2.1%",
+    "But the worst was yet to come (2001-2002)",
+    "Compare: Aug 2000 EUR 1,251,769 → Dec 2000 EUR 1,050,861",
+    "Net outflows in 2000: EUR 92,762",
+    "Investment loss in 2000: EUR 30,600 (despite large inflows in May)"
+  ],
+  "_market_context": {
+    "period": "Dot-com crash beginning",
+    "nasdaq_march_2000_peak": 5048,
+    "nasdaq_december_2000": 2470,
+    "nasdaq_decline_from_peak_pct": -51,
+    "note": "NASDAQ had already fallen 51% from peak by end of 2000"
+  },
+  "_timeline_position": {
+    "previous": {
+      "date": "2000-08-24",
+      "value": 1251769,
+      "doc": "2000_20000824_portfolio_01.json"
+    },
+    "current": {
+      "date": "2000-12-21",
+      "value": 1050861
+    },
+    "next_known": {
+      "date": "2003-12-31",
+      "value": 734620,
+      "note": "Gap of 3 years - crash continued through 2001-2002"
+    }
+  }
+}

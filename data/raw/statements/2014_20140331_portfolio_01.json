@@ -1,0 +1,777 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-01",
+    "reference_date": "2014-03-31",
+    "client_name": "CQUE 913017 BLST Zurich Paradeplatz",
+    "program": "UBS Managed Fund Portfolio",
+    "investment_strategy": "Yield"
+  },
+  "totals": {
+    "net_assets": 364787,
+    "_corrected_from_consolidated": true
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Liquidity",
+      "market_value": 3964,
+      "percentage": 1.09
+    },
+    {
+      "asset_class": "Bonds",
+      "market_value": 203092,
+      "percentage": 55.67
+    },
+    {
+      "asset_class": "Equities",
+      "market_value": 98457,
+      "percentage": 26.99
+    },
+    {
+      "asset_class": "Alternative Investments",
+      "market_value": 59274,
+      "percentage": 16.25
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "market_value": 301022,
+      "percentage": 82.54
+    },
+    {
+      "currency": "GLB",
+      "market_value": 21318,
+      "percentage": 5.84
+    },
+    {
+      "currency": "USD",
+      "market_value": 21093,
+      "percentage": 5.78
+    },
+    {
+      "currency": "EUP",
+      "market_value": 9600,
+      "percentage": 2.63
+    },
+    {
+      "currency": "EMM",
+      "market_value": 6656,
+      "percentage": 1.82
+    },
+    {
+      "currency": "EMA",
+      "market_value": 4856,
+      "percentage": 1.33
+    },
+    {
+      "currency": "GBP",
+      "market_value": 148,
+      "percentage": 0.04
+    },
+    {
+      "currency": "NOK",
+      "market_value": 94,
+      "percentage": 0.02
+    }
+  ],
+  "performance": {
+    "ytd_pct": 1.99,
+    "mtd_pct": 0.1,
+    "qtd_pct": 1.99,
+    "since_inception_pct": 1.99,
+    "monthly_returns": [
+      {
+        "month": "Jan",
+        "return_pct": 0.49
+      },
+      {
+        "month": "Feb",
+        "return_pct": 1.42
+      },
+      {
+        "month": "Mar",
+        "return_pct": 0.08
+      }
+    ],
+    "annual_returns": [
+      {
+        "year": 2011,
+        "return_pct": -5.51
+      },
+      {
+        "year": 2012,
+        "return_pct": 5.13
+      },
+      {
+        "year": 2013,
+        "return_pct": 10.59
+      },
+      {
+        "year": 2014,
+        "return_pct": 7.86
+      },
+      {
+        "year": 2004,
+        "return_pct": -8.5
+      },
+      {
+        "year": 2005,
+        "return_pct": 9.0
+      },
+      {
+        "year": 2006,
+        "return_pct": 3.5
+      },
+      {
+        "year": 2007,
+        "return_pct": 0.5
+      },
+      {
+        "year": 2008,
+        "return_pct": -16.0
+      },
+      {
+        "year": 2009,
+        "return_pct": 11.0
+      },
+      {
+        "year": 2010,
+        "return_pct": 5.0
+      }
+    ],
+    "cumulative_return_pct": 25.27
+  },
+  "positions": [
+    {
+      "name": "Money Market Cash Cert. UBS AG",
+      "isin": "CH0195581597",
+      "security_number": "19558159",
+      "category": "Liquidity",
+      "currency": "EUR",
+      "quantity": 100.016,
+      "cost_price": null,
+      "market_price": null,
+      "cost_value": null,
+      "market_value": 3902,
+      "percentage": 1.07,
+      "unrealized_pnl": null,
+      "performance_pct": 0.03
+    },
+    {
+      "name": "Shs DCI Ireland Fund Plc - Diversified Credit Investments Feeder Fund One class -B- EUR",
+      "isin": "IE00B0H4T555",
+      "security_number": "2254501",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 132.948,
+      "cost_price": 114.355,
+      "market_price": 165.08,
+      "cost_value": null,
+      "market_value": 21947,
+      "percentage": 6.02,
+      "unrealized_pnl": null,
+      "performance_pct": 44.36
+    },
+    {
+      "name": "Accum.shs PIMCO Funds: Global Investors Series Plc - Euro Bond Fund class -S- EUR",
+      "isin": "IE00B0CRX0X83",
+      "security_number": "2343519",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 1332.034,
+      "cost_price": 10,
+      "market_price": 10.5,
+      "cost_value": null,
+      "market_value": 13986,
+      "percentage": 3.83,
+      "unrealized_pnl": null,
+      "performance_pct": 5.0
+    },
+    {
+      "name": "Accum. ptg shs BNY Mellon Global Funds Plc - Euroland Bond Fund class -S- EUR",
+      "isin": "IE00BF8HK850",
+      "security_number": "2745157",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 18338.822,
+      "cost_price": 1,
+      "market_price": 1.0136,
+      "cost_value": null,
+      "market_value": 18588,
+      "percentage": 5.1,
+      "unrealized_pnl": null,
+      "performance_pct": 1.36
+    },
+    {
+      "name": "Shs Focused Sicav - Spdr Global Bond (EUR hedged) F-acc",
+      "isin": "LU0326809505",
+      "security_number": "3469623",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 161.212,
+      "cost_price": 106.974,
+      "market_price": 124.85,
+      "cost_value": null,
+      "market_value": 20127,
+      "percentage": 5.52,
+      "unrealized_pnl": null,
+      "performance_pct": 16.71
+    },
+    {
+      "name": "Shs -D2- BlackRock Global Funds Sicav - Euro Bond Fund capitalisation",
+      "isin": "LU0297941469",
+      "security_number": "3191970",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 1270.397,
+      "cost_price": 24.324,
+      "market_price": 25.88,
+      "cost_value": null,
+      "market_value": 32878,
+      "percentage": 9.01,
+      "unrealized_pnl": null,
+      "performance_pct": 6.4
+    },
+    {
+      "name": "Shs -Bl (EUR hedged)- Multi Manager Access II Sicav - Emerging Markets Debt cap",
+      "isin": "LU0985400166",
+      "security_number": "22582709",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 183.659,
+      "cost_price": 101.1,
+      "market_price": 102.89,
+      "cost_value": null,
+      "market_value": 18897,
+      "percentage": 5.18,
+      "unrealized_pnl": null,
+      "performance_pct": 1.77
+    },
+    {
+      "name": "Shs -R (acc.)(EUR-hedged)- Goldman Sachs Funds Sicav - Global High Yield Portfolio cap",
+      "isin": "LU0858294753",
+      "security_number": "20087848",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 855.637,
+      "cost_price": 10.91,
+      "market_price": 11.24,
+      "cost_value": null,
+      "market_value": 9617,
+      "percentage": 2.64,
+      "unrealized_pnl": null,
+      "performance_pct": 3.02
+    },
+    {
+      "name": "Shs Multi Manager Access II - European Multi Credit acc-Bl-",
+      "isin": "LU0313363508",
+      "security_number": "3278544",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 240.212,
+      "cost_price": 105.473,
+      "market_price": 121.92,
+      "cost_value": null,
+      "market_value": 29287,
+      "percentage": 8.03,
+      "unrealized_pnl": null,
+      "performance_pct": 15.59
+    },
+    {
+      "name": "Units -H- Pioneer Funds FCP - Euro Aggregate Bond capitalisation",
+      "isin": "LU0341616588",
+      "security_number": "3804467",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 19.122,
+      "cost_price": 1416.79,
+      "market_price": 1473.87,
+      "cost_value": null,
+      "market_value": 28183,
+      "percentage": 7.73,
+      "unrealized_pnl": null,
+      "performance_pct": 4.03
+    },
+    {
+      "name": "Shs -I-EUR hedged (95%)- AXA World Funds Sicav - US High Yield Bonds capitalisation",
+      "isin": "LU0276014130",
+      "security_number": "2847138",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 48.145,
+      "cost_price": 193.89,
+      "market_price": 199.02,
+      "cost_value": null,
+      "market_value": 9582,
+      "percentage": 2.63,
+      "unrealized_pnl": null,
+      "performance_pct": 2.65
+    },
+    {
+      "name": "Shs -B- Multi Manager Access Sicav - European Equities Capitalisation",
+      "isin": "LU0245618367",
+      "security_number": "2445190",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 77.025,
+      "cost_price": 82.006,
+      "market_price": 124.64,
+      "cost_value": null,
+      "market_value": 9600,
+      "percentage": 2.63,
+      "unrealized_pnl": null,
+      "performance_pct": 51.99
+    },
+    {
+      "name": "Shs -D2- BlackRock Global Funds Sicav - Euro Markets Fund Capitalisation",
+      "isin": "LU0252966485",
+      "security_number": "2559054",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 240.849,
+      "cost_price": 20.04,
+      "market_price": 25.15,
+      "cost_value": null,
+      "market_value": 6057,
+      "percentage": 1.66,
+      "unrealized_pnl": null,
+      "performance_pct": 25.5
+    },
+    {
+      "name": "Units LBBW Dividenden Strategie Euroland Class -L- Distribution: 19.03.2014 Distribution amount: EUR 3.59",
+      "isin": "DE000A0NAUM4",
+      "security_number": "4647741",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 52.07,
+      "cost_price": 107.04,
+      "market_price": 125.59,
+      "cost_value": null,
+      "market_value": 6539,
+      "percentage": 1.79,
+      "unrealized_pnl": null,
+      "performance_pct": 17.33
+    },
+    {
+      "name": "Reg shs -C- Schroder International Selection Fund Sicav Euro Equity Capitalisation",
+      "isin": "LU0106235459",
+      "security_number": "1034701",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 225.568,
+      "cost_price": 25.88,
+      "market_price": 32.05,
+      "cost_value": null,
+      "market_value": 7229,
+      "percentage": 1.98,
+      "unrealized_pnl": null,
+      "performance_pct": 23.84
+    },
+    {
+      "name": "Shs -IC- SSGA EMU Alpha Equity Fund I Sicav capitalisation",
+      "isin": "FR0010867697",
+      "security_number": "1110672",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 11.456,
+      "cost_price": 531.52,
+      "market_price": 647.75,
+      "cost_value": null,
+      "market_value": 7421,
+      "percentage": 2.03,
+      "unrealized_pnl": null,
+      "performance_pct": 21.87
+    },
+    {
+      "name": "Units UBS (Lux) Equity Fund - Euro Countries Mult Strategy (EUR) F-acc (u)",
+      "isin": "LU0401307136",
+      "security_number": "4733338",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 59.933,
+      "cost_price": 106.044,
+      "market_price": 130.09,
+      "cost_value": null,
+      "market_value": 7797,
+      "percentage": 2.14,
+      "unrealized_pnl": null,
+      "performance_pct": 22.68
+    },
+    {
+      "name": "Shs -B- Multi Manager Access Sicav - US Equities capitalisation",
+      "isin": "LU0245619092",
+      "security_number": "2445196",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 206.711,
+      "cost_price": 108.882,
+      "market_price": 140.64,
+      "cost_value": null,
+      "market_value": 21093,
+      "percentage": 5.78,
+      "unrealized_pnl": null,
+      "performance_pct": 29.17
+    },
+    {
+      "name": "Shs -B- Multi Manager Access Sicav - Global Equities Capitalisation",
+      "isin": "LU0306084707",
+      "security_number": "3189372",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 195.207,
+      "cost_price": 96.17,
+      "market_price": 96.14,
+      "cost_value": null,
+      "market_value": 13617,
+      "percentage": 3.73,
+      "unrealized_pnl": null,
+      "performance_pct": -0.03
+    },
+    {
+      "name": "Accum.shs Threadneedle Inv. Funds ICVC - Threadneedle Global Select Fund cl. -Z- Net USD",
+      "isin": "GB0089283R20",
+      "security_number": "20976074",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 5092.964,
+      "cost_price": 1.905,
+      "market_price": 2.0839,
+      "cost_value": null,
+      "market_value": 7701,
+      "percentage": 2.11,
+      "unrealized_pnl": null,
+      "performance_pct": 9.37
+    },
+    {
+      "name": "Shs -C (dist) USD- JPMorgan Funds Sicav - Emerging Markets Equity Fund distribution",
+      "isin": "LU0593319907",
+      "security_number": "12505436",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 95.274,
+      "cost_price": 102.56,
+      "market_price": 96.29,
+      "cost_value": null,
+      "market_value": 6656,
+      "percentage": 1.82,
+      "unrealized_pnl": null,
+      "performance_pct": -6.11
+    },
+    {
+      "name": "Robeco Capital Growth Funds Sicav - Robeco Asia-Pacific Equities cap",
+      "isin": "LU0875837915",
+      "security_number": "3250382",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 59.179,
+      "cost_price": 109.97,
+      "market_price": 113.1,
+      "cost_value": null,
+      "market_value": 4856,
+      "percentage": 1.33,
+      "unrealized_pnl": null,
+      "performance_pct": 2.85
+    },
+    {
+      "name": "Red ptg shs Key Multi-Manager Hedge Fund - Focused Ltd",
+      "isin": "XD0209061296",
+      "security_number": "20906129",
+      "category": "Alternative Investments",
+      "currency": "EUR",
+      "quantity": 1535.953,
+      "cost_price": 8.382,
+      "market_price": 10.65967,
+      "cost_value": null,
+      "market_value": 16373,
+      "percentage": 4.49,
+      "unrealized_pnl": null,
+      "performance_pct": 27.18
+    },
+    {
+      "name": "Red ptg shs Key Multi-Manager Hedge Fund - Diversified Ltd",
+      "isin": "KYG916791117",
+      "security_number": "2078163",
+      "category": "Alternative Investments",
+      "currency": "EUR",
+      "quantity": 3542.118,
+      "cost_price": 9.488,
+      "market_price": 12.11165,
+      "cost_value": null,
+      "market_value": 42901,
+      "percentage": 11.76,
+      "unrealized_pnl": null,
+      "performance_pct": 27.66
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2014-01-28",
+      "settlement_date": "2014-01-30",
+      "type": "Sale",
+      "security_name": "Money Market Cash Cert. UBS AG",
+      "isin": "CH0195581597",
+      "quantity": -20,
+      "price": 100.036,
+      "gross_value": -2000.72,
+      "fees": null,
+      "net_value": -2000.72,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-02-10",
+      "settlement_date": "2014-02-13",
+      "type": "Purchase",
+      "security_name": "Accum. ptg shs BNY Mellon Global Funds Plc - Euroland Bond Fund class -S- EUR",
+      "isin": "IE00BF8HK850",
+      "quantity": 18939,
+      "price": null,
+      "gross_value": 18939.0,
+      "fees": null,
+      "net_value": -18967.41,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-02-10",
+      "settlement_date": "2014-02-13",
+      "type": "Purchase",
+      "security_name": "Sns -Bl (EUR hedged)- Multi Manager Access II Sicav Emerging Markets Debt cap.",
+      "isin": "LU0985400166",
+      "quantity": 183659,
+      "price": 101.1,
+      "gross_value": 18567.92,
+      "fees": null,
+      "net_value": -18595.77,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-02-10",
+      "settlement_date": "2014-02-13",
+      "type": "Sale",
+      "security_name": "Sns Focused Sicav - High Grade Long Term Bond EUR F-acc",
+      "isin": "LU0270448839",
+      "quantity": -135251,
+      "price": 142.91,
+      "gross_value": -19328.72,
+      "fees": null,
+      "net_value": 19328.72,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-02-10",
+      "settlement_date": "2014-02-13",
+      "type": "Sale",
+      "security_name": "Sns Focused Sicav - High Grade Bond EUR F-acc",
+      "isin": "LU0224580430",
+      "quantity": -143952,
+      "price": 130.01,
+      "gross_value": -18715.2,
+      "fees": null,
+      "net_value": 18715.2,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-02-13",
+      "settlement_date": "2014-02-17",
+      "type": "Purchase",
+      "security_name": "Money Market Cash Cert. UBS AG",
+      "isin": "CH0195581597",
+      "quantity": 4,
+      "price": 100.038,
+      "gross_value": 400.15,
+      "fees": null,
+      "net_value": -400.15,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-03",
+      "settlement_date": "2014-03-06",
+      "type": "Sale",
+      "security_name": "BlackRock Global Funds Sicav - Euro Bond Fund",
+      "isin": "LU0297941469",
+      "quantity": -73.25,
+      "price": 25.72,
+      "gross_value": -1883.99,
+      "fees": null,
+      "net_value": 1883.99,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-03",
+      "settlement_date": "2014-03-06",
+      "type": "Sale",
+      "security_name": "Shs Mult Manager Access II - European Multi Credit acc-BI-",
+      "isin": "LU0313363508",
+      "quantity": -9.272,
+      "price": 121.65,
+      "gross_value": -1127.94,
+      "fees": null,
+      "net_value": 1127.94,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-03",
+      "settlement_date": "2014-03-06",
+      "type": "Sale",
+      "security_name": "Shs Focused Sicav - Global Bond (EUR hedged) F-acc",
+      "isin": "LU0326809505",
+      "quantity": -14.323,
+      "price": 124.76,
+      "gross_value": -1786.94,
+      "fees": null,
+      "net_value": 1786.94,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-03",
+      "settlement_date": "2014-03-06",
+      "type": "Sale",
+      "security_name": "Units -H- Pioneer Funds FCP - Euro Aggregate Bond",
+      "isin": "LU0341616588",
+      "quantity": -0.924,
+      "price": 1462.79,
+      "gross_value": -1351.62,
+      "fees": null,
+      "net_value": 1351.62,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-03",
+      "settlement_date": "2014-03-07",
+      "type": "Sale",
+      "security_name": "Shs DCI Ireland Fund Plc - Diversified Credit Investments Feeder Fund One class -B- EUR",
+      "isin": "IE00B0H4TS55",
+      "quantity": -8.412,
+      "price": 165.24,
+      "gross_value": -1390.0,
+      "fees": null,
+      "net_value": 1390.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-03",
+      "settlement_date": "2014-03-06",
+      "type": "Sale",
+      "security_name": "BlackRock Global Funds Sicav - Euro Markets Fund",
+      "isin": "LU0252966485",
+      "quantity": -73.16,
+      "price": 24.59,
+      "gross_value": -1799.0,
+      "fees": null,
+      "net_value": 1799.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-05",
+      "settlement_date": "2014-03-07",
+      "type": "Sale",
+      "security_name": "Money Market Cash Cert. UBS AG",
+      "isin": "CH0195581597",
+      "quantity": -30,
+      "price": 100.041,
+      "gross_value": -3001.23,
+      "fees": null,
+      "net_value": -3001.23,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-25",
+      "settlement_date": "2014-03-28",
+      "type": "Sale",
+      "security_name": "Accum. ptg shs BNY Mellon Global Funds Plc - Euroland Bond Fund class -S- EUR",
+      "isin": "IE00BF8HK850",
+      "quantity": -600.178,
+      "price": 1.009699,
+      "gross_value": -606.0,
+      "fees": null,
+      "net_value": -606.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-25",
+      "settlement_date": "2014-03-27",
+      "type": "Sale",
+      "security_name": "Accum.shs PIMCO Funds: Global Investors Series Plc - Euro Bond Fund class -S- EUR",
+      "isin": "IE00BCRX0X83",
+      "quantity": -89.866,
+      "price": 10.46,
+      "gross_value": -940.0,
+      "fees": null,
+      "net_value": -940.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2014-03-27",
+      "settlement_date": "2014-03-31",
+      "type": "Sale",
+      "security_name": "Money Market Cash Cert. UBS AG",
+      "isin": "CH0195581597",
+      "quantity": -4,
+      "price": 100.044,
+      "gross_value": -400.18,
+      "fees": null,
+      "net_value": -400.18,
+      "currency": "EUR"
+    }
+  ],
+  "balance": {},
+  "_classification": {
+    "total_pages": 30,
+    "by_type": {
+      "cover": 1,
+      "contents": 1,
+      "total_assets": 1,
+      "asset_allocation": 2,
+      "performance_ytd": 1,
+      "performance_history": 3,
+      "positions_overview": 1,
+      "detailed_positions": 7,
+      "transaction_list": 3,
+      "additional_info": 10
+    },
+    "skip_count": 11,
+    "position_pages": 8,
+    "transaction_pages": 3
+  },
+  "_consolidated_totals": [
+    {
+      "portfolio_number": "268-913017-01",
+      "net_assets": 364787,
+      "currency": "EUR"
+    },
+    {
+      "portfolio_number": "268-913017-02",
+      "net_assets": 8351,
+      "currency": "EUR"
+    }
+  ],
+  "_total_consolidated": 373138,
+  "_extraction_meta": {
+    "pages_processed": 30,
+    "classification_tokens": 371294,
+    "extraction_tokens": -72437,
+    "total_tokens": 298857,
+    "errors": [
+      {
+        "page": 9,
+        "error": "No JSON found in response"
+      }
+    ]
+  },
+  "_document_info": {
+    "doc_id": "2014_20140331_portfolio_01",
+    "year": "2014",
+    "date": "2014-03-31",
+    "portfolio_type": "01",
+    "source_folder": "/Users/samuelhosken/code/hosken/analise-das-imagens/portfolios_corrigidos/14/14.03.31-Statement of assets-Dispatch address-2",
+    "processed_at": "2025-12-16T14:31:07.032831",
+    "validation": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": [],
+      "fixes_applied": [
+        "Fixed portfolio_type:  -> 01",
+        "Fixed net_assets from _consolidated_totals: None -> 364787"
+      ]
+    }
+  }
+}

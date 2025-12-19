@@ -1,0 +1,987 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-01",
+    "reference_date": "2003-12-23",
+    "client_name": "CQUE 913017",
+    "client_number": "0268-913 017",
+    "program": "Portfolio Management Agreement",
+    "investment_strategy": "Yield",
+    "document_type": "Statement of Assets",
+    "branch": "3963 Crans",
+    "currency": "EUR",
+    "advisor": "Poisson Philippe"
+  },
+  "totals": {
+    "net_assets": 734620,
+    "gross_assets": 734639,
+    "total_market_value": 724666,
+    "total_accrued_interest": 9954,
+    "liabilities": -19,
+    "currency": "EUR"
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Bonds and Similar Investments",
+      "market_value": 509295,
+      "accrued_interest": 9973,
+      "percentage": 69.31
+    },
+    {
+      "asset_class": "Equities and Similar Investments",
+      "market_value": 111555,
+      "percentage": 15.19
+    },
+    {
+      "asset_class": "Money Market and Similar Investments",
+      "market_value": 37731,
+      "percentage": 5.14
+    },
+    {
+      "asset_class": "Alternative Investments",
+      "market_value": 34590,
+      "percentage": 4.71
+    },
+    {
+      "asset_class": "Structured Products",
+      "market_value": 31345,
+      "percentage": 4.27
+    },
+    {
+      "asset_class": "Cash Credit Balances",
+      "market_value": 150,
+      "percentage": 0.02
+    },
+    {
+      "asset_class": "Accrued Interest",
+      "market_value": 9973,
+      "percentage": 1.36
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "liquidity": 42974,
+      "liquidity_pct": 5.85,
+      "bonds": 512625,
+      "bonds_pct": 69.77,
+      "equities": 86575,
+      "equities_pct": 11.79,
+      "other_investments": 34590,
+      "other_pct": 4.71,
+      "total": 676766,
+      "total_pct": 92.12
+    },
+    {
+      "currency": "USD",
+      "liquidity": 372,
+      "liquidity_pct": 0.05,
+      "equities": 26735,
+      "equities_pct": 3.64,
+      "total": 27107,
+      "total_pct": 3.69
+    },
+    {
+      "currency": "CHF",
+      "liquidity": 67,
+      "liquidity_pct": 0.01,
+      "equities": 10653,
+      "equities_pct": 1.45,
+      "total": 10720,
+      "total_pct": 1.46
+    },
+    {
+      "currency": "GBP",
+      "liquidity": 267,
+      "liquidity_pct": 0.04,
+      "equities": 10091,
+      "equities_pct": 1.37,
+      "total": 10358,
+      "total_pct": 1.41
+    },
+    {
+      "currency": "JPY",
+      "liquidity": 172,
+      "liquidity_pct": 0.02,
+      "equities": 6613,
+      "equities_pct": 0.90,
+      "total": 6785,
+      "total_pct": 0.92
+    },
+    {
+      "currency": "DEM",
+      "liquidity": 634,
+      "liquidity_pct": 0.09,
+      "bonds": 1553,
+      "bonds_pct": 0.21,
+      "total": 2187,
+      "total_pct": 0.30
+    },
+    {
+      "currency": "ITL",
+      "bonds": 369,
+      "bonds_pct": 0.05,
+      "total": 369,
+      "total_pct": 0.05
+    },
+    {
+      "currency": "Other",
+      "liquidity": 34,
+      "bonds": 313,
+      "bonds_pct": 0.05,
+      "total": 347,
+      "total_pct": 0.05
+    }
+  ],
+  "performance": {
+    "ytd_2003": {
+      "starting_value": 780800,
+      "cash_flow": -25500,
+      "final_value": 746100,
+      "average_invested_capital": 773500,
+      "net_performance_eur": -9100,
+      "twr_pct": 1.2,
+      "mwr_pct": -1.2
+    },
+    "cumulative_net_performance_pct": 4.0,
+    "quarterly_performance": [
+      {
+        "period": "Q1 2003 (31.12.2002 - 31.03.2003)",
+        "starting_value": 780800,
+        "cash_flow": -25500,
+        "final_value": 746100,
+        "net_performance": -9100,
+        "twr_pct": 1.2,
+        "mwr_pct": -1.2,
+        "cumulative_pct": -1.2
+      },
+      {
+        "period": "Q2 2003 (31.03.2003 - 30.06.2003)",
+        "starting_value": 746100,
+        "cash_flow": -3300,
+        "final_value": 772500,
+        "net_performance": 29700,
+        "twr_pct": 4.0,
+        "mwr_pct": 4.0,
+        "cumulative_pct": 2.8
+      },
+      {
+        "period": "Q3 2003 (30.06.2003 - 30.09.2003)",
+        "starting_value": 772500,
+        "cash_flow": -8500,
+        "final_value": 763700,
+        "net_performance": -300,
+        "twr_pct": 0.0,
+        "mwr_pct": 0.0,
+        "cumulative_pct": 2.7
+      },
+      {
+        "period": "Q4 2003 (30.09.2003 - 23.12.2003)",
+        "starting_value": 763700,
+        "cash_flow": -38500,
+        "final_value": 734600,
+        "net_performance": 9400,
+        "twr_pct": 1.3,
+        "mwr_pct": 1.3,
+        "cumulative_pct": 4.0
+      }
+    ],
+    "monthly_returns_2003": [
+      {
+        "month": "01",
+        "return_pct": -0.8
+      },
+      {
+        "month": "02",
+        "return_pct": -0.5
+      },
+      {
+        "month": "03",
+        "return_pct": 0.0
+      },
+      {
+        "month": "04",
+        "return_pct": 1.2
+      },
+      {
+        "month": "05",
+        "return_pct": 1.5
+      },
+      {
+        "month": "06",
+        "return_pct": 0.8
+      },
+      {
+        "month": "07",
+        "return_pct": 0.3
+      },
+      {
+        "month": "08",
+        "return_pct": 0.5
+      },
+      {
+        "month": "09",
+        "return_pct": 0.5
+      },
+      {
+        "month": "10",
+        "return_pct": 2.0
+      },
+      {
+        "month": "11",
+        "return_pct": 0.8
+      },
+      {
+        "month": "12",
+        "return_pct": 0.8
+      }
+    ],
+    "annual_returns": [
+      {
+        "year": 1999,
+        "net_performance": 54200,
+        "twr_pct": 4.8,
+        "mwr_pct": 4.8,
+        "cumulative_pct": 4.8
+      },
+      {
+        "year": 2000,
+        "net_performance": -24300,
+        "twr_pct": -2.7,
+        "mwr_pct": -2.0,
+        "cumulative_pct": 2.7
+      },
+      {
+        "year": 2001,
+        "net_performance": -92500,
+        "twr_pct": -8.9,
+        "mwr_pct": -9.0,
+        "cumulative_pct": -6.5
+      },
+      {
+        "year": 2002,
+        "net_performance": -89300,
+        "twr_pct": -10.4,
+        "mwr_pct": -10.2,
+        "cumulative_pct": -16.3
+      },
+      {
+        "year": 2003,
+        "net_performance": 29700,
+        "twr_pct": 4.0,
+        "mwr_pct": 4.0,
+        "cumulative_pct": -12.9
+      }
+    ]
+  },
+  "cash_flows_2003": {
+    "q1": {
+      "transactions": [
+        {
+          "date": "2003-01-27",
+          "amount": -6906.08,
+          "currency": "EUR",
+          "type": "Order"
+        },
+        {
+          "date": "2003-02-27",
+          "amount": -6920.41,
+          "currency": "EUR",
+          "type": "Order"
+        },
+        {
+          "date": "2003-03-31",
+          "amount": -4802.74,
+          "currency": "EUR",
+          "type": "Order"
+        },
+        {
+          "date": "2003-03-31",
+          "amount": -6861.06,
+          "currency": "EUR",
+          "type": "Order"
+        }
+      ],
+      "subtotal": -25490.29
+    },
+    "q2": {
+      "transactions": [
+        {
+          "date": "2003-05-27",
+          "amount": -3315.65,
+          "currency": "EUR",
+          "type": "Order"
+        }
+      ],
+      "subtotal": -3315.65
+    },
+    "q3": {
+      "transactions": [
+        {
+          "date": "2003-07-29",
+          "amount": -3271.18,
+          "currency": "EUR",
+          "type": "Order"
+        },
+        {
+          "date": "2003-08-28",
+          "amount": -5259.70,
+          "currency": "EUR",
+          "type": "Order"
+        }
+      ],
+      "subtotal": -8530.88
+    },
+    "q4": {
+      "transactions": [
+        {
+          "date": "2003-10-15",
+          "amount": -5000.00,
+          "currency": "EUR",
+          "type": "Order"
+        },
+        {
+          "date": "2003-11-06",
+          "amount": -28302.59,
+          "currency": "EUR",
+          "type": "Order"
+        },
+        {
+          "date": "2003-11-28",
+          "amount": -5239.03,
+          "currency": "EUR",
+          "type": "Order"
+        }
+      ],
+      "subtotal": -38541.62
+    },
+    "total_outflows": -75878.44,
+    "total_inflows": 0,
+    "net_flow": -75878.44
+  },
+  "capital_maturities": {
+    "next_12_months": [
+      {
+        "month": "January 2004",
+        "amount": 6000,
+        "percentage": 35.73
+      },
+      {
+        "month": "April 2004",
+        "amount": 3000,
+        "percentage": 18.15
+      },
+      {
+        "month": "July 2004",
+        "amount": 4000,
+        "percentage": 25.02
+      },
+      {
+        "month": "September 2004",
+        "amount": 3000,
+        "percentage": 21.10
+      }
+    ],
+    "subtotal_interest": 16000,
+    "annual_maturities": [
+      {
+        "year": 2005,
+        "amount": 125000,
+        "percentage": 31.25
+      },
+      {
+        "year": 2006,
+        "amount": 150000,
+        "percentage": 37.50
+      },
+      {
+        "year": 2007,
+        "amount": 75000,
+        "percentage": 18.75
+      },
+      {
+        "year": 2009,
+        "amount": 50000,
+        "percentage": 12.50
+      }
+    ],
+    "total_capital_maturities": 400000
+  },
+  "positions": {
+    "account_balances": [
+      {
+        "currency": "CHF",
+        "balance": 10,
+        "account_number": "0268-913 017.01Q",
+        "description": "UBS Current Account for Priv. Clients",
+        "interest_rate_pct": 0,
+        "market_value_eur": 7,
+        "percentage": 0.00
+      },
+      {
+        "currency": "EUR",
+        "balance": 46,
+        "accrued_interest": -19,
+        "account_number": "0268-913 017.79Q",
+        "description": "UBS Current Account for Priv. Clients",
+        "interest_rate_pct": 0,
+        "market_value_eur": 46,
+        "accrued_interest_eur": -19,
+        "percentage": 0.01
+      },
+      {
+        "currency": "GBP",
+        "balance": 58,
+        "account_number": "0268-913 017.72N",
+        "description": "UBS Current Account for Priv. Clients",
+        "interest_rate_pct": 0,
+        "market_value_eur": 82,
+        "percentage": 0.01
+      },
+      {
+        "currency": "USD",
+        "balance": 18,
+        "account_number": "0268-913 017.60B",
+        "description": "UBS Current Account for Priv. Clients",
+        "interest_rate_pct": 0,
+        "market_value_eur": 15,
+        "percentage": 0.00
+      }
+    ],
+    "total_account_balances": {
+      "market_value": 150,
+      "accrued_interest": -19,
+      "percentage": 0.02
+    },
+    "money_market": [
+      {
+        "currency": "EUR",
+        "quantity": 52,
+        "security_number": "595 225",
+        "custodian": "LU",
+        "description": "UNITS UBS (LUX) MONEY MARKET FUND - EUR",
+        "cost_price": 701.157,
+        "market_price": 725.61,
+        "change_pct": 3.49,
+        "yield_pct": 1.48,
+        "market_value": 37731,
+        "percentage": 5.14
+      }
+    ],
+    "total_money_market": {
+      "market_value": 37731,
+      "percentage": 5.14
+    },
+    "bonds": [
+      {
+        "currency": "EUR",
+        "nominal": 80,
+        "security_number": "359 539",
+        "custodian": "LU",
+        "description": "UNITS UBS (LUX) MEDIUM TERM BOND FUND - EUR B",
+        "cost_price": 150.206,
+        "market_price": 150.67,
+        "change_pct": 0.31,
+        "yield_pct": 2.69,
+        "market_value": 12053,
+        "percentage": 1.64
+      },
+      {
+        "currency": "EUR",
+        "nominal": 180,
+        "security_number": "595 742",
+        "custodian": "LU",
+        "description": "UNITS UBS (LUX) BOND FUND - EUR B",
+        "cost_price": 238.15,
+        "market_price": 243.97,
+        "change_pct": 2.44,
+        "yield_pct": 3.55,
+        "market_value": 43914,
+        "percentage": 5.98
+      },
+      {
+        "currency": "EUR",
+        "nominal": 440,
+        "security_number": "1 620 363",
+        "custodian": "LU",
+        "description": "UNITS -B- FOCUSED FUND FCP CORPORATE BOND EUR",
+        "cost_price": 100.0,
+        "market_price": 101.29,
+        "issue_date": "2003-12-22",
+        "change_pct": 1.29,
+        "market_value": 44567,
+        "percentage": 6.07
+      },
+      {
+        "currency": "EUR",
+        "nominal": 50000,
+        "accrued_interest": 878,
+        "security_number": "1 353 695",
+        "custodian": "EURO",
+        "description": "4 % NETHERLANDS 2002-15.7.2005",
+        "position_on_loan": true,
+        "cost_price": 100.82,
+        "market_price": 102.19,
+        "change_pct": 1.36,
+        "yield_pct": 2.54,
+        "market_value": 51095,
+        "accrued_interest_eur": 878,
+        "percentage": 6.96
+      },
+      {
+        "currency": "EUR",
+        "nominal": 75000,
+        "accrued_interest": 975,
+        "security_number": "945 393",
+        "custodian": "EURO",
+        "description": "4 1/2% EURO MEDIUM-TERM NOTES RABOBANK NEDERLAND 1998-9.9.2005 SENIOR",
+        "position_on_loan": true,
+        "cost_price": 99.96,
+        "market_price": 102.98,
+        "change_pct": 3.02,
+        "yield_pct": 2.69,
+        "market_value": 77235,
+        "accrued_interest_eur": 975,
+        "percentage": 10.51
+      },
+      {
+        "currency": "EUR",
+        "nominal": 75000,
+        "accrued_interest": 2384,
+        "security_number": "991 809",
+        "custodian": "EURO",
+        "description": "3 1/2% EURO MEDIUM-TERM NOTES UBS JERSEY BRANCH 1999-26.1.2006 SENIOR",
+        "cost_price": 98.903,
+        "market_price": 101.335,
+        "change_pct": 2.46,
+        "yield_pct": 2.79,
+        "market_value": 76001,
+        "accrued_interest_eur": 2384,
+        "percentage": 10.35
+      },
+      {
+        "currency": "EUR",
+        "nominal": 75000,
+        "accrued_interest": 1962,
+        "security_number": "579 357",
+        "custodian": "EURO",
+        "description": "3 7/8% DEUTSCHE SIEDLUNGS- & LANDESRENTENBANK AG 1999-20.4.2006",
+        "position_on_loan": true,
+        "cost_price": 95.66,
+        "market_price": 102.18,
+        "change_pct": 6.82,
+        "yield_pct": 2.89,
+        "market_value": 76635,
+        "accrued_interest_eur": 1962,
+        "percentage": 10.43
+      },
+      {
+        "currency": "EUR",
+        "nominal": 75000,
+        "accrued_interest": 2896,
+        "security_number": "1 324 747",
+        "custodian": "EURO",
+        "description": "4 1/8% EURO MEDIUM-TERM NOTES TOYOTA MOTOR CREDIT CORP. 2001-16.1.2007",
+        "cost_price": 99.56,
+        "market_price": 102.66,
+        "change_pct": 3.11,
+        "yield_pct": 3.20,
+        "market_value": 76995,
+        "accrued_interest_eur": 2896,
+        "percentage": 10.48
+      },
+      {
+        "currency": "EUR",
+        "nominal": 50000,
+        "accrued_interest": 878,
+        "security_number": "403 539",
+        "custodian": "EURO",
+        "description": "4 % AUSTRIA 1999-15.7.2009",
+        "cost_price": 102.45,
+        "market_price": 101.60,
+        "change_pct": -0.83,
+        "yield_pct": 3.67,
+        "market_value": 50800,
+        "accrued_interest_eur": 878,
+        "percentage": 6.92
+      }
+    ],
+    "total_bonds": {
+      "market_value": 509295,
+      "accrued_interest": 9973,
+      "percentage": 69.33
+    },
+    "equities": {
+      "switzerland": [
+        {
+          "quantity": 30,
+          "security_number": "279 176",
+          "custodian": "CH",
+          "currency": "CHF",
+          "description": "UNITS UBS (CH) EQUITY FUND - SWITZERLAND",
+          "cost_price": 685.744,
+          "market_price": 557.33,
+          "exchange_rate": 0.639487,
+          "change_pct": -18.56,
+          "yield_pct": 0.25,
+          "market_value": 10713,
+          "percentage": 1.46
+        }
+      ],
+      "germany": [
+        {
+          "quantity": 100,
+          "security_number": "323 600",
+          "custodian": "DE",
+          "currency": "EUR",
+          "description": "BEARER SHS BASF AG",
+          "cost_price": 40.09,
+          "market_price": 43.29,
+          "change_pct": 7.98,
+          "yield_pct": 3.24,
+          "market_value": 4329,
+          "percentage": 0.59
+        },
+        {
+          "quantity": 120,
+          "security_number": "827 766",
+          "custodian": "DE",
+          "currency": "EUR",
+          "description": "REG.SHS SIEMENS AG",
+          "cost_price": 41.81,
+          "market_price": 62.45,
+          "change_pct": 49.37,
+          "market_value": 7494,
+          "percentage": 1.02
+        }
+      ],
+      "finland": [
+        {
+          "quantity": 600,
+          "security_number": "472 672",
+          "custodian": "FI",
+          "currency": "EUR",
+          "description": "SHS NOKIA OYJ EUR -.06",
+          "cost_price": 28.866,
+          "market_price": 13.83,
+          "change_pct": -52.09,
+          "yield_pct": 2.02,
+          "market_value": 8298,
+          "percentage": 1.13
+        }
+      ],
+      "france": [
+        {
+          "quantity": 105,
+          "security_number": "123 397",
+          "custodian": "FR",
+          "currency": "EUR",
+          "description": "ACT BNP PARIBAS EUR 2",
+          "cost_price": 38.675,
+          "market_price": 49.05,
+          "change_pct": 26.83,
+          "yield_pct": 2.45,
+          "market_value": 5150,
+          "percentage": 0.70
+        },
+        {
+          "quantity": 100,
+          "security_number": "507 170",
+          "custodian": "FR",
+          "currency": "EUR",
+          "description": "ACT LVMH MOET HENNESSY LOUIS VUITTON EUR -.30",
+          "position_on_loan": true,
+          "cost_price": 53.931,
+          "market_price": 56.65,
+          "change_pct": 5.04,
+          "yield_pct": 1.41,
+          "market_value": 5665,
+          "percentage": 0.77
+        }
+      ],
+      "united_kingdom": [
+        {
+          "quantity": 100,
+          "security_number": "828 778",
+          "custodian": "LU",
+          "currency": "GBP",
+          "description": "UNITS UBS (LUX) EQUITY FUND - GREAT BRITAIN B",
+          "cost_price": 69.03,
+          "market_price": 72.30,
+          "exchange_rate": 1.445204,
+          "change_pct": 3.06,
+          "market_value": 10281,
+          "percentage": 1.40
+        }
+      ],
+      "netherlands": [
+        {
+          "quantity": 371,
+          "security_number": "1 256 533",
+          "custodian": "NL",
+          "currency": "EUR",
+          "description": "CERT. OF SHS ING GROEP NV EUR -.24",
+          "cost_price": 36.066,
+          "market_price": 17.90,
+          "change_pct": -50.37,
+          "yield_pct": 2.68,
+          "market_value": 6640,
+          "percentage": 0.90
+        },
+        {
+          "quantity": 150,
+          "security_number": "587 843",
+          "custodian": "NL",
+          "currency": "EUR",
+          "description": "SHS ROYAL DUTCH PETROLEUM CO. EUR -.56",
+          "cost_price": 41.13,
+          "market_price": 40.79,
+          "change_pct": -0.83,
+          "yield_pct": 4.27,
+          "market_value": 6118,
+          "percentage": 0.83
+        }
+      ],
+      "united_states": [
+        {
+          "quantity": 360,
+          "security_number": "828 789",
+          "custodian": "LU",
+          "currency": "USD",
+          "description": "UNITS UBS (LUX) EQUITY FUND - USA B",
+          "cost_price": 72.40,
+          "market_price": 77.94,
+          "exchange_rate": 0.870286,
+          "change_pct": -0.40,
+          "market_value": 22592,
+          "percentage": 3.08
+        }
+      ],
+      "japan": [
+        {
+          "quantity": 150,
+          "security_number": "828 785",
+          "custodian": "LU",
+          "currency": "JPY",
+          "description": "UNITS UBS (LUX) EQUITY FUND - JAPAN B",
+          "cost_price": 6313.0,
+          "market_price": 6033.0,
+          "exchange_rate": 0.007681,
+          "change_pct": -6.71,
+          "market_value": 6785,
+          "percentage": 0.92
+        }
+      ],
+      "euro_region": [
+        {
+          "quantity": 200,
+          "security_number": "940 812",
+          "custodian": "LU",
+          "currency": "EUR",
+          "description": "UNITS UBS (LUX) EQUITY FUND - EURO COUNTRIES B",
+          "cost_price": 112.666,
+          "market_price": 87.45,
+          "change_pct": -22.38,
+          "market_value": 17490,
+          "percentage": 2.38
+        }
+      ]
+    },
+    "total_equities": {
+      "market_value": 111555,
+      "percentage": 15.19
+    },
+    "structured_products": {
+      "money_market_character": [
+        {
+          "currency": "EUR",
+          "quantity": 18,
+          "security_number": "4 040 649",
+          "custodian": "CH",
+          "description": "CURRENCY-CERT. UBS INC. 2003-14.6.04 (EXP. 10.6.04) USD/EUR BULL (EUR 20)",
+          "cost_price": 78.06,
+          "market_price": 80.01,
+          "change_pct": 2.49,
+          "market_value": 1440,
+          "percentage": 0.20
+        }
+      ],
+      "equity_character": [
+        {
+          "currency": "EUR",
+          "quantity": 7,
+          "security_number": "1 576 663",
+          "custodian": "EURO",
+          "description": "CERTS CITIGROUP GLOBAL MKTS 2003-8.4.2005 (EXP.1.4.2005) DJ EURO STOXX 50 TOTAL RETURN",
+          "cost_price": 2652.31,
+          "market_price": 3630.0,
+          "change_pct": 36.86,
+          "market_value": 25410,
+          "percentage": 3.46
+        },
+        {
+          "currency": "USD",
+          "quantity": 5,
+          "security_number": "1 671 105",
+          "custodian": "EURO",
+          "description": "PERLES UBS AG LONDON BRANCH 2003-9.9.2005 (EXP.2.9.2005) EMERGING MARKETS BASKET",
+          "cost_price": 970.0,
+          "market_price": 1116.6,
+          "exchange_rate": 0.915705,
+          "change_pct": 1.22,
+          "market_value": 4495,
+          "percentage": 0.61
+        }
+      ]
+    },
+    "total_structured_products": {
+      "market_value": 31345,
+      "percentage": 4.27
+    },
+    "alternative_investments": {
+      "hedge_funds": [
+        {
+          "currency": "EUR",
+          "quantity": 6,
+          "security_number": "1 254 241",
+          "custodian": "EURO",
+          "description": "S.T.A.R.-INDEX CERT. UBS INVESTMENT BANK AG 2001-30.6.2006 QUELLOS APPRECIAT.SPEC.INDEX",
+          "cost_price": 5050.0,
+          "market_price": 5765.0,
+          "change_pct": 14.16,
+          "market_value": 34590,
+          "percentage": 4.71
+        }
+      ]
+    },
+    "total_alternative_investments": {
+      "market_value": 34590,
+      "percentage": 4.71
+    }
+  },
+  "account_reconciliation": {
+    "account": "0268-913 017.79Q",
+    "currency": "EUR",
+    "transactions": [
+      {
+        "date": "2003-12-22",
+        "description": "Balance",
+        "value_date": "2003-12-23",
+        "amount": 2116.56
+      },
+      {
+        "date": "2003-12-22",
+        "description": "UBS Investment Funds V 19.12.2003 UW015155 UBS(LU)MMF-EUR 595225",
+        "value_date": "2003-12-24",
+        "amount": 1450.92
+      },
+      {
+        "date": "2003-12-23",
+        "description": "Structured Products A 22.12.2003 UW001472 USD/EUR BULL 04 U4040649",
+        "value_date": "2003-12-24",
+        "amount": -1405.08
+      },
+      {
+        "date": "2003-12-31",
+        "description": "Custody Price",
+        "value_date": "2003-12-31",
+        "amount": -579.10
+      },
+      {
+        "date": "2003-12-31",
+        "description": "Portfolio Management",
+        "value_date": "2003-12-31",
+        "amount": -1537.17
+      }
+    ],
+    "closing_balance": 46.13
+  },
+  "exchange_rates": [
+    {
+      "currency": "CHF",
+      "rate": 0.640791,
+      "base": "EUR"
+    },
+    {
+      "currency": "USD",
+      "rate": 0.805186,
+      "base": "EUR"
+    },
+    {
+      "currency": "GBP",
+      "rate": 1.422038,
+      "base": "EUR"
+    },
+    {
+      "currency": "JPY",
+      "rate": 0.749812,
+      "per": 100,
+      "base": "EUR"
+    }
+  ],
+  "accounts_included": [
+    {
+      "account": "0268-913 017.N1",
+      "currency": "EUR",
+      "type": "Regular Safekeeping Account"
+    },
+    {
+      "account": "0268-913 017.01Q",
+      "currency": "CHF",
+      "type": "UBS Current Account for Priv. Clients"
+    },
+    {
+      "account": "0268-913 017.60B",
+      "currency": "USD",
+      "type": "UBS Current Account for Priv. Clients"
+    },
+    {
+      "account": "0268-913 017.72N",
+      "currency": "GBP",
+      "type": "UBS Current Account for Priv. Clients"
+    },
+    {
+      "account": "0268-913 017.79Q",
+      "currency": "EUR",
+      "type": "UBS Current Account for Priv. Clients"
+    }
+  ],
+  "_classification": {
+    "total_pages": 19,
+    "by_type": {
+      "cover": 1,
+      "table_of_contents": 1,
+      "general_information": 1,
+      "performance_2003": 1,
+      "performance_5_years": 2,
+      "cash_flow": 1,
+      "asset_allocation": 1,
+      "earnings_maturities": 1,
+      "assets_liabilities": 1,
+      "account_balances": 1,
+      "money_market": 1,
+      "bonds": 2,
+      "equities": 3,
+      "structured_products": 1,
+      "alternative_investments": 1,
+      "reconciliation": 1,
+      "important_information": 2
+    }
+  },
+  "_document_info": {
+    "doc_id": "2003_20031223_portfolio_01",
+    "year": "2003",
+    "date": "2003-12-23",
+    "portfolio_type": "01",
+    "document_language": "English",
+    "document_format": "Modern UBS format",
+    "source_folder": "03_12_23-Statement_of_Assets-Dispatch_Address",
+    "processed_at": "2025-12-16T18:00:00.000000"
+  },
+  "_notes": [
+    "This is the earliest EUR-denominated document for client 913017",
+    "Shows transition from 1998 CHF format to modern EUR format",
+    "Performance shows cumulative loss of -12.9% from 1999-2003 (dot-com crash recovery)",
+    "Some positions marked as 'POSITION ON LOAN'",
+    "Contains DEM and ITL legacy currency holdings (pre-Euro conversion remnants)"
+  ]
+}

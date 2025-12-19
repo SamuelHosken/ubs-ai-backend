@@ -1,0 +1,523 @@
+{
+  "metadata": {
+    "document_type": "Mandate Fee Compilation",
+    "description": "Taxas de gestão trimestrais cobradas pela UBS pelo serviço de gestão de portfolio",
+    "portfolio_number": "268-913017-01",
+    "client_number": "268-913017",
+    "client_name": "CQUE 913017",
+    "client_address": "BLST Zürich Paradeplatz",
+    "vat_number": "CHE-116.303.292 MWST",
+    "debit_account": "268-913017.79Q",
+    "period_covered": {
+      "start": "2013-01-01",
+      "end": "2017-01-31"
+    },
+    "total_periods": 17,
+    "fee_type": "Management Fee (Mandate Fee)",
+    "calculation_method": "Basis (portfolio value in CHF) × (Price p.a. / 4) for quarterly",
+    "currency_base": "CHF",
+    "currency_converted": "EUR"
+  },
+  "product_evolution": [
+    {
+      "period": "Q1/2013 - Q4/2015",
+      "product_name": "UBS MANAGED FUND PORTFOLIO CLASSIC",
+      "strategy": "YIELD"
+    },
+    {
+      "period": "Q1/2016 - Q1/2017",
+      "product_name": "UBS Manage Advanced [Managed Fund]",
+      "strategy": "YIELD"
+    }
+  ],
+  "bank_evolution": [
+    {
+      "period": "Q1/2013 - Q1/2015",
+      "bank_name": "UBS AG",
+      "address": "Postfach, CH-8098 Zürich",
+      "info_code": "E79S-00311264",
+      "phone": "044-234 29 73"
+    },
+    {
+      "period": "Q2/2015 - Q3/2016",
+      "bank_name": "UBS Switzerland AG",
+      "address": "Postfach, 8098 Zürich",
+      "info_code": "E79S-43425444",
+      "phone": "044-234 29 73"
+    },
+    {
+      "period": "Q4/2016 - Q1/2017",
+      "bank_name": "UBS Switzerland AG",
+      "address": "Postfach, 8098 Zürich",
+      "info_code": "TC6R-00002551",
+      "phone": "044-237 39 50"
+    }
+  ],
+  "fee_rate_evolution": [
+    {
+      "period": "Q1/2013",
+      "rate_pct": 1.40,
+      "note": "Taxa inicial mais baixa"
+    },
+    {
+      "period": "Q2/2013",
+      "rate_pct": 1.53422,
+      "note": "Taxa variável/ajustada"
+    },
+    {
+      "period": "Q3/2013 - Q1/2017",
+      "rate_pct": 1.60,
+      "note": "Taxa padrão estabilizada"
+    }
+  ],
+  "fees": [
+    {
+      "period": "Q1/2013",
+      "quarter": 1,
+      "year": 2013,
+      "statement_period": {
+        "start": "2013-01-01",
+        "end": "2013-03-31"
+      },
+      "produced_on": "2013-03-21",
+      "value_date": "2013-03-31",
+      "basis_chf": 467234.40,
+      "rate_pct": 1.40,
+      "fee_chf": 1635.32,
+      "total_mandate_fee_chf": 1635.32,
+      "exchange_rate_eur": 1.20200,
+      "fee_eur": 1360.50,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "source_file": "13_03_31-13_01_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q2/2013",
+      "quarter": 2,
+      "year": 2013,
+      "statement_period": {
+        "start": "2013-04-01",
+        "end": "2013-06-30"
+      },
+      "produced_on": "2013-06-21",
+      "value_date": "2013-06-30",
+      "basis_chf": 469099.64,
+      "rate_pct": 1.53422,
+      "fee_chf": 1799.27,
+      "total_mandate_fee_chf": 1799.27,
+      "exchange_rate_eur": 1.20690,
+      "fee_eur": 1490.82,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "source_file": "13_06_30-13_04_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q3/2013",
+      "quarter": 3,
+      "year": 2013,
+      "statement_period": {
+        "start": "2013-07-01",
+        "end": "2013-09-30"
+      },
+      "produced_on": "2013-09-20",
+      "value_date": "2013-09-30",
+      "basis_chf": 458136.44,
+      "rate_pct": 1.60,
+      "fee_chf": 1832.55,
+      "total_mandate_fee_chf": 1832.55,
+      "exchange_rate_eur": 1.21330,
+      "fee_eur": 1510.38,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "source_file": "13_09_30-13_07_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q4/2013",
+      "quarter": 4,
+      "year": 2013,
+      "statement_period": {
+        "start": "2013-10-01",
+        "end": "2013-12-31"
+      },
+      "produced_on": "2013-12-18",
+      "value_date": "2013-12-31",
+      "basis_chf": 458430.40,
+      "rate_pct": 1.60,
+      "fee_chf": 1833.73,
+      "total_mandate_fee_chf": 1833.73,
+      "exchange_rate_eur": 1.20040,
+      "fee_eur": 1527.60,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "source_file": "13_12_31-13_10_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q1/2014",
+      "quarter": 1,
+      "year": 2014,
+      "statement_period": {
+        "start": "2014-01-01",
+        "end": "2014-03-31"
+      },
+      "produced_on": "2014-03-21",
+      "value_date": "2014-03-31",
+      "basis_chf": 451586.43,
+      "rate_pct": 1.60,
+      "fee_chf": 1806.35,
+      "total_mandate_fee_chf": 1806.35,
+      "exchange_rate_eur": 1.19770,
+      "fee_eur": 1508.18,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "source_file": "14_03_31-14_01_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q2/2014",
+      "quarter": 2,
+      "year": 2014,
+      "statement_period": {
+        "start": "2014-04-01",
+        "end": "2014-06-30"
+      },
+      "produced_on": "2014-06-20",
+      "value_date": "2014-06-30",
+      "basis_chf": 447858.01,
+      "rate_pct": 1.60,
+      "fee_chf": 1791.43,
+      "total_mandate_fee_chf": 1791.43,
+      "exchange_rate_eur": 1.19610,
+      "fee_eur": 1497.73,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "source_file": "14_06_30-14_04_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q3/2014",
+      "quarter": 3,
+      "year": 2014,
+      "statement_period": {
+        "start": "2014-07-01",
+        "end": "2014-09-30"
+      },
+      "produced_on": "2014-09-19",
+      "value_date": "2014-09-30",
+      "basis_chf": 453305.36,
+      "rate_pct": 1.60,
+      "fee_chf": 1813.23,
+      "total_mandate_fee_chf": 1813.23,
+      "exchange_rate_eur": 1.18720,
+      "fee_eur": 1527.32,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "source_file": "14_09_30-14_07_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q4/2014",
+      "quarter": 4,
+      "year": 2014,
+      "statement_period": {
+        "start": "2014-10-01",
+        "end": "2014-12-31"
+      },
+      "produced_on": "2014-12-18",
+      "value_date": "2014-12-31",
+      "basis_chf": 452319.22,
+      "rate_pct": 1.60,
+      "fee_chf": 1809.28,
+      "total_mandate_fee_chf": 1809.28,
+      "exchange_rate_eur": 1.18140,
+      "fee_eur": 1531.47,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "source_file": "14_12_31-14_10_31-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q1/2015",
+      "quarter": 1,
+      "year": 2015,
+      "statement_period": {
+        "start": "2015-01-01",
+        "end": "2015-03-31"
+      },
+      "produced_on": "2015-03-20",
+      "value_date": "2015-03-31",
+      "basis_chf": 419105.32,
+      "rate_pct": 1.60,
+      "fee_chf": 1676.42,
+      "total_mandate_fee_chf": 1676.42,
+      "exchange_rate_eur": 1.03630,
+      "fee_eur": 1617.70,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS AG",
+      "note": "CHF/EUR próximo da paridade após SNB abandonar piso",
+      "source_file": "15_03_31-15_01_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q2/2015",
+      "quarter": 2,
+      "year": 2015,
+      "statement_period": {
+        "start": "2015-04-01",
+        "end": "2015-06-30"
+      },
+      "produced_on": "2015-06-23",
+      "value_date": "2015-06-30",
+      "basis_chf": 409627.36,
+      "rate_pct": 1.60,
+      "fee_chf": 1638.51,
+      "total_mandate_fee_chf": 1638.51,
+      "exchange_rate_eur": 1.02700,
+      "fee_eur": 1595.43,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS Switzerland AG",
+      "note": "Banco mudou de UBS AG para UBS Switzerland AG",
+      "source_file": "15_06_30-15_04_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q3/2015",
+      "quarter": 3,
+      "year": 2015,
+      "statement_period": {
+        "start": "2015-07-01",
+        "end": "2015-09-30"
+      },
+      "produced_on": "2015-09-22",
+      "value_date": "2015-09-30",
+      "basis_chf": 383734.38,
+      "rate_pct": 1.60,
+      "fee_chf": 1534.94,
+      "total_mandate_fee_chf": 1534.94,
+      "exchange_rate_eur": 1.07170,
+      "fee_eur": 1432.25,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS Switzerland AG",
+      "source_file": "15_09_30-15_07_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q4/2015",
+      "quarter": 4,
+      "year": 2015,
+      "statement_period": {
+        "start": "2015-10-01",
+        "end": "2015-12-31"
+      },
+      "produced_on": "2015-12-18",
+      "value_date": "2015-12-31",
+      "basis_chf": 390859.12,
+      "rate_pct": 1.60,
+      "fee_chf": 1563.44,
+      "total_mandate_fee_chf": 1563.44,
+      "exchange_rate_eur": 1.05980,
+      "fee_eur": 1475.22,
+      "product": "UBS MANAGED FUND PORTFOLIO CLASSIC YIELD",
+      "bank": "UBS Switzerland AG",
+      "source_file": "15_12_31-15_10_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q1/2016",
+      "quarter": 1,
+      "year": 2016,
+      "statement_period": {
+        "start": "2016-01-01",
+        "end": "2016-03-31"
+      },
+      "produced_on": "2016-03-22",
+      "value_date": "2016-03-31",
+      "basis_chf": 378082.57,
+      "rate_pct": 1.60,
+      "fee_chf": 1512.33,
+      "total_mandate_fee_chf": 1512.33,
+      "exchange_rate_eur": 1.07210,
+      "fee_eur": 1410.62,
+      "product": "UBS Manage Advanced [Managed Fund] YIELD",
+      "bank": "UBS Switzerland AG",
+      "note": "Produto mudou para UBS Manage Advanced",
+      "source_file": "16_03_31-16_01_01-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q2/2016",
+      "quarter": 2,
+      "year": 2016,
+      "statement_period": {
+        "start": "2016-04-01",
+        "end": "2016-06-30"
+      },
+      "produced_on": "2016-06-22",
+      "value_date": "2016-06-30",
+      "basis_chf": 390919.33,
+      "rate_pct": 1.60,
+      "fee_chf": 1563.67,
+      "total_mandate_fee_chf": 1563.67,
+      "exchange_rate_eur": 1.06290,
+      "fee_eur": 1471.14,
+      "product": "UBS Manage Advanced [Managed Fund] YIELD",
+      "bank": "UBS Switzerland AG",
+      "source_file": "16_06_30-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q3/2016",
+      "quarter": 3,
+      "year": 2016,
+      "statement_period": {
+        "start": "2016-07-01",
+        "end": "2016-09-30"
+      },
+      "produced_on": "2016-09-21",
+      "value_date": "2016-09-30",
+      "basis_chf": 388483.57,
+      "rate_pct": 1.60,
+      "fee_chf": 1553.94,
+      "total_mandate_fee_chf": 1553.94,
+      "exchange_rate_eur": 1.07620,
+      "fee_eur": 1443.91,
+      "product": "UBS Manage Advanced [Managed Fund] YIELD",
+      "bank": "UBS Switzerland AG",
+      "source_file": "16_09_30-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Q4/2016",
+      "quarter": 4,
+      "year": 2016,
+      "statement_period": {
+        "start": "2016-10-01",
+        "end": "2016-12-31"
+      },
+      "produced_on": "2016-12-20",
+      "value_date": "2016-12-31",
+      "basis_chf": 286747.14,
+      "rate_pct": 1.60,
+      "fee_chf": 1146.99,
+      "total_mandate_fee_chf": 1146.99,
+      "exchange_rate_eur": 1.05180,
+      "fee_eur": 1090.50,
+      "product": "UBS Manage Advanced [Managed Fund] YIELD",
+      "bank": "UBS Switzerland AG",
+      "note": "Queda significativa no basis - possível liquidação parcial",
+      "source_file": "16_12_31-Mandate_fee-page-00001.jpg"
+    },
+    {
+      "period": "Jan/2017",
+      "quarter": 1,
+      "year": 2017,
+      "statement_period": {
+        "start": "2017-01-01",
+        "end": "2017-01-31"
+      },
+      "produced_on": "2017-02-03",
+      "value_date": "2017-01-31",
+      "basis_chf": 245963.94,
+      "rate_pct": 1.60,
+      "fee_chf": 327.95,
+      "total_mandate_fee_chf": 327.95,
+      "exchange_rate_eur": 1.03409384,
+      "fee_eur": 317.14,
+      "product": "UBS Manage Advanced [Managed Fund] YIELD",
+      "bank": "UBS Switzerland AG",
+      "note": "ÚLTIMO PERÍODO - apenas 1 mês (Jan 2017), pré-liquidação final",
+      "is_partial_period": true,
+      "partial_period_months": 1,
+      "source_file": "17_01_31-Mandate_fee-page-00001.jpg"
+    }
+  ],
+  "summary": {
+    "by_year": {
+      "2013": {
+        "total_fees_chf": 7100.87,
+        "total_fees_eur": 5889.30,
+        "avg_basis_chf": 463225.22,
+        "avg_rate_pct": 1.53,
+        "periods": 4
+      },
+      "2014": {
+        "total_fees_chf": 7220.29,
+        "total_fees_eur": 6064.70,
+        "avg_basis_chf": 451267.26,
+        "avg_rate_pct": 1.60,
+        "periods": 4
+      },
+      "2015": {
+        "total_fees_chf": 6413.31,
+        "total_fees_eur": 6120.60,
+        "avg_basis_chf": 400831.55,
+        "avg_rate_pct": 1.60,
+        "periods": 4
+      },
+      "2016": {
+        "total_fees_chf": 5776.93,
+        "total_fees_eur": 5416.17,
+        "avg_basis_chf": 361058.15,
+        "avg_rate_pct": 1.60,
+        "periods": 4
+      },
+      "2017": {
+        "total_fees_chf": 327.95,
+        "total_fees_eur": 317.14,
+        "avg_basis_chf": 245963.94,
+        "avg_rate_pct": 1.60,
+        "periods": 1,
+        "note": "Apenas janeiro (1 mês)"
+      }
+    },
+    "grand_totals": {
+      "total_fees_chf": 26839.35,
+      "total_fees_eur": 23807.91,
+      "total_periods": 17,
+      "period_range": "Q1/2013 - Jan/2017",
+      "years_covered": 5
+    },
+    "portfolio_value_trend": {
+      "initial_basis_q1_2013": 467234.40,
+      "final_basis_jan_2017": 245963.94,
+      "absolute_change_chf": -221270.46,
+      "percentage_change": -47.36,
+      "note": "Portfolio perdeu quase metade do valor em 4 anos"
+    },
+    "exchange_rate_trend": {
+      "initial_rate_q1_2013": 1.20200,
+      "final_rate_jan_2017": 1.03409384,
+      "absolute_change": -0.16791,
+      "percentage_change": -13.97,
+      "note": "CHF fortaleceu ~14% contra EUR (SNB removeu piso em Jan/2015)"
+    }
+  },
+  "analysis": {
+    "fee_calculation_verification": {
+      "formula": "Basis × (Rate% / 100) × (Months / 12)",
+      "example_q1_2013": {
+        "basis": 467234.40,
+        "rate": 1.40,
+        "months": 3,
+        "calculated": 1635.32,
+        "matches_document": true
+      },
+      "example_jan_2017": {
+        "basis": 245963.94,
+        "rate": 1.60,
+        "months": 1,
+        "calculated": 327.95,
+        "matches_document": true
+      }
+    },
+    "key_observations": [
+      "Taxa aumentou de 1.40% para 1.60% p.a. entre Q1 e Q3 de 2013",
+      "Banco mudou de UBS AG para UBS Switzerland AG em Q2/2015 (reestruturação regulatória)",
+      "Produto mudou de 'MANAGED FUND PORTFOLIO CLASSIC' para 'Manage Advanced' em Q1/2016",
+      "Q1/2015: CHF/EUR caiu para 1.036 após SNB remover piso de 1.20",
+      "Q4/2016: Queda abrupta no basis (de ~390k para ~287k) indica liquidação parcial",
+      "Jan/2017: Último período de apenas 1 mês antes da liquidação total em Fev/2017"
+    ],
+    "cost_analysis": {
+      "total_management_fees_4_years_eur": 23807.91,
+      "avg_annual_fee_eur": 5951.98,
+      "fee_as_pct_of_initial_portfolio": 6.12,
+      "note": "Cliente pagou ~6% do valor inicial em taxas de gestão ao longo de 4 anos"
+    }
+  },
+  "_document_info": {
+    "doc_id": "mandate_fees_2013_2017",
+    "created_at": "2025-12-16T22:00:00Z",
+    "source_files_count": 17,
+    "extraction_method": "Claude Vision",
+    "accuracy_estimate": "99%"
+  }
+}

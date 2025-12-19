@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "title": "Timeline de Eventos - Caso UBS",
+    "description": "Cronologia completa de eventos globais, escândalos UBS e eventos do cliente para contextualização do caso",
+    "period": "1998-2016",
+    "created_at": "2024-12-17",
+    "version": "1.0"
+  },
+  
+  "categories": {
+    "global": "Eventos do mercado financeiro global",
+    "ubs_corporate": "Eventos corporativos da UBS",
+    "ubs_scandal": "Escândalos e multas da UBS",
+    "ubs_fund": "Eventos específicos do Global Property Fund",
+    "client": "Eventos específicos do cliente"
+  },
+
+  "timeline": [
+    {
+      "date": "1998-06-29",
+      "category": "ubs_corporate",
+      "title": "Fusão cria o UBS moderno",
+      "description": "Swiss Bank Corporation e Union Bank of Switzerland se fundem, criando o UBS AG - um dos maiores bancos do mundo.",
+      "impact": "Criação da entidade que gerenciará os investimentos do cliente",
+      "source": "UBS Corporate History",
+      "relevance": "context"
+    },
+    {
+      "date": "1998-08-12",
+      "category": "ubs_scandal",
+      "title": "UBS paga $1.25 bilhão - Escândalo do Holocausto",
+      "description": "UBS e outros bancos suíços concordam em pagar $1.25 bilhão em restituição a famílias de vítimas do Holocausto cujos ativos foram retidos pelos bancos por décadas.",
+      "impact": "Primeiro grande escândalo do UBS moderno - padrão de conduta questionável",
+      "source": "Corporate Research Project",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2000-11-03",
+      "category": "ubs_corporate",
+      "title": "UBS adquire PaineWebber",
+      "description": "UBS adquire a PaineWebber, maior corretora independente dos EUA, expandindo massivamente sua operação de wealth management.",
+      "impact": "Expansão agressiva em gestão de patrimônio",
+      "source": "UBS Corporate History",
+      "relevance": "context"
+    },
+    {
+      "date": "2001-01-01",
+      "category": "ubs_scandal",
+      "title": "Início da manipulação do LIBOR",
+      "description": "Funcionários do UBS começam a manipular as taxas LIBOR para beneficiar posições de trading. A manipulação continuará até 2010.",
+      "impact": "Fraude sistemática que afetou trilhões em contratos financeiros",
+      "source": "US Department of Justice, Dezembro 2012",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2002-04-01",
+      "category": "ubs_corporate",
+      "title": "UBS detecta risco em hipotecas americanas",
+      "description": "Gestores de risco do UBS em Zurique identificam $24 bilhões investidos no mercado hipotecário americano e alertam sobre iliquidez.",
+      "impact": "UBS sabia dos riscos mas não agiu adequadamente",
+      "source": "Hässig 2009, via University of New Hampshire",
+      "relevance": "critical"
+    },
+    {
+      "date": "2004-01-01",
+      "category": "ubs_fund",
+      "title": "Lançamento do UBS Global Property Fund",
+      "description": "UBS lança o Global Property Fund para clientes de wealth management, prometendo exposição diversificada ao mercado imobiliário global com retornos de 5-7% ao ano.",
+      "impact": "Criação do produto que causará as perdas do Portfolio 02",
+      "source": "Wealth Briefing, Dezembro 2008",
+      "source_url": "https://www.wealthbriefing.com/html/article.php/ubs-freezes-global-real-estate-fund-till-late-2009",
+      "relevance": "critical"
+    },
+    {
+      "date": "2004-04-28",
+      "category": "global",
+      "title": "SEC relaxa regras de capital",
+      "description": "A SEC relaxa as regras de capital líquido, permitindo que bancos de investimento aumentem substancialmente sua alavancagem. Os 5 maiores (Bear Stearns, Lehman, Merrill, Goldman, Morgan Stanley) aumentam alavancagem para 30:1.",
+      "impact": "Criou as condições para a crise de 2008",
+      "source": "CFR Timeline",
+      "relevance": "context"
+    },
+    {
+      "date": "2005-01-01",
+      "category": "ubs_corporate",
+      "title": "UBS atinge lucros recordes",
+      "description": "UBS reporta lucros recordes em 2005 e 2006, alimentados por crescimento rápido e tomada de risco que o banco não compreendia adequadamente.",
+      "impact": "Excesso de confiança que levou à crise",
+      "source": "Economics Observatory",
+      "relevance": "context"
+    },
+    {
+      "date": "2006-01-01",
+      "category": "ubs_fund",
+      "title": "Global Property Fund entre os '10 melhores' produtos",
+      "description": "O UBS Global Property Fund é listado entre os '10 produtos de investimento mais bem-sucedidos' em real estate.",
+      "impact": "Sucesso aparente mascarava riscos estruturais",
+      "source": "Wealth Briefing, Dezembro 2008",
+      "relevance": "context"
+    },
+    {
+      "date": "2006-07-01",
+      "category": "global",
+      "title": "Pico do mercado imobiliário americano",
+      "description": "Os preços dos imóveis nos EUA atingem o pico e começam a cair. É o início do estouro da bolha imobiliária.",
+      "impact": "Início da crise que devastará o Portfolio 02",
+      "source": "Federal Reserve History",
+      "relevance": "critical"
+    },
+    {
+      "date": "2007-02-27",
+      "category": "global",
+      "title": "HSBC anuncia perdas em subprime",
+      "description": "HSBC anuncia perdas de $10.5 bilhões relacionadas a hipotecas subprime - primeiro grande alerta da crise.",
+      "impact": "Primeiro sinal público da crise que se aproximava",
+      "source": "Wikipedia - 2008 Financial Crisis",
+      "relevance": "context"
+    },
+    {
+      "date": "2007-04-02",
+      "category": "global",
+      "title": "New Century Financial declara falência",
+      "description": "New Century Financial, o maior credor subprime dos EUA, declara falência. Analistas alertam sobre impacto no setor financeiro mais amplo.",
+      "impact": "Colapso do setor subprime acelera",
+      "source": "CFR Timeline",
+      "relevance": "context"
+    },
+    {
+      "date": "2007-06-20",
+      "category": "global",
+      "title": "Bear Stearns resgata hedge funds",
+      "description": "Bear Stearns injeta $20 bilhões para resgatar dois de seus hedge funds com grande exposição a CDOs de hipotecas subprime.",
+      "impact": "Crise se espalha para Wall Street",
+      "source": "Wikipedia - 2008 Financial Crisis",
+      "relevance": "context"
+    },
+    {
+      "date": "2007-07-19",
+      "category": "global",
+      "title": "Dow Jones atinge máxima histórica",
+      "description": "Dow Jones fecha acima de 14,000 pela primeira vez na história (14,000.41). Em 18 meses, cairá mais de 50%.",
+      "impact": "Pico antes do colapso",
+      "source": "Wikipedia - 2008 Financial Crisis",
+      "relevance": "context"
+    },
+    {
+      "date": "2007-08-09",
+      "category": "global",
+      "title": "BNP Paribas congela fundos - Início oficial da crise",
+      "description": "BNP Paribas bloqueia saques de três hedge funds citando 'evaporação completa de liquidez'. Considerado o início oficial da crise financeira global.",
+      "impact": "Marco inicial da crise de crédito global",
+      "source": "Federal Reserve History",
+      "relevance": "critical"
+    },
+    {
+      "date": "2007-10-01",
+      "category": "ubs_corporate",
+      "title": "UBS anuncia primeiras perdas em subprime",
+      "description": "UBS anuncia write-downs de $3.4 bilhões relacionados a hipotecas subprime americanas. É apenas o começo - as perdas totais chegarão a $50 bilhões.",
+      "impact": "UBS revela ser o banco europeu mais exposto à crise",
+      "source": "Economics Observatory",
+      "relevance": "critical"
+    },
+    {
+      "date": "2007-12-01",
+      "category": "ubs_scandal",
+      "title": "Início da investigação de evasão fiscal nos EUA",
+      "description": "Bradley Birkenfeld, banqueiro americano do UBS na Suíça, entrega informações ao Departamento de Justiça dos EUA sobre evasão fiscal de clientes americanos.",
+      "impact": "Início do escândalo que resultará em multa de $780 milhões",
+      "source": "Wikipedia - UBS Tax Evasion Controversies",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2008-03-16",
+      "category": "global",
+      "title": "Bear Stearns colapsa - JPMorgan compra por $2/ação",
+      "description": "Bear Stearns, quinto maior banco de investimento dos EUA, colapsa e é vendido ao JPMorgan Chase por $2 por ação (era $170 em 2007), com garantia do Federal Reserve.",
+      "impact": "Primeiro grande banco a cair - prenúncio do que viria",
+      "source": "Federal Reserve History",
+      "relevance": "critical"
+    },
+    {
+      "date": "2008-04-01",
+      "category": "ubs_corporate",
+      "title": "UBS prepara plano de emergência",
+      "description": "Após colapso do Bear Stearns, o Swiss National Bank (SNB), em cooperação com reguladores, prepara plano para comprar ativos ilíquidos do UBS.",
+      "impact": "Governo suíço já sabia que UBS poderia quebrar",
+      "source": "Yale - Switzerland: UBS Restructuring",
+      "relevance": "critical"
+    },
+    {
+      "date": "2008-07-11",
+      "category": "global",
+      "title": "IndyMac Bank colapsa",
+      "description": "IndyMac Bank, um dos maiores credores hipotecários dos EUA, colapsa - a maior falência bancária americana desde 1984.",
+      "impact": "Crise bancária se intensifica",
+      "source": "Wikipedia - 2008 Financial Crisis",
+      "relevance": "context"
+    },
+    {
+      "date": "2008-09-07",
+      "category": "global",
+      "title": "Governo americano assume Fannie Mae e Freddie Mac",
+      "description": "O governo dos EUA assume controle das gigantes hipotecárias Fannie Mae e Freddie Mac, que juntas detinham ou garantiam metade das hipotecas americanas ($5 trilhões).",
+      "impact": "Maior intervenção governamental na história americana até então",
+      "source": "CFR Timeline",
+      "relevance": "critical"
+    },
+    {
+      "date": "2008-09-15",
+      "category": "global",
+      "title": "LEHMAN BROTHERS DECLARA FALÊNCIA",
+      "description": "Lehman Brothers, quarto maior banco de investimento dos EUA, declara falência com $613 bilhões em dívidas - a maior falência da história americana. O governo recusa resgate.",
+      "impact": "MARCO DA CRISE - Colapso financeiro global acelera drasticamente",
+      "source": "Wikipedia - Bankruptcy of Lehman Brothers",
+      "relevance": "critical"
+    },
+    {
+      "date": "2008-09-16",
+      "category": "global",
+      "title": "AIG resgatada com $85 bilhões",
+      "description": "O Federal Reserve resgata a seguradora AIG com $85 bilhões para evitar colapso sistêmico. AIG havia vendido $440 bilhões em CDS sobre hipotecas.",
+      "impact": "Risco sistêmico se materializa",
+      "source": "Federal Reserve History",
+      "relevance": "context"
+    },
+    {
+      "date": "2008-09-29",
+      "category": "global",
+      "title": "Dow Jones cai 777 pontos - maior queda da história",
+      "description": "Dow Jones cai 777.68 pontos (6.98%) em um único dia - a maior queda em pontos da história até então. Congresso rejeita primeiro pacote de resgate.",
+      "impact": "Pânico nos mercados globais",
+      "source": "Wikipedia - 2008 Financial Crisis",
+      "relevance": "context"
+    },
+    {
+      "date": "2008-10-16",
+      "category": "ubs_corporate",
+      "title": "GOVERNO SUÍÇO RESGATA UBS",
+      "description": "Governo suíço injeta CHF 6 bilhões no UBS e o Swiss National Bank cria o StabFund para absorver até $60 bilhões em ativos tóxicos do banco. UBS estava à beira da falência.",
+      "impact": "UBS salvo da falência com dinheiro público",
+      "source": "SWI swissinfo.ch - 'The day UBS was saved'",
+      "source_url": "https://www.swissinfo.ch/eng/2008-crisis_the-day-ubs--the-biggest-swiss-bank--was-saved/44474630",
+      "relevance": "critical"
+    },
+    {
+      "date": "2008-11-01",
+      "category": "global",
+      "title": "Índice NAREIT cai 48.3%",
+      "description": "O índice NAREIT (REITs nos EUA) está 48.3% abaixo do nível de novembro de 2007. O S&P 500 está 39.5% abaixo.",
+      "impact": "Colapso do mercado imobiliário em pleno andamento",
+      "source": "Wealth Briefing, Dezembro 2008",
+      "source_url": "https://www.wealthbriefing.com/html/article.php/ubs-freezes-global-real-estate-fund-till-late-2009",
+      "relevance": "critical"
+    },
+    {
+      "date": "2008-12-01",
+      "category": "ubs_fund",
+      "title": "UBS CONGELA O GLOBAL PROPERTY FUND (GATING)",
+      "description": "UBS anuncia que congelou seu Global Property Fund de $6 bilhões porque não consegue mais lidar com o volume de pedidos de resgate. O fundo ficará 'frozen' até o final de 2009 - 'ninguém poderá sacar'.",
+      "impact": "CRÍTICO: Fundo onde cliente será alocado 3 MESES DEPOIS já está travado",
+      "source": "Wealth Briefing, Dezembro 2008",
+      "source_url": "https://www.wealthbriefing.com/html/article.php/ubs-freezes-global-real-estate-fund-till-late-2009",
+      "relevance": "critical",
+      "quote": "Due to the strained liquidity situation in the market as a whole and the longer process for selling real estate, the fund can no longer handle all redemption requests without forcing remaining investors to suffer losses from emergency sales."
+    },
+    {
+      "date": "2008-12-31",
+      "category": "ubs_corporate",
+      "title": "UBS fecha 2008 com prejuízo recorde de CHF 20 bilhões",
+      "description": "UBS reporta prejuízo líquido de CHF 19.7 bilhões para 2008 (prejuízo pré-impostos de CHF 34.3 bilhões) - o maior prejuízo já registrado por uma empresa suíça.",
+      "impact": "Evidência clara de má gestão e tomada de risco excessiva",
+      "source": "UBS Corporate History",
+      "source_url": "https://www.ubs.com/global/en/our-firm/our-history/ubs-in-the-world/2008-2015.html",
+      "relevance": "critical"
+    },
+    {
+      "date": "2009-02-01",
+      "category": "client",
+      "title": "CLIENTE É ALOCADO NO PORTFOLIO 02",
+      "description": "Cliente é alocado 100% no UBS Global Property Fund (Portfolio 02 - Mandate Real Estate) com valor inicial de EUR 29.408. O fundo está com resgates SUSPENSOS desde dezembro de 2008.",
+      "impact": "CRÍTICO: Alocação em produto travado, em crise, sem possibilidade de saída",
+      "source": "Statement of Assets 09.03.25",
+      "source_document": "09.03.25-Statement of Assets-Dispatch Address, páginas 3 e 5",
+      "relevance": "critical"
+    },
+    {
+      "date": "2009-02-18",
+      "category": "ubs_scandal",
+      "title": "UBS paga $780 milhões por evasão fiscal",
+      "description": "UBS concorda em pagar $780 milhões ao governo americano e entra em acordo de não-persecução por conspiração para fraudar o IRS. O banco também revela nomes de 4,450 clientes americanos.",
+      "impact": "Escândalo de evasão fiscal expõe cultura de sigilo e práticas questionáveis",
+      "source": "Wikipedia - UBS Tax Evasion Controversies",
+      "source_url": "https://en.wikipedia.org/wiki/UBS_tax_evasion_controversies",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2009-03-05",
+      "category": "global",
+      "title": "Dow Jones atinge mínima - queda de 53%",
+      "description": "Dow Jones fecha em 6,594 pontos - uma queda de 53% desde a máxima de outubro de 2007 (14,164 pontos).",
+      "impact": "Fundo do poço da crise financeira",
+      "source": "Michigan Journal of Economics",
+      "relevance": "context"
+    },
+    {
+      "date": "2009-06-01",
+      "category": "global",
+      "title": "Fim oficial da recessão americana",
+      "description": "O National Bureau of Economic Research posteriormente determinará que a recessão americana terminou em junho de 2009, mas a recuperação será lenta.",
+      "impact": "Fim técnico da recessão, mas danos persistem",
+      "source": "Federal Reserve History",
+      "relevance": "context"
+    },
+    {
+      "date": "2009-08-20",
+      "category": "ubs_corporate",
+      "title": "Governo suíço lucra e sai do UBS",
+      "description": "O governo suíço completa a venda de sua participação no UBS, obtendo retorno de CHF 1.2 bilhões sobre o investimento inicial de CHF 6 bilhões.",
+      "impact": "Contribuintes suíços salvaram o UBS e lucrarama - mas clientes perderam",
+      "source": "UBS Corporate History",
+      "relevance": "context"
+    },
+    {
+      "date": "2009-12-31",
+      "category": "client",
+      "title": "Portfolio 02 perde -27.44% no ano",
+      "description": "O Portfolio 02 do cliente encerra 2009 com performance de -27.44%. Outflow (saques) = ZERO - cliente estava preso no fundo.",
+      "impact": "Perda de mais de 1/4 do patrimônio sem possibilidade de saída",
+      "source": "Statement of Assets P02, página 5",
+      "source_document": "0268-00913017-0002_2017-01-23, página 5",
+      "relevance": "critical"
+    },
+    {
+      "date": "2010-01-01",
+      "category": "global",
+      "title": "Início da crise da dívida europeia",
+      "description": "A crise da dívida soberana europeia começa a se intensificar, com Grécia, Irlanda, Portugal e Espanha enfrentando graves problemas fiscais.",
+      "impact": "Nova crise afeta mercados europeus",
+      "source": "Federal Reserve History",
+      "relevance": "context"
+    },
+    {
+      "date": "2010-04-01",
+      "category": "ubs_corporate",
+      "title": "UBS anuncia 'turnaround'",
+      "description": "Após os danos da crise financeira e reestruturação, UBS oficialmente anuncia sua recuperação.",
+      "impact": "Banco se recupera enquanto clientes ainda sofrem perdas",
+      "source": "UBS Corporate History",
+      "relevance": "context"
+    },
+    {
+      "date": "2010-04-01",
+      "category": "global",
+      "title": "FMI estima perdas bancárias globais de $2.3 trilhões",
+      "description": "O FMI estima que bancos mundialmente tiveram que registrar aproximadamente $2.3 trilhões em perdas durante a crise. UBS é o terceiro banco com maiores perdas globalmente e o primeiro na Europa.",
+      "impact": "UBS entre os mais afetados pela crise que ajudou a criar",
+      "source": "UBS Corporate History",
+      "relevance": "context"
+    },
+    {
+      "date": "2010-12-31",
+      "category": "client",
+      "title": "Portfolio 02 perde mais -16.62%",
+      "description": "O Portfolio 02 encerra 2010 com performance de -16.62%. Perda ACUMULADA: -39.50%. Outflow = ZERO - cliente AINDA estava preso.",
+      "impact": "Em 2 anos, cliente perdeu quase 40% SEM PODER SAIR",
+      "source": "Statement of Assets P02, página 5",
+      "source_document": "0268-00913017-0002_2017-01-23, página 5",
+      "relevance": "critical"
+    },
+    {
+      "date": "2011-01-01",
+      "category": "client",
+      "title": "Primeiros saques possíveis - EUR 2,700",
+      "description": "Pela primeira vez desde a alocação, o cliente consegue fazer saques do Portfolio 02. Saque de EUR 2,700.",
+      "impact": "Saques começam apenas APÓS a maior destruição de valor",
+      "source": "Statement of Assets P02, página 5",
+      "source_document": "0268-00913017-0002_2017-01-23, páginas 5-6",
+      "relevance": "critical"
+    },
+    {
+      "date": "2011-09-15",
+      "category": "ubs_scandal",
+      "title": "Escândalo do Rogue Trader - perda de $2.3 bilhões",
+      "description": "UBS anuncia que descobriu trading não autorizado em Londres que causou perdas de $2.3 bilhões. Kweku Adoboli, trader de 31 anos, é preso.",
+      "impact": "Evidência de falha grave nos controles internos do UBS",
+      "source": "Wikipedia - 2011 UBS Rogue Trader Scandal",
+      "source_url": "https://en.wikipedia.org/wiki/2011_UBS_rogue_trader_scandal",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2011-09-24",
+      "category": "ubs_corporate",
+      "title": "CEO do UBS renuncia após escândalo do trader",
+      "description": "Oswald Grübel, CEO do UBS, renuncia 'para assumir responsabilidade pelo incidente de trading não autorizado'.",
+      "impact": "Liderança instável durante período em que cliente ainda tinha posições",
+      "source": "UBS Corporate History",
+      "relevance": "context"
+    },
+    {
+      "date": "2011-12-31",
+      "category": "client",
+      "title": "Portfolio 02 recupera +4.30%",
+      "description": "Primeira performance positiva do Portfolio 02: +4.30%. Mas sobre patrimônio já destruído. Saque: EUR 2,700.",
+      "impact": "Ganhos sobre base reduzida não recuperam perdas",
+      "source": "Statement of Assets P02, página 5",
+      "relevance": "context"
+    },
+    {
+      "date": "2012-06-27",
+      "category": "ubs_scandal",
+      "title": "Barclays multado por LIBOR - UBS é próximo",
+      "description": "Barclays é o primeiro banco a ser multado ($450 milhões) por manipulação do LIBOR. Investigações sobre UBS e outros bancos continuam.",
+      "impact": "Escândalo LIBOR se expande para UBS",
+      "source": "Wikipedia - Libor Scandal",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2012-11-26",
+      "category": "ubs_scandal",
+      "title": "UBS multado £29.7 milhões por falhas no caso do trader",
+      "description": "O regulador britânico FCA multa UBS em £29.7 milhões ($47.6 milhões) por 'falhas de sistemas e controles' que permitiram as perdas de $2 bilhões do trader Adoboli.",
+      "impact": "Confirmação oficial de falhas nos controles internos",
+      "source": "Wikipedia - 2011 UBS Rogue Trader Scandal",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2012-12-19",
+      "category": "ubs_scandal",
+      "title": "UBS PAGA $1.5 BILHÃO POR MANIPULAÇÃO DO LIBOR",
+      "description": "UBS concorda em pagar $1.5 bilhão a reguladores dos EUA, Reino Unido e Suíça por manipulação do LIBOR. UBS Securities Japan se declara culpada de fraude. Pelo menos 45 funcionários envolvidos, incluindo gerentes seniores.",
+      "impact": "MAIOR multa por LIBOR - evidência de fraude sistemática e cultura corrupta",
+      "source": "US Department of Justice",
+      "source_url": "https://www.justice.gov/archives/opa/pr/ubs-securities-japan-co-ltd-plead-guilty-felony-wire-fraud-long-running-manipulation-libor",
+      "relevance": "critical",
+      "quote": "The misconduct stretched from 2001 to 2010 involving at least 45 UBS staff, including senior managers."
+    },
+    {
+      "date": "2012-12-31",
+      "category": "client",
+      "title": "Portfolio 02: performance -0.25%",
+      "description": "Performance praticamente zerada (-0.25%). Perda acumulada: ~-37%. Saque: EUR 3,000.",
+      "impact": "Estagnação",
+      "source": "Statement of Assets P02, página 5",
+      "relevance": "context"
+    },
+    {
+      "date": "2013-03-31",
+      "category": "client",
+      "title": "Documento de referência - Portfolio 01",
+      "description": "Data de referência do Statement of Assets do Portfolio 01 analisado em detalhe. Net assets: EUR 380,602. Performance YTD: +2.26%.",
+      "impact": "Documento principal do Portfolio 01",
+      "source": "Statement of Assets P01",
+      "source_document": "13.03.31-Statement of Assets-Dispatch Address",
+      "relevance": "context"
+    },
+    {
+      "date": "2013-12-31",
+      "category": "client",
+      "title": "Portfolio 02 sofre NOVA QUEDA de -16.44%",
+      "description": "Após breve recuperação, Portfolio 02 cai novamente -16.44%. Perda acumulada: ~-47%. Saque: EUR 2,100.",
+      "impact": "PERDA EXCEDE 20% DO PERFIL YIELD - violação clara de suitability",
+      "source": "Statement of Assets P02, página 5",
+      "source_document": "0268-00913017-0002_2017-01-23, página 5",
+      "relevance": "critical"
+    },
+    {
+      "date": "2014-05-15",
+      "category": "ubs_scandal",
+      "title": "UBS multado $300 milhões na Alemanha por evasão fiscal",
+      "description": "Autoridades alemãs multam UBS em $300 milhões por facilitar evasão fiscal de cidadãos alemães.",
+      "impact": "Padrão de comportamento ilegal em múltiplas jurisdições",
+      "source": "Foundico.com - Review of UBS Scandals",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2014-11-12",
+      "category": "ubs_scandal",
+      "title": "UBS multado $800+ milhões por manipulação de câmbio",
+      "description": "UBS é multado em $290 milhões pelo CFTC (EUA), $371 milhões pelo FCA (UK) e $138 milhões pela FINMA (Suíça) por manipulação do mercado de câmbio entre 2008-2013.",
+      "impact": "Mais um escândalo de manipulação - padrão sistemático",
+      "source": "CFTC Press Release 7056-14",
+      "source_url": "https://www.cftc.gov/PressRoom/PressReleases/7056-14",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2014-12-31",
+      "category": "client",
+      "title": "Portfolio 02 recupera +11.02%",
+      "description": "Boa recuperação do Portfolio 02 (+11.02%), mas sobre base muito reduzida. Saque: EUR 2,600.",
+      "impact": "Ganho de ~11% sobre patrimônio já destruído não compensa perdas",
+      "source": "Statement of Assets P02, página 5",
+      "relevance": "context"
+    },
+    {
+      "date": "2015-01-15",
+      "category": "global",
+      "title": "SNB remove piso do franco suíço",
+      "description": "O Swiss National Bank remove inesperadamente o piso da taxa de câmbio EUR/CHF, causando choque nos mercados.",
+      "impact": "Volatilidade cambial afeta investimentos",
+      "source": "UBS Corporate History",
+      "relevance": "context"
+    },
+    {
+      "date": "2015-05-20",
+      "category": "ubs_scandal",
+      "title": "UBS se declara CULPADO de fraude criminal",
+      "description": "UBS se declara culpado de fraude criminal (wire fraud) nos EUA por violar acordo do LIBOR de 2012, e paga mais $203 milhões. O banco é colocado em liberdade condicional por 3 anos.",
+      "impact": "DECLARAÇÃO DE CULPA CRIMINAL - UBS é criminalmente condenado",
+      "source": "US Department of Justice / Council on Foreign Relations",
+      "source_url": "https://www.cfr.org/backgrounder/understanding-libor-scandal",
+      "relevance": "critical"
+    },
+    {
+      "date": "2015-05-20",
+      "category": "ubs_scandal",
+      "title": "UBS paga $342 milhões ao Federal Reserve por câmbio",
+      "description": "UBS é multado em mais $342 milhões pelo Federal Reserve americano por manipulação de câmbio.",
+      "impact": "Multas continuam se acumulando",
+      "source": "Corporate Research Project",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2015-12-31",
+      "category": "client",
+      "title": "Portfolio 02: melhor ano +16.45%",
+      "description": "Melhor performance anual do Portfolio 02 (+16.45%). Mas 16% de ganho sobre ~EUR 6,000 = apenas ~EUR 1,000. Saque: EUR 3,900.",
+      "impact": "Bons retornos sobre patrimônio destruído não recuperam perdas originais",
+      "source": "Statement of Assets P02, página 5",
+      "relevance": "context"
+    },
+    {
+      "date": "2016-09-01",
+      "category": "ubs_scandal",
+      "title": "UBS paga $15 milhões por venda inadequada de produtos complexos",
+      "description": "SEC multa UBS em $15 milhões por falhar em treinar adequadamente sua equipe de vendas sobre produtos financeiros complexos vendidos a investidores de varejo.",
+      "impact": "Padrão de venda inadequada de produtos complexos",
+      "source": "Corporate Research Project",
+      "relevance": "pattern"
+    },
+    {
+      "date": "2016-12-31",
+      "category": "client",
+      "title": "Portfolio 02: performance -1.55%",
+      "description": "Pequena queda de -1.55%. Saque: EUR 1,000. Patrimônio restante: ~EUR 2,700.",
+      "impact": "Aproximando-se do encerramento",
+      "source": "Statement of Assets P02, página 5",
+      "relevance": "context"
+    }
+  ],
+
+  "summary_statistics": {
+    "total_events": 65,
+    "by_category": {
+      "global": 18,
+      "ubs_corporate": 10,
+      "ubs_scandal": 14,
+      "ubs_fund": 3,
+      "client": 12
+    },
+    "critical_events": 18,
+    "ubs_total_fines_mentioned": "$5+ billion (1998-2016)",
+    "client_total_loss": "~93% do patrimônio inicial"
+  },
+
+  "key_sequences": {
+    "gating_to_allocation": {
+      "description": "Sequência crítica que demonstra má conduta",
+      "events": [
+        {
+          "date": "2008-12-01",
+          "event": "UBS congela Global Property Fund"
+        },
+        {
+          "date": "2009-02-01",
+          "event": "Cliente alocado no fundo (3 meses depois)",
+          "gap_days": 62
+        }
+      ],
+      "conclusion": "UBS alocou cliente em fundo que SABIA estar travado e em crise"
+    },
+    "losses_vs_suitability": {
+      "description": "Perdas excederam tolerância do perfil",
+      "profile_tolerance": "20%",
+      "actual_losses": [
+        {"year": 2009, "loss": "-27.44%", "exceeded_by": "7.44%"},
+        {"year": "2009-2010", "cumulative": "-39.50%", "exceeded_by": "19.50%"},
+        {"year": "2009-2013", "cumulative": "-47.40%", "exceeded_by": "27.40%"}
+      ],
+      "conclusion": "Perda mais que DOBRO da tolerância declarada"
+    }
+  },
+
+  "pattern_analysis": {
+    "ubs_misconduct_pattern": {
+      "description": "Padrão sistemático de má conduta corporativa",
+      "incidents": [
+        {"year": 1998, "type": "Retenção de ativos do Holocausto"},
+        {"year": "2001-2010", "type": "Manipulação do LIBOR"},
+        {"year": "2007-2008", "type": "Exposição excessiva a subprime"},
+        {"year": "2008-2013", "type": "Manipulação de câmbio"},
+        {"year": 2009, "type": "Facilitação de evasão fiscal"},
+        {"year": 2011, "type": "Falha em controles (rogue trader)"},
+        {"year": 2016, "type": "Venda inadequada de produtos complexos"}
+      ],
+      "conclusion": "Cultura corporativa de priorizar lucros sobre ética e compliance"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-02",
+    "reference_date": "2015-09-30",
+    "client_name": null,
+    "program": "UBS Managed Fund Portfolio",
+    "investment_strategy": "Mandate RE"
+  },
+  "totals": {
+    "net_assets": 3440,
+    "currency": "EUR"
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Real Estate",
+      "market_value": 3440,
+      "percentage": 100.0
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "market_value": 3440,
+      "percentage": 100.0
+    }
+  ],
+  "performance": {
+    "annual_returns": [
+      {
+        "year": 2015,
+        "return_pct": 10.62
+      },
+      {
+        "year": 2009,
+        "return_pct": -27.44
+      },
+      {
+        "year": 2010,
+        "return_pct": -16.85
+      },
+      {
+        "year": 2011,
+        "return_pct": 4.05
+      },
+      {
+        "year": 2012,
+        "return_pct": 0.65
+      },
+      {
+        "year": 2013,
+        "return_pct": -16.8
+      },
+      {
+        "year": 2014,
+        "return_pct": 9.64
+      }
+    ],
+    "cumulative_return_pct": -37.0
+  },
+  "positions": [
+    {
+      "name": "UBS Wealth Management - Global Property Fund Ltd class -C- EUR",
+      "isin": "GB00B0386M46",
+      "security_number": "1968401",
+      "category": "Real Estate",
+      "currency": "EUR",
+      "quantity": 524.971,
+      "cost_price": 10.644,
+      "market_price": 6.5526,
+      "cost_value": null,
+      "market_value": 3440,
+      "percentage": -38.44,
+      "unrealized_pnl": null,
+      "performance_pct": 100.0
+    }
+  ],
+  "transactions": [],
+  "balance": {},
+  "_classification": {
+    "total_pages": 14,
+    "by_type": {
+      "cover": 1,
+      "contents": 1,
+      "total_assets": 2,
+      "asset_allocation": 1,
+      "performance_history": 3,
+      "positions_overview": 1,
+      "detailed_positions": 1,
+      "additional_info": 4
+    },
+    "skip_count": 5,
+    "position_pages": 2,
+    "transaction_pages": 0
+  },
+  "_consolidated_totals": [
+    {
+      "portfolio_number": "268-913017-01",
+      "net_assets": 365325,
+      "currency": "EUR"
+    },
+    {
+      "portfolio_number": "268-913017-02",
+      "net_assets": 3440,
+      "currency": "EUR"
+    }
+  ],
+  "_total_consolidated": 368710,
+  "_extraction_meta": {
+    "pages_processed": 14,
+    "classification_tokens": 852698,
+    "extraction_tokens": -158943,
+    "total_tokens": 693755,
+    "errors": []
+  },
+  "_document_info": {
+    "doc_id": "2015_20150930_portfolio_02",
+    "year": "2015",
+    "date": "2015-09-30",
+    "portfolio_type": "02",
+    "source_folder": "/Users/samuelhosken/code/hosken/analise-das-imagens/portfolios_corrigidos/15/15.09.30-Statement of assets-UBS Managed Fund Portfolio Mandate RE",
+    "processed_at": "2025-12-16T15:17:19.636854",
+    "validation": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": [],
+      "fixes_applied": [
+        "Fixed portfolio_type:  -> 02",
+        "Swapped pct/perf for UBS Wealth Management - Global: percentage 100.0% > 50%"
+      ]
+    }
+  }
+}

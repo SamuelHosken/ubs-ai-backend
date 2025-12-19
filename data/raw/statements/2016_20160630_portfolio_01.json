@@ -1,0 +1,748 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-01",
+    "reference_date": "2016-06-30",
+    "client_name": null,
+    "program": "UBS Manage Advanced",
+    "investment_strategy": "Yield"
+  },
+  "totals": {
+    "net_assets": 356783,
+    "currency": "EUR"
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Liquidity",
+      "market_value": 11806,
+      "percentage": 3.31
+    },
+    {
+      "asset_class": "Bonds",
+      "market_value": 182762,
+      "percentage": 51.23
+    },
+    {
+      "asset_class": "Equities",
+      "market_value": 90923,
+      "percentage": 25.48
+    },
+    {
+      "asset_class": "Alternative Investments",
+      "market_value": 71292,
+      "percentage": 19.98
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "market_value": 296333,
+      "percentage": 83.05
+    },
+    {
+      "currency": "USD",
+      "market_value": 40584,
+      "percentage": 11.38
+    },
+    {
+      "currency": "EUP",
+      "market_value": 8694,
+      "percentage": 2.44
+    },
+    {
+      "currency": "EMM",
+      "market_value": 6962,
+      "percentage": 1.95
+    },
+    {
+      "currency": "PAC",
+      "market_value": 4218,
+      "percentage": 1.18
+    },
+    {
+      "currency": "GLB",
+      "market_value": 18148,
+      "percentage": 19.96
+    }
+  ],
+  "performance": {
+    "annual_returns": [
+      {
+        "year": 2016,
+        "return_pct": -0.21
+      },
+      {
+        "year": 2013,
+        "return_pct": 10.08
+      },
+      {
+        "year": 2014,
+        "return_pct": 4.69
+      },
+      {
+        "year": 2015,
+        "return_pct": -3.37
+      },
+      {
+        "year": 2017,
+        "return_pct": -5.82
+      },
+      {
+        "year": 2018,
+        "return_pct": -15.34
+      },
+      {
+        "year": 2019,
+        "return_pct": 2.9
+      },
+      {
+        "year": 2020,
+        "return_pct": 2.57
+      },
+      {
+        "year": 2006,
+        "return_pct": -1.5
+      },
+      {
+        "year": 2007,
+        "return_pct": -2.0
+      },
+      {
+        "year": 2008,
+        "return_pct": -8.5
+      },
+      {
+        "year": 2009,
+        "return_pct": -16.5
+      },
+      {
+        "year": 2010,
+        "return_pct": 11.0
+      },
+      {
+        "year": 2011,
+        "return_pct": 5.5
+      },
+      {
+        "year": 2012,
+        "return_pct": -3.0
+      }
+    ],
+    "cumulative_return_pct": 18.68
+  },
+  "positions": [
+    {
+      "name": "Focused SICAV - High Grade Long Term Bond USD F-EUR-hedged-acc",
+      "isin": "LU1140787190",
+      "security_number": "26003067",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 207.054,
+      "cost_price": 102.13,
+      "market_price": 107.42,
+      "cost_value": null,
+      "market_value": 22242,
+      "percentage": 6.0,
+      "unrealized_pnl": null,
+      "performance_pct": 5.18
+    },
+    {
+      "name": "PIMCO Funds Global Investors Series PLC - Euro Bond Fund EUR-institutional-acc",
+      "isin": "IE0004931386",
+      "security_number": "1053992",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 483.302,
+      "cost_price": 19.776,
+      "market_price": 23.59,
+      "cost_value": null,
+      "market_value": 11401,
+      "percentage": 3.2,
+      "unrealized_pnl": null,
+      "performance_pct": 19.29
+    },
+    {
+      "name": "BNY Mellon Global Funds Plc - BNY Mellon Euroland Bond Fund S-EUR-acc",
+      "isin": "IE00BF8HK850",
+      "security_number": "2745157",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 13480.145,
+      "cost_price": 1,
+      "market_price": 1.1222,
+      "cost_value": null,
+      "market_value": 15127,
+      "percentage": 4.2,
+      "unrealized_pnl": null,
+      "performance_pct": 12.22
+    },
+    {
+      "name": "Multi Manager Access II SICAV - High Yield B-EUR-hdg-cap",
+      "isin": "LU1344275158",
+      "security_number": "3947254",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 177.025,
+      "cost_price": 101.01,
+      "market_price": 101.13,
+      "cost_value": null,
+      "market_value": 17903,
+      "percentage": 5.0,
+      "unrealized_pnl": null,
+      "performance_pct": 0.12
+    },
+    {
+      "name": "Focused SICAV - Global Bond F-EUR-hedged-acc",
+      "isin": "LU0326809505",
+      "security_number": "3469623",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 131.147,
+      "cost_price": 106.974,
+      "market_price": 138.8,
+      "cost_value": null,
+      "market_value": 18203,
+      "percentage": 5.0,
+      "unrealized_pnl": null,
+      "performance_pct": 29.75
+    },
+    {
+      "name": "BlackRock Global Funds SICAV - Euro Bond Fund D2-capitalisation",
+      "isin": "LU0297941469",
+      "security_number": "3191970",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 853.907,
+      "cost_price": 24.324,
+      "market_price": 29.64,
+      "cost_value": null,
+      "market_value": 25310,
+      "percentage": 7.0,
+      "unrealized_pnl": null,
+      "performance_pct": 21.85
+    },
+    {
+      "name": "Multi Manager Access II SICAV - Emerging Markets Debt BI-EUR-hedged-capitalisation",
+      "isin": "LU0985400166",
+      "security_number": "22582709",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 166.153,
+      "cost_price": 101.175,
+      "market_price": 110.67,
+      "cost_value": null,
+      "market_value": 18388,
+      "percentage": 5.0,
+      "unrealized_pnl": null,
+      "performance_pct": 9.38
+    },
+    {
+      "name": "Multi Manager Access II SICAV - European Multi Credit",
+      "isin": "LU0313363508",
+      "security_number": "3278544",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 170.133,
+      "cost_price": 112.131,
+      "market_price": 126.9,
+      "cost_value": null,
+      "market_value": 21590,
+      "percentage": 6.0,
+      "unrealized_pnl": null,
+      "performance_pct": 13.17
+    },
+    {
+      "name": "Pioneer Funds FCP - Euro Aggregate Bond",
+      "isin": "LU0986070992",
+      "security_number": "22701666",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 18.955,
+      "cost_price": 1066.27,
+      "market_price": 1149.08,
+      "cost_value": null,
+      "market_value": 21781,
+      "percentage": 6.1,
+      "unrealized_pnl": null,
+      "performance_pct": 7.77
+    },
+    {
+      "name": "Multi Manager Access II SICAV - US Multi Credit",
+      "isin": "LU0313363920",
+      "security_number": "3278687",
+      "category": "Bonds",
+      "currency": "EUR",
+      "quantity": 106.544,
+      "cost_price": 100.21,
+      "market_price": 101.53,
+      "cost_value": null,
+      "market_value": 10817,
+      "percentage": 3.0,
+      "unrealized_pnl": null,
+      "performance_pct": 1.32
+    },
+    {
+      "name": "Multi Manager Access SICAV - European Equities B-capitalisation",
+      "isin": "LU0245618367",
+      "security_number": "2445190",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 61.515,
+      "cost_price": 141.33,
+      "market_price": 82.006,
+      "cost_value": null,
+      "market_value": 8694,
+      "percentage": 2.4,
+      "unrealized_pnl": null,
+      "performance_pct": -72.34
+    },
+    {
+      "name": "BlackRock Global Funds SICAV - Euro Markets Fund D2RF-capitalisation",
+      "isin": "LU0252966485",
+      "security_number": "2559054",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 224.509,
+      "cost_price": 25.95,
+      "market_price": 20.04,
+      "cost_value": null,
+      "market_value": 5826,
+      "percentage": 1.6,
+      "unrealized_pnl": null,
+      "performance_pct": -29.49
+    },
+    {
+      "name": "Fidelity Funds SICAV - Euro Blue Chip Fund Y-EUR-acc",
+      "isin": "LU0346388290",
+      "security_number": "3907588",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 339.165,
+      "cost_price": 13.71,
+      "market_price": 14.19,
+      "cost_value": null,
+      "market_value": 4813,
+      "percentage": 3.5,
+      "unrealized_pnl": null,
+      "performance_pct": 3.5
+    },
+    {
+      "name": "Multi Manager Access SICAV - EMU Equities B-capitalisation",
+      "isin": "LU1070033045",
+      "security_number": "24432237",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 149.126,
+      "cost_price": 100.165,
+      "market_price": 102.58,
+      "cost_value": null,
+      "market_value": 15297,
+      "percentage": 2.41,
+      "unrealized_pnl": null,
+      "performance_pct": 2.41
+    },
+    {
+      "name": "Schroder International Selection Fund SICAV - Euro Equity C-capitalisation",
+      "isin": "LU0106235459",
+      "security_number": "1034701",
+      "category": "Equities",
+      "currency": "EUR",
+      "quantity": 132.843,
+      "cost_price": 25.88,
+      "market_price": 34.79,
+      "cost_value": null,
+      "market_value": 4622,
+      "percentage": 34.43,
+      "unrealized_pnl": null,
+      "performance_pct": 34.43
+    },
+    {
+      "name": "Multi Manager Access SICAV - US Equities B-capitalisation",
+      "isin": "LU0245619092",
+      "security_number": "2445196",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 107.415,
+      "cost_price": 119.74,
+      "market_price": 151.32,
+      "cost_value": null,
+      "market_value": 14631,
+      "percentage": 4.2,
+      "unrealized_pnl": null,
+      "performance_pct": 26.37
+    },
+    {
+      "name": "UBS (Lux) Equity Fund FCP USA Multi Strategy (USD) F-acc",
+      "isin": "LU0404639410",
+      "security_number": "4734137",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 56.638,
+      "cost_price": 159.76,
+      "market_price": 152.33,
+      "cost_value": null,
+      "market_value": 7766,
+      "percentage": 2.2,
+      "unrealized_pnl": null,
+      "performance_pct": -4.65
+    },
+    {
+      "name": "Robeco Capital Growth Funds SICAV Robeco Asia-Pacific Equities I-USD-capitalisation",
+      "isin": "LU0875837915",
+      "security_number": "3250382",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 41.554,
+      "cost_price": 109.97,
+      "market_price": 112.77,
+      "cost_value": null,
+      "market_value": 4218,
+      "percentage": 1.2,
+      "unrealized_pnl": null,
+      "performance_pct": 2.55
+    },
+    {
+      "name": "Multi Manager Access SICAV - Global Equities B-capitalisation",
+      "isin": "LU0306084707",
+      "security_number": "3189372",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 214.759,
+      "cost_price": 95.941,
+      "market_price": 93.88,
+      "cost_value": null,
+      "market_value": 18148,
+      "percentage": 5.0,
+      "unrealized_pnl": null,
+      "performance_pct": -2.15
+    },
+    {
+      "name": "Investec Global Strategy Fund SICAV - Emerging Markets Equity Fund J-acc",
+      "isin": "LU1026240413",
+      "security_number": "23686843",
+      "category": "Equities",
+      "currency": "USD",
+      "quantity": 411.399,
+      "cost_price": 20.774,
+      "market_price": 0.80398,
+      "cost_value": null,
+      "market_value": 6962,
+      "percentage": 1.9,
+      "unrealized_pnl": null,
+      "performance_pct": -9.5
+    },
+    {
+      "name": "Key Multi-Manager Hedge Fund - Diversified Ltd A-EUR",
+      "isin": "KYG916791117",
+      "security_number": "2078163",
+      "category": "Alternative Investments",
+      "currency": "EUR",
+      "quantity": 4438.058,
+      "cost_price": 10.037,
+      "market_price": 12.06999,
+      "cost_value": null,
+      "market_value": 53567,
+      "percentage": 15.0,
+      "unrealized_pnl": null,
+      "performance_pct": 20.26
+    },
+    {
+      "name": "Key Multi-Manager Hedge Fund - Focused Ltd A-EUR",
+      "isin": "XD0209061296",
+      "security_number": "2096129",
+      "category": "Alternative Investments",
+      "currency": "EUR",
+      "quantity": 1535.933,
+      "cost_price": 8.382,
+      "market_price": 11.54018,
+      "cost_value": null,
+      "market_value": 17725,
+      "percentage": 4.9,
+      "unrealized_pnl": null,
+      "performance_pct": 37.69
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-25",
+      "type": "Purchase",
+      "security_name": "Multi Manager Access II SICAV - European Multi Credit",
+      "isin": "LU0313363508",
+      "quantity": 56.309,
+      "price": 125.590048,
+      "gross_value": 7071.8,
+      "fees": 10.61,
+      "net_value": -7082.4,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-26",
+      "type": "Purchase",
+      "security_name": "Multi Manager Access II SICAV - High Yield B-EUR-hdg-cap",
+      "isin": "LU1344275158",
+      "quantity": 177.025,
+      "price": 101.010027,
+      "gross_value": 17881.3,
+      "fees": 26.82,
+      "net_value": -17908.1,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-26",
+      "type": "Purchase",
+      "security_name": "Multi Manager Access II SICAV - US Multi Credit",
+      "isin": "LU0313363920",
+      "quantity": 106.544,
+      "price": 100.20996,
+      "gross_value": 10676.7,
+      "fees": 16.02,
+      "net_value": -10692.7,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-26",
+      "type": "Sale",
+      "security_name": "AXA World Funds SICAV - US High Yield Bonds I-EUR-hedged (95%)-capitalisation",
+      "isin": "LU0276014130",
+      "quantity": -48.145,
+      "price": 195.409908,
+      "gross_value": -9408.0,
+      "fees": null,
+      "net_value": 9408.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-27",
+      "type": "Sale",
+      "security_name": "DCI Ireland Fund Plc - Investment Grade Corp. Bond Feeder Fund US Corp.Index Interest B-EUR",
+      "isin": "IE00B0H4T555",
+      "quantity": -123.014,
+      "price": null,
+      "gross_value": -21569.2,
+      "fees": null,
+      "net_value": -21569.2,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-26",
+      "type": "Sale",
+      "security_name": "BlackRock Global Funds SICAV - Euro Bond Fund",
+      "isin": "LU0297941469",
+      "quantity": -52.42,
+      "price": null,
+      "gross_value": -1523.8,
+      "fees": null,
+      "net_value": -1523.8,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-26",
+      "type": "Sale",
+      "security_name": "Multi Manager Access II SICAV - Emerging Markets Debt BI-EUR-hedged-capitalisation",
+      "isin": "LU0985400166",
+      "quantity": -9.28,
+      "price": null,
+      "gross_value": -997.4,
+      "fees": null,
+      "net_value": -997.4,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-26",
+      "type": "Sale",
+      "security_name": "Goldman Sachs Funds SICAV - Global High Yield Portfolio IS-EUR-hedged-acc",
+      "isin": "LU1064793307",
+      "quantity": -957.243,
+      "price": null,
+      "gross_value": -9275.6,
+      "fees": null,
+      "net_value": -9275.6,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-26",
+      "type": "Sale",
+      "security_name": "Focused SICAV - Global Bond F-EUR-hedged-acc",
+      "isin": "LU0326809505",
+      "quantity": -8.215,
+      "price": 135.330493,
+      "gross_value": -1111.7,
+      "fees": null,
+      "net_value": -1111.7,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-21",
+      "settlement_date": "2016-04-26",
+      "type": "Sale",
+      "security_name": "Pioneer Funds FCP - Euro Aggregate Bond J-capitalisation",
+      "isin": "LU0986070992",
+      "quantity": -0.849,
+      "price": 1120.530035,
+      "gross_value": -951.3,
+      "fees": null,
+      "net_value": -951.3,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-04-22",
+      "settlement_date": "2016-04-26",
+      "type": "Purchase",
+      "security_name": "Red.ptg shs / EUR class Key Multi-Manager Hedge Fund - Div. pre-debit valor 2078163",
+      "isin": "QT0040413368",
+      "quantity": 4.027,
+      "price": 1,
+      "gross_value": 4027.0,
+      "fees": 6.04,
+      "net_value": -4033.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-05-19",
+      "settlement_date": "2016-05-19",
+      "type": "Transfer",
+      "security_name": "Key Multi-Manager Hedge Fund - Diversified Ltd A-EUR",
+      "isin": "KYG916791117",
+      "quantity": 333.984,
+      "price": null,
+      "gross_value": null,
+      "fees": null,
+      "net_value": null,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-05-19",
+      "settlement_date": null,
+      "type": "Sale",
+      "security_name": "Red ptg shs / EUR class Key Multi-Manager Hedge Fund",
+      "isin": "OT0040413368",
+      "quantity": -4.027,
+      "price": null,
+      "gross_value": null,
+      "fees": null,
+      "net_value": null,
+      "currency": "EUR"
+    },
+    {
+      "date": "2016-06-07",
+      "settlement_date": null,
+      "type": "Purchase",
+      "security_name": "Multi Manager Access SICAV - Global Flex B-capitalisation",
+      "isin": "LU0306084707",
+      "quantity": 74.594,
+      "price": 95.509961,
+      "gross_value": 6274.5,
+      "fees": null,
+      "net_value": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2016-06-10",
+      "settlement_date": null,
+      "type": "Fee",
+      "security_name": "Multi Manager Access SICAV - Global Flex B-capitalisation",
+      "isin": "LU0306084707",
+      "quantity": -10.68,
+      "price": null,
+      "gross_value": -7135.1,
+      "fees": null,
+      "net_value": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2016-06-07",
+      "settlement_date": null,
+      "type": "Sale",
+      "security_name": "Threadneedle Investment Funds ICVC - Threadneedle Global Select Fund Z-USD-net-acc",
+      "isin": "GB00B9283R20",
+      "quantity": -3313.646,
+      "price": 2.275201,
+      "gross_value": -6639.8,
+      "fees": null,
+      "net_value": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2016-06-13",
+      "settlement_date": null,
+      "type": "Fee",
+      "security_name": "Threadneedle Investment Funds ICVC - Threadneedle Global Select Fund Z-USD-net-acc",
+      "isin": "GB00B9283R20",
+      "quantity": null,
+      "price": null,
+      "gross_value": 7539.2,
+      "fees": null,
+      "net_value": null,
+      "currency": "USD"
+    }
+  ],
+  "balance": {},
+  "_classification": {
+    "total_pages": 37,
+    "by_type": {
+      "cover": 1,
+      "contents": 1,
+      "total_assets": 2,
+      "asset_allocation": 2,
+      "performance_history": 4,
+      "additional_info": 13,
+      "positions_overview": 1,
+      "detailed_positions": 9,
+      "transaction_list": 4
+    },
+    "skip_count": 14,
+    "position_pages": 10,
+    "transaction_pages": 4
+  },
+  "_consolidated_totals": [
+    {
+      "portfolio_number": "268-913017-01",
+      "net_assets": 356783,
+      "currency": "EUR"
+    },
+    {
+      "portfolio_number": "268-913017-02",
+      "net_assets": 2610,
+      "currency": "EUR"
+    }
+  ],
+  "_total_consolidated": 359512,
+  "_extraction_meta": {
+    "pages_processed": 37,
+    "classification_tokens": 160723,
+    "extraction_tokens": -29635,
+    "total_tokens": 131088,
+    "errors": [
+      {
+        "page": 10,
+        "error": "No JSON found in response"
+      }
+    ]
+  },
+  "_document_info": {
+    "doc_id": "2016_20160630_portfolio_01",
+    "year": "2016",
+    "date": "2016-06-30",
+    "portfolio_type": "01",
+    "source_folder": "/Users/samuelhosken/code/hosken/analise-das-imagens/portfolios_corrigidos/16/16.06.30-Statement of assets-UBS Manage Advanced [Managed Fund]",
+    "processed_at": "2025-12-16T17:42:18.172915",
+    "validation": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": [
+        "Positions difere 3.3% de net_assets - verificar"
+      ],
+      "fixes_applied": [
+        "Fixed portfolio_type:  -> 01"
+      ]
+    }
+  }
+}

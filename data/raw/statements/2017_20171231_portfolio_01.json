@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-02",
+    "reference_date": "2017-12-31",
+    "valuation_date": "2017-12-29",
+    "production_date": "2017-12-31",
+    "client_name": "CQUE 913017",
+    "client_location": "BLST Zürich Paradeplatz",
+    "document_type": "Statement of Assets",
+    "document_language": "English",
+    "branch": "8098 Zürich",
+    "branch_phone": "+41-44-234 11 11",
+    "currency": "EUR",
+    "bank": "UBS Switzerland AG",
+    "reference_code": "Z6G4"
+  },
+  "totals": {
+    "total_net_assets": 3312,
+    "portfolio_01_net_assets": 2224,
+    "portfolio_02_net_assets": 1088,
+    "currency": "EUR"
+  },
+  "asset_allocation_total": [
+    {
+      "asset_class": "Liquidity",
+      "market_value": 2224,
+      "percentage": 67.15
+    },
+    {
+      "asset_class": "Real estate",
+      "market_value": 1088,
+      "percentage": 32.85
+    }
+  ],
+  "currency_allocation_total": [
+    {
+      "currency": "EUR",
+      "market_value": 3121,
+      "percentage": 94.23
+    },
+    {
+      "currency": "USD",
+      "market_value": 191,
+      "percentage": 5.77
+    }
+  ],
+  "portfolio_01": {
+    "description": "Main Portfolio - Liquidity Only",
+    "net_assets": 2224,
+    "asset_allocation": [
+      {
+        "asset_class": "Liquidity",
+        "market_value": 2224,
+        "percentage": 100.00
+      }
+    ],
+    "note": "All investments liquidated, only cash remains"
+  },
+  "portfolio_02": {
+    "description": "Real Estate Portfolio",
+    "net_assets": 1088,
+    "asset_allocation": [
+      {
+        "asset_class": "Real estate",
+        "market_value": 1088,
+        "percentage": 100.00
+      }
+    ],
+    "positions": [
+      {
+        "asset_class": "Real estate investments",
+        "description": "UBS Wealth Management - Global Property Fund Ltd C-EUR-acc",
+        "quantity": 157.185,
+        "currency": "EUR",
+        "cost_price": 10.644,
+        "market_price": 6.9216,
+        "price_date": "2017-09-30",
+        "change_pct": -34.97,
+        "market_value_eur": 1088,
+        "percentage": 100.00,
+        "valor": "1968401",
+        "isin": "GB00B0386M46",
+        "accrued_interest": 0
+      }
+    ],
+    "total_real_estate": {
+      "market_value": 1088,
+      "accrued_interest": 0,
+      "percentage": 100.00
+    }
+  },
+  "positions_overview": {
+    "by_investment_category": [
+      {
+        "category": "Real estate",
+        "subcategory": "Real estate investments",
+        "market_value": 1088,
+        "accrued_interest": 0,
+        "total": 1088,
+        "percentage": 100.00
+      }
+    ],
+    "total_market_value": 1088,
+    "total_accrued_interest": 0,
+    "net_assets": 1088
+  },
+  "accounts_included": [
+    {
+      "location": "Switzerland",
+      "portfolio": "268-913017-02",
+      "type": "UBS Custody Account",
+      "account_id": "268-913017.V9",
+      "reference": "PF0268-00913017.N1"
+    }
+  ],
+  "fee_disclosure": {
+    "money_market_funds": "up to 1.00% p.a.",
+    "bond_funds": "approximately 0.25% to 2.05% p.a.",
+    "equity_funds": "up to 2.30% p.a.",
+    "asset_allocation_funds": "approximately 0.50% to 0.80% p.a.",
+    "hedge_funds": "approximately 0.65% to 2.30% p.a.",
+    "real_estate_funds": "approximately 0.60% to 1.50% p.a.",
+    "structured_products": "up to 3.00% of invested assets",
+    "note": "Distribution fees calculated as per June 2017"
+  },
+  "comparison_with_previous": {
+    "february_2017": {
+      "date": "2017-02-01",
+      "net_assets": 227629
+    },
+    "december_2017": {
+      "date": "2017-12-31",
+      "net_assets": 3312
+    },
+    "change": {
+      "absolute": -224317,
+      "percentage": -98.54
+    },
+    "interpretation": "Client withdrew approximately EUR 224,000 during 2017"
+  },
+  "_classification": {
+    "total_pages": 4,
+    "by_type": {
+      "cover_and_total_assets": 1,
+      "portfolio_details": 1,
+      "explanations": 1,
+      "important_information": 1
+    }
+  },
+  "_document_info": {
+    "doc_id": "2017_20171231_portfolio_02",
+    "year": "2017",
+    "quarter": "Q4",
+    "date": "2017-12-31",
+    "portfolio_type": "02",
+    "document_language": "English",
+    "document_format": "UBS Statement of Assets (Modern)",
+    "source_folder": "17_12_31-Statement_of_assets-For_your_Portfolio",
+    "processed_at": "2025-12-17T00:30:00.000000"
+  },
+  "_notes": [
+    "FINAL DOCUMENT showing post-liquidation status",
+    "Total remaining: only EUR 3,312",
+    "98.54% of assets withdrawn during 2017",
+    "Portfolio 01: EUR 2,224 in cash only",
+    "Portfolio 02: EUR 1,088 in real estate fund (illiquid)",
+    "Real estate fund shows -34.97% loss from cost price",
+    "UBS Global Property Fund - likely illiquid hence not sold",
+    "This represents the END of the portfolio's active life",
+    "From peak of CHF 2,034,713 (1998) to EUR 3,312 (2017)",
+    "19-year journey from ~EUR 1.27M to ~EUR 3.3K",
+    "Combination of: withdrawals, market losses, fees",
+    "Real estate fund valued as of 30.09.2017 (quarterly valuation)"
+  ],
+  "_historical_context": {
+    "peak_value": {
+      "date": "1998-11-06",
+      "amount_chf": 2034713,
+      "amount_eur_equivalent": 1270000
+    },
+    "final_value": {
+      "date": "2017-12-31",
+      "amount_eur": 3312
+    },
+    "total_decline": {
+      "from_peak_eur": -1266688,
+      "percentage": -99.74
+    },
+    "timeline_summary": [
+      {
+        "year": 1998,
+        "value_eur": 1270000,
+        "note": "Peak value"
+      },
+      {
+        "year": 1999,
+        "value_eur": 1158224,
+        "note": "CHF to EUR conversion"
+      },
+      {
+        "year": 2003,
+        "value_eur": 734620,
+        "note": "Post dot-com"
+      },
+      {
+        "year": 2008,
+        "value_eur": 477029,
+        "note": "Financial crisis"
+      },
+      {
+        "year": 2017,
+        "value_eur": 3312,
+        "note": "Post-liquidation"
+      }
+    ]
+  },
+  "_remaining_position_analysis": {
+    "real_estate_fund": {
+      "name": "UBS Wealth Management - Global Property Fund Ltd",
+      "share_class": "C-EUR-acc",
+      "original_investment": 1673,
+      "current_value": 1088,
+      "unrealized_loss": -585,
+      "loss_percentage": -34.97,
+      "likely_reason_not_sold": "Illiquid real estate fund with quarterly redemptions",
+      "valuation_lag": "Price from 30.09.2017, 3 months old"
+    }
+  }
+}

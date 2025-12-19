@@ -1,0 +1,364 @@
+{
+  "documento": {
+    "titulo": "Para Onde Foi o Dinheiro?",
+    "subtitulo": "Análise de Fluxos do Portfolio 01",
+    "conta": "UBS Switzerland AG | Conta 268-913017-01",
+    "data_geracao": "2024"
+  },
+  "secoes": [
+    {
+      "numero": 1,
+      "titulo": "A Pergunta",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Este documento responde a uma pergunta simples e direta: para onde foi o dinheiro do Portfolio 01?"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Em dezembro de 1999, o portfolio tinha EUR 1.174.300. Em janeiro de 2017, restavam apenas EUR 229.700. Uma redução de quase EUR 950.000. O que aconteceu?"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A resposta, como veremos através dos documentos oficiais do UBS, é surpreendentemente simples: a maior parte do dinheiro foi sacada pelo próprio cliente ao longo dos anos."
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Como Vamos Descobrir",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para responder essa pergunta, usaremos uma equação básica de fluxo de caixa:"
+        },
+        {
+          "tipo": "destaque",
+          "texto": "Valor Final = Valor Inicial + Aportes - Saques + Performance"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Se conhecemos o valor inicial, os aportes, os saques e o valor final, podemos calcular exatamente quanto foi ganho ou perdido em performance. Vamos aos números."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "As Fontes de Dados"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Utilizamos dois documentos oficiais do UBS que cobrem períodos complementares:"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Statement of Assets de 31.12.2008 — cobre o período de 1999 a 2008 (9 anos)",
+            "Statement of Assets de 20.01.2017 — cobre o período de 2006 a 2017 (11 anos)"
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Esses documentos mostram, ano a ano, os valores de entrada (aportes), saída (saques), e a performance dos investimentos."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "Os Primeiros Anos: 1999 a 2008",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O primeiro documento revela o que aconteceu nos nove anos iniciais. Foi um período turbulento para os mercados globais, marcado por duas grandes crises: o estouro da bolha das empresas de internet (2000-2002) e a crise financeira global (2008)."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Vejamos os números ano a ano:"
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Fluxos 1999-2008 (Statement 31.12.2008)",
+          "nota": "Valores em EUR milhares. TWR = retorno do período. Acum. = acumulado desde 1999.",
+          "colunas": ["Ano", "Início", "Entrada", "Saída", "Final", "Perf €", "TWR", "Acum."],
+          "linhas": [
+            {"Ano": "2000", "Início": "1.174,3", "Entrada": "+163,6", "Saída": "-256,4", "Final": "1.057,2", "Perf €": "-23,8", "TWR": "-2,00%", "Acum.": "-2,00%"},
+            {"Ano": "2001", "Início": "1.057,2", "Entrada": "0", "Saída": "-73,8", "Final": "890,9", "Perf €": "-92,5", "TWR": "-8,85%", "Acum.": "-10,67%"},
+            {"Ano": "2002", "Início": "890,9", "Entrada": "+57,1", "Saída": "-77,9", "Final": "780,8", "Perf €": "-89,3", "TWR": "-10,35%", "Acum.": "-19,91%"},
+            {"Ano": "2003", "Início": "780,8", "Entrada": "0", "Saída": "-88,6", "Final": "723,5", "Perf €": "+31,4", "TWR": "+4,25%", "Acum.": "-16,49%"},
+            {"Ano": "2004", "Início": "723,5", "Entrada": "0", "Saída": "-67,5", "Final": "674,3", "Perf €": "+18,2", "TWR": "+2,62%", "Acum.": "-14,28%"},
+            {"Ano": "2005", "Início": "674,3", "Entrada": "0", "Saída": "-59,4", "Final": "671,2", "Perf €": "+56,3", "TWR": "+8,74%", "Acum.": "-6,79%"},
+            {"Ano": "2006", "Início": "671,2", "Entrada": "0", "Saída": "-50,2", "Final": "637,4", "Perf €": "+16,4", "TWR": "+2,57%", "Acum.": "-4,39%"},
+            {"Ano": "2007", "Início": "637,4", "Entrada": "0", "Saída": "-24,4", "Final": "615,2", "Perf €": "+2,2", "TWR": "+0,32%", "Acum.": "-4,09%"},
+            {"Ano": "2008", "Início": "615,2", "Entrada": "0", "Saída": "-32,3", "Final": "477,0", "Perf €": "-105,9", "TWR": "-17,73%", "Acum.": "-21,28%"}
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O Que os Números Revelam"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Olhando para a tabela, dois fatos saltam aos olhos. Primeiro, o cliente sacou dinheiro todos os anos, sem exceção. Em 9 anos, foram EUR 730.500 em saques contra EUR 220.700 em aportes — um saque líquido de EUR 509.800."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Segundo, as perdas de mercado se concentraram em dois momentos específicos: 2000-2002 (crise das empresas de internet) e 2008 (crise financeira global). Nos demais anos, a performance foi positiva."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Somando as perdas de performance nesse período: aproximadamente EUR 183.000."
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Os Anos Seguintes: 2006 a 2017",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O segundo documento do UBS cobre um período mais recente, começando em dezembro de 2006. Esse período inclui a crise de 2008, mas também toda a recuperação subsequente."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Importante: este documento calcula o acumulado a partir de uma base diferente (dezembro de 2006), então os percentuais acumulados não são comparáveis diretamente com o documento anterior."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Fluxos 2006-2017 (Statement 20.01.2017)",
+          "nota": "Valores em EUR milhares. *Período parcial até Jan/2017. Acum. = acumulado desde Dez/2006.",
+          "colunas": ["Período", "Início", "Entrada", "Saída", "Final", "Perf €", "TWR", "Acum."],
+          "linhas": [
+            {"Período": "2006-07", "Início": "637,4", "Entrada": "0", "Saída": "-24,4", "Final": "615,2", "Perf €": "+2,2", "TWR": "+0,32%", "Acum.": "+0,32%"},
+            {"Período": "2007-08", "Início": "615,2", "Entrada": "0", "Saída": "-32,3", "Final": "477,0", "Perf €": "-105,9", "TWR": "-17,73%", "Acum.": "-17,46%"},
+            {"Período": "2008-09", "Início": "477,0", "Entrada": "0", "Saída": "-99,7", "Final": "422,9", "Perf €": "+45,6", "TWR": "+11,26%", "Acum.": "-8,17%"},
+            {"Período": "2009-10", "Início": "422,9", "Entrada": "0", "Saída": "-44,2", "Final": "399,6", "Perf €": "+20,9", "TWR": "+5,19%", "Acum.": "-3,41%"},
+            {"Período": "2010-11", "Início": "399,6", "Entrada": "+2,7", "Saída": "-22,0", "Final": "370,9", "Perf €": "-9,3", "TWR": "-2,46%", "Acum.": "-5,79%"},
+            {"Período": "2011-12", "Início": "370,9", "Entrada": "+3,0", "Saída": "-14,2", "Final": "390,2", "Perf €": "+30,5", "TWR": "+8,34%", "Acum.": "+2,07%"},
+            {"Período": "2012-13", "Início": "390,2", "Entrada": "+2,1", "Saída": "-39,0", "Final": "372,3", "Perf €": "+19,0", "TWR": "+5,14%", "Acum.": "+7,32%"},
+            {"Período": "2013-14", "Início": "372,3", "Entrada": "+2,6", "Saída": "-26,7", "Final": "371,9", "Perf €": "+23,7", "TWR": "+6,54%", "Acum.": "+14,35%"},
+            {"Período": "2014-15", "Início": "371,9", "Entrada": "+3,9", "Saída": "-16,6", "Final": "364,6", "Perf €": "+5,5", "TWR": "+1,41%", "Acum.": "+15,96%"},
+            {"Período": "2015-16", "Início": "364,6", "Entrada": "+1,0", "Saída": "-140,7", "Final": "229,4", "Perf €": "+4,5", "TWR": "+1,32%", "Acum.": "+17,49%"},
+            {"Período": "2016-17*", "Início": "229,4", "Entrada": "0", "Saída": "0", "Final": "229,7", "Perf €": "+0,3", "TWR": "+0,15%", "Acum.": "+17,66%"}
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Uma História Diferente"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Este período conta uma história diferente. A performance acumulada desde 2006 foi positiva: +17,65%, equivalente a uma média de 1,63% ao ano. Mesmo incluindo a crise de 2008 (-17,73% naquele ano), o portfolio se recuperou completamente nos anos seguintes."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Mas o padrão de saques continuou. Em 11 anos, foram EUR 459.800 em saques contra apenas EUR 15.300 em aportes. Destaque para 2015-2016, quando houve um saque de EUR 140.700 — o maior da série."
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "titulo": "O Cálculo Final",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Agora podemos juntar todas as peças e responder à pergunta original. Vamos somar todos os fluxos do período completo:"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Totalizando os Fluxos"
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Totalização dos Fluxos",
+          "colunas": ["Período", "Aportes", "Saques"],
+          "linhas": [
+            {"Período": "1999-2006", "Aportes": "+220.700", "Saques": "-673.800"},
+            {"Período": "2006-2017", "Aportes": "+15.300", "Saques": "-459.800"},
+            {"Período": "TOTAL", "Aportes": "+236.000", "Saques": "-1.133.600"}
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Em 17 anos, o cliente colocou EUR 236.000 e retirou EUR 1.133.600. Um saque líquido de EUR 897.600."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "A Verificação Matemática"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Agora vem o momento da verdade. Se aplicarmos a equação do início:"
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Verificação Matemática",
+          "colunas": ["Item", "Valor (EUR)"],
+          "linhas": [
+            {"Item": "Valor Inicial (Dez/1999)", "Valor (EUR)": "1.174.300"},
+            {"Item": "(+) Total de Aportes", "Valor (EUR)": "+236.000"},
+            {"Item": "(-) Total de Saques", "Valor (EUR)": "-1.133.600"},
+            {"Item": "(=) Valor Esperado (se performance fosse zero)", "Valor (EUR)": "276.700"},
+            {"Item": "Valor Real em Jan/2017", "Valor (EUR)": "229.700"},
+            {"Item": "DIFERENÇA = Perda Total de Performance", "Valor (EUR)": "-47.000"}
+          ]
+        },
+        {
+          "tipo": "destaque",
+          "texto": "A conta fecha: 1.174.300 + 236.000 - 1.133.600 = 276.700. Como o valor real é 229.700, a perda de performance foi de EUR 47.000."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "titulo": "A Resposta",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Podemos agora responder com precisão: para onde foi o dinheiro?"
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Destino do Patrimônio",
+          "colunas": ["Destino", "Valor (EUR)", "Percentual"],
+          "linhas": [
+            {"Destino": "Saques líquidos do cliente", "Valor (EUR)": "897.600", "Percentual": "95%"},
+            {"Destino": "Perdas de investimento", "Valor (EUR)": "47.000", "Percentual": "5%"},
+            {"Destino": "Total da redução patrimonial", "Valor (EUR)": "944.600", "Percentual": "100%"}
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A conclusão é clara: 95% da redução patrimonial foi causada por saques do próprio cliente. As perdas de investimento representaram apenas 5% do total — EUR 47.000 em 17 anos."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Outra Forma de Ver"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Podemos olhar para esses números de outra perspectiva:"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Total investido pelo cliente (inicial + aportes): EUR 1.410.300",
+            "Total recuperado (saques + saldo final): EUR 1.363.300",
+            "Percentual recuperado: 96,7%"
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O cliente recuperou quase 97% de tudo que investiu. A perda real foi de apenas 3,3% do capital investido — EUR 47.000 em 17 anos de investimento."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "titulo": "Contexto: As Crises",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "É importante entender em que contexto essas perdas ocorreram. Os mercados financeiros globais passaram por duas das maiores crises da história moderna durante esse período:"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2000-2002: A Bolha da Internet"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Entre 2000 e 2002, o índice NASDAQ caiu 78%. Empresas como a Enron colapsaram. Os ataques de 11 de setembro de 2001 agravaram a situação. Nesse período, o portfolio perdeu cerca de 20% em performance acumulada."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2008: A Crise Financeira Global"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A falência do Lehman Brothers em setembro de 2008 desencadeou a maior crise financeira desde 1929. O portfolio perdeu 17,73% nesse ano. Mas diferentemente de 2000-2002, a recuperação foi mais rápida: já em 2009, o portfolio teve ganho de 11,26%."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "A Recuperação"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O período de 2009 a 2017 foi de recuperação consistente. A performance foi positiva em quase todos os anos, acumulando um ganho de mais de 40%. Isso explica por que, olhando apenas o período de 2006 a 2017, a performance total foi positiva (+17,65%), mesmo incluindo a crise de 2008."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "titulo": "Conclusão",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Este documento respondeu à pergunta 'para onde foi o dinheiro?' de forma objetiva e verificável:"
+        },
+        {
+          "tipo": "destaque",
+          "texto": "95% foi para o próprio cliente através de saques. Apenas 5% (EUR 47.000) foram perdas de investimento em 17 anos."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Os fatos documentados mostram que:"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "O cliente fez saques regulares durante todo o período (1999-2017)",
+            "Os saques líquidos totalizaram EUR 897.600",
+            "As perdas de mercado se concentraram em duas crises globais (2000-02 e 2008)",
+            "Fora dos períodos de crise, a performance foi consistentemente positiva",
+            "O cliente recuperou 96,7% de tudo que investiu"
+          ]
+        }
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "documento": "Statement of Assets UBS",
+      "data": "31.12.2008",
+      "periodo_coberto": "1999-2008",
+      "titulo_secao": "Performance over last 9 years"
+    },
+    {
+      "documento": "Statement of Assets UBS",
+      "data": "20.01.2017",
+      "periodo_coberto": "2006-2017",
+      "titulo_secao": "Performance over last 11 years"
+    }
+  ],
+  "resumo_executivo": {
+    "pergunta": "Para onde foi o dinheiro do Portfolio 01?",
+    "resposta_curta": "95% foi para o próprio cliente (saques). Apenas 5% foram perdas de investimento.",
+    "numeros_chave": {
+      "valor_inicial": "EUR 1.174.300 (Dez/1999)",
+      "valor_final": "EUR 229.700 (Jan/2017)",
+      "total_aportes": "EUR 236.000",
+      "total_saques": "EUR 1.133.600",
+      "saques_liquidos": "EUR 897.600",
+      "perda_performance": "EUR 47.000",
+      "total_investido": "EUR 1.410.300",
+      "total_recuperado": "EUR 1.363.300",
+      "percentual_recuperado": "96,7%"
+    },
+    "decomposicao_reducao": {
+      "saques_liquidos": {"valor": "EUR 897.600", "percentual": "95%"},
+      "perdas_investimento": {"valor": "EUR 47.000", "percentual": "5%"},
+      "total": {"valor": "EUR 944.600", "percentual": "100%"}
+    },
+    "performance_por_serie": {
+      "serie_1_1999_2008": {
+        "base": "Dez/1999",
+        "acumulado_final": "-21,28%",
+        "contexto": "Inclui crise dot-com e crise 2008"
+      },
+      "serie_2_2006_2017": {
+        "base": "Dez/2006",
+        "acumulado_final": "+17,65%",
+        "media_anual": "+1,63%",
+        "contexto": "Inclui crise 2008 e recuperação"
+      }
+    },
+    "equacao_verificacao": "1.174.300 + 236.000 - 1.133.600 = 276.700 (esperado) vs 229.700 (real) = -47.000 (perda)"
+  }
+}

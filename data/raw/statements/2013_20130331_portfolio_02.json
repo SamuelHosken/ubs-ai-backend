@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-02",
+    "reference_date": "2013-03-31",
+    "client_name": "CQUE 913017",
+    "program": "UBS Managed Fund Portfolio",
+    "investment_strategy": "Mandate RE"
+  },
+  "totals": {
+    "net_assets": 11934,
+    "_corrected_from_consolidated": true
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Real Estate",
+      "market_value": 11934,
+      "percentage": 100.0
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "market_value": 11934,
+      "percentage": 100.0
+    }
+  ],
+  "performance": {
+    "ytd_pct": -4.15,
+    "mtd_pct": 1.69,
+    "qtd_pct": -4.15,
+    "since_inception_pct": -4.15,
+    "monthly_returns": [
+      {
+        "month": "Jan",
+        "return_pct": -1.35
+      },
+      {
+        "month": "Feb",
+        "return_pct": -4.15
+      },
+      {
+        "month": "Mar",
+        "return_pct": 1.69
+      }
+    ],
+    "annual_returns": [
+      {
+        "year": 2009,
+        "return_pct": -27.44
+      },
+      {
+        "year": 2010,
+        "return_pct": -16.83
+      },
+      {
+        "year": 2011,
+        "return_pct": 4.55
+      },
+      {
+        "year": 2012,
+        "return_pct": 0.65
+      },
+      {
+        "year": 2013,
+        "return_pct": -4.0
+      }
+    ],
+    "cumulative_return_pct": -35.0
+  },
+  "positions": [
+    {
+      "name": "UBS Wealth Management - Global Property Fund Ltd class -C- EUR",
+      "isin": "GB00B0386M46",
+      "security_number": "1968401",
+      "category": "Real Estate",
+      "currency": "EUR",
+      "quantity": 1940.462,
+      "cost_price": null,
+      "market_price": 6.15,
+      "cost_value": null,
+      "market_value": 11934,
+      "percentage": -42.22,
+      "unrealized_pnl": null,
+      "performance_pct": 100.0
+    }
+  ],
+  "transactions": [],
+  "balance": {},
+  "_classification": {
+    "total_pages": 11,
+    "by_type": {
+      "cover": 1,
+      "contents": 1,
+      "total_assets": 1,
+      "asset_allocation": 1,
+      "performance_ytd": 1,
+      "performance_history": 2,
+      "positions_overview": 1,
+      "detailed_positions": 1,
+      "additional_info": 2
+    },
+    "skip_count": 3,
+    "position_pages": 2,
+    "transaction_pages": 0
+  },
+  "_consolidated_totals": [
+    {
+      "portfolio_number": "268-913017-01",
+      "net_assets": 380602,
+      "currency": "EUR"
+    },
+    {
+      "portfolio_number": "268-913017-02",
+      "net_assets": 11934,
+      "currency": "EUR"
+    }
+  ],
+  "_total_consolidated": 392536,
+  "_extraction_meta": {
+    "pages_processed": 11,
+    "classification_tokens": 96191,
+    "extraction_tokens": -15887,
+    "total_tokens": 80304,
+    "errors": []
+  },
+  "_document_info": {
+    "doc_id": "2013_20130331_portfolio_02",
+    "year": "2013",
+    "date": "2013-03-31",
+    "portfolio_type": "02",
+    "source_folder": "/Users/samuelhosken/code/hosken/analise-das-imagens/portfolios_corrigidos/13/13.03.31-Statement of assets-Dispatch address-2",
+    "processed_at": "2025-12-16T14:10:22.129804",
+    "validation": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": [],
+      "fixes_applied": [
+        "Fixed portfolio_type:  -> 02",
+        "Fixed net_assets from _consolidated_totals: None -> 11934",
+        "Swapped pct/perf for UBS Wealth Management - Global: percentage 100.0% > 50%"
+      ]
+    }
+  }
+}

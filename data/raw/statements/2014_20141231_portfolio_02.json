@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "portfolio_number": "268-913017-02",
+    "reference_date": "2014-12-31",
+    "client_name": "CQUE 913017",
+    "program": "UBS Managed Fund Portfolio",
+    "investment_strategy": "Mandate RE"
+  },
+  "totals": {
+    "net_assets": 6501,
+    "_corrected_from_consolidated": true
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Real Estate",
+      "market_value": 6501,
+      "percentage": 100.0
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "EUR",
+      "market_value": 6501,
+      "percentage": 100.0
+    }
+  ],
+  "performance": {
+    "ytd_pct": 11.02,
+    "mtd_pct": 0.3,
+    "since_inception_pct": 11.02,
+    "monthly_returns": [
+      {
+        "month": "Jan",
+        "return_pct": -0.3
+      },
+      {
+        "month": "Feb",
+        "return_pct": 1.5
+      },
+      {
+        "month": "Mar",
+        "return_pct": 0.4
+      },
+      {
+        "month": "Apr",
+        "return_pct": 0.4
+      },
+      {
+        "month": "May",
+        "return_pct": null
+      },
+      {
+        "month": "Jun",
+        "return_pct": 2.7
+      },
+      {
+        "month": "Jul",
+        "return_pct": 1.0
+      },
+      {
+        "month": "Aug",
+        "return_pct": 0.8
+      },
+      {
+        "month": "Sep",
+        "return_pct": 0.1
+      },
+      {
+        "month": "Oct",
+        "return_pct": 1.6
+      },
+      {
+        "month": "Nov",
+        "return_pct": 2.5
+      },
+      {
+        "month": "Dec",
+        "return_pct": 0.5
+      }
+    ],
+    "annual_returns": [
+      {
+        "year": 2009,
+        "return_pct": -27.44
+      },
+      {
+        "year": 2010,
+        "return_pct": -16.82
+      },
+      {
+        "year": 2011,
+        "return_pct": 4.05
+      },
+      {
+        "year": 2012,
+        "return_pct": 0.65
+      },
+      {
+        "year": 2013,
+        "return_pct": -16.8
+      },
+      {
+        "year": 2014,
+        "return_pct": 12.31
+      }
+    ],
+    "cumulative_return_pct": -40.0
+  },
+  "positions": [
+    {
+      "name": "Shs UBS Wealth Management - Global Property Fund Ltd class -C- EUR",
+      "isin": "GB00B0386M46",
+      "security_number": "1968401",
+      "category": "Real estate",
+      "currency": "EUR",
+      "quantity": 1095.058,
+      "cost_price": 10.644,
+      "market_price": 5.9369,
+      "cost_value": null,
+      "market_value": 6501,
+      "percentage": -44.22,
+      "unrealized_pnl": null,
+      "performance_pct": 100.0
+    }
+  ],
+  "transactions": [],
+  "balance": {},
+  "_classification": {
+    "total_pages": 13,
+    "by_type": {
+      "cover": 1,
+      "contents": 1,
+      "total_assets": 1,
+      "asset_allocation": 1,
+      "performance_ytd": 1,
+      "performance_history": 2,
+      "positions_overview": 1,
+      "detailed_positions": 1,
+      "additional_info": 4
+    },
+    "skip_count": 5,
+    "position_pages": 2,
+    "transaction_pages": 0
+  },
+  "_consolidated_totals": [
+    {
+      "portfolio_number": "268-913017-01",
+      "net_assets": 371947,
+      "currency": "EUR"
+    },
+    {
+      "portfolio_number": "268-913017-02",
+      "net_assets": 6501,
+      "currency": "EUR"
+    }
+  ],
+  "_total_consolidated": 378402,
+  "_extraction_meta": {
+    "pages_processed": 13,
+    "classification_tokens": 646409,
+    "extraction_tokens": -123169,
+    "total_tokens": 523240,
+    "errors": []
+  },
+  "_document_info": {
+    "doc_id": "2014_20141231_portfolio_02",
+    "year": "2014",
+    "date": "2014-12-31",
+    "portfolio_type": "02",
+    "source_folder": "/Users/samuelhosken/code/hosken/analise-das-imagens/portfolios_corrigidos/14/14.12.31-Statement of assets-Dispatch address-2",
+    "processed_at": "2025-12-16T14:54:30.456287",
+    "validation": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": [],
+      "fixes_applied": [
+        "Fixed portfolio_type:  -> 02",
+        "Fixed net_assets from _consolidated_totals: None -> 6501",
+        "Swapped pct/perf for Shs UBS Wealth Management - Gl: percentage 100.0% > 50%"
+      ]
+    }
+  }
+}

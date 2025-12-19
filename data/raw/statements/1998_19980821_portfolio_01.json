@@ -1,0 +1,735 @@
+{
+  "metadata": {
+    "portfolio_number": "912.154-01",
+    "reference_date": "1998-08-21",
+    "client_name": "CQUE 912154",
+    "client_code": "BR CRANS",
+    "program": null,
+    "investment_strategy": null,
+    "document_type": "ETAT DE FORTUNE",
+    "branch": "3963 CRANS-SUR-SIERRE",
+    "currency": "CHF"
+  },
+  "totals": {
+    "net_assets": 2096077,
+    "currency": "CHF",
+    "performance_pct": 2.88
+  },
+  "asset_allocation": [
+    {
+      "asset_class": "Avoirs en compte",
+      "asset_class_en": "Cash & Deposits",
+      "market_value": 11359,
+      "percentage": 0.54,
+      "yield_pct": null
+    },
+    {
+      "asset_class": "Intérêts courus",
+      "asset_class_en": "Accrued Interest",
+      "market_value": 26568,
+      "percentage": 1.27,
+      "yield_pct": 3.61
+    },
+    {
+      "asset_class": "Valeurs à revenu fixe et similaires",
+      "asset_class_en": "Fixed Income",
+      "market_value": 1537855,
+      "percentage": 73.37,
+      "yield_pct": null,
+      "sub_categories": [
+        {
+          "name": "Placements monétaires et similaires",
+          "market_value": 251455,
+          "percentage": 12.00,
+          "yield_pct": 0.93
+        },
+        {
+          "name": "Obligations et placements similaires",
+          "market_value": 1286400,
+          "percentage": 61.37,
+          "yield_pct": 4.14
+        }
+      ]
+    },
+    {
+      "asset_class": "Actions et placements similaires",
+      "asset_class_en": "Equities",
+      "market_value": 520295,
+      "percentage": 24.82,
+      "yield_pct": 0.92
+    }
+  ],
+  "currency_allocation": [
+    {
+      "currency": "CHF",
+      "market_value": 1251350,
+      "percentage": 59.70
+    },
+    {
+      "currency": "XEU",
+      "currency_name": "ECU",
+      "market_value": 236727,
+      "percentage": 11.29
+    },
+    {
+      "currency": "DEM",
+      "currency_name": "Deutsche Mark",
+      "market_value": 230469,
+      "percentage": 11.00
+    },
+    {
+      "currency": "USD",
+      "market_value": 223782,
+      "percentage": 10.68
+    },
+    {
+      "currency": "GBP",
+      "market_value": 112869,
+      "percentage": 5.38
+    },
+    {
+      "currency": "FRF",
+      "currency_name": "French Franc",
+      "market_value": 38159,
+      "percentage": 1.82
+    },
+    {
+      "currency": "Autres",
+      "market_value": 2711,
+      "percentage": 0.13
+    }
+  ],
+  "geographic_allocation": [
+    {
+      "country": "Allemagne",
+      "market_value": 422451,
+      "percentage": 20.15
+    },
+    {
+      "country": "Suisse",
+      "market_value": 397554,
+      "percentage": 18.97
+    },
+    {
+      "country": "Royaume-Uni",
+      "market_value": 224116,
+      "percentage": 10.69
+    },
+    {
+      "country": "République Fédérale",
+      "market_value": 181420,
+      "percentage": 8.66
+    },
+    {
+      "country": "Pays-Bas",
+      "market_value": 109975,
+      "percentage": 5.25
+    },
+    {
+      "country": "Suède",
+      "market_value": 52987,
+      "percentage": 2.53
+    },
+    {
+      "country": "Finlande",
+      "market_value": 43979,
+      "percentage": 2.10
+    },
+    {
+      "country": "États-Unis",
+      "market_value": 511071,
+      "percentage": 24.37
+    },
+    {
+      "country": "International",
+      "market_value": 152524,
+      "percentage": 7.28
+    }
+  ],
+  "sector_allocation": [
+    {
+      "sector": "Holdings/Sites fin.",
+      "market_value": 124175,
+      "percentage": 23.87
+    },
+    {
+      "sector": "Prod. pharm./Cosmét.",
+      "market_value": 84595,
+      "percentage": 16.26
+    },
+    {
+      "sector": "Banques/Ets de créd.",
+      "market_value": 58580,
+      "percentage": 11.26
+    },
+    {
+      "sector": "Assurances",
+      "market_value": 134100,
+      "percentage": 25.77
+    },
+    {
+      "sector": "Fonds de placement",
+      "market_value": 39645,
+      "percentage": 7.62
+    },
+    {
+      "sector": "Autres",
+      "market_value": 79200,
+      "percentage": 15.22
+    }
+  ],
+  "investment_type_breakdown": {
+    "direct_investments": {
+      "market_value": 1450906,
+      "percentage": 69.22
+    },
+    "ubs_funds": {
+      "market_value": 645171,
+      "percentage": 30.78
+    }
+  },
+  "positions": [
+    {
+      "name": "Compte Courant Privé UBS CHF",
+      "account_number": "0268-912.154.01A",
+      "category": "Liquidity - Accounts",
+      "currency": "CHF",
+      "balance": 1371,
+      "market_value_chf": 1371,
+      "percentage": 0.07,
+      "yield_pct": null
+    },
+    {
+      "name": "Compte Courant Privé UBS USD",
+      "account_number": "0268-912.154.60N",
+      "category": "Liquidity - Accounts",
+      "currency": "USD",
+      "balance": 6507,
+      "exchange_rate": 1.5008,
+      "market_value_chf": 9765,
+      "percentage": 0.47,
+      "yield_pct": null
+    },
+    {
+      "name": "Compte Courant Privé UBS GBP",
+      "account_number": "0268-912.154.61X",
+      "category": "Liquidity - Accounts",
+      "currency": "GBP",
+      "balance": 30,
+      "exchange_rate": 2.4535,
+      "market_value_chf": 73,
+      "percentage": 0.00,
+      "yield_pct": null
+    },
+    {
+      "name": "Compte Courant Privé UBS XEU",
+      "account_number": "0268-912.154.79A",
+      "category": "Liquidity - Accounts",
+      "currency": "XEU",
+      "balance": 44,
+      "exchange_rate": 1.6480,
+      "market_value_chf": 72,
+      "percentage": 0.00,
+      "yield_pct": null
+    },
+    {
+      "name": "Compte Courant Privé UBS DEM",
+      "account_number": "0268-912.154.70C",
+      "category": "Liquidity - Accounts",
+      "currency": "DEM",
+      "balance": 93,
+      "exchange_rate": 0.8424,
+      "market_value_chf": 78,
+      "percentage": 0.00,
+      "yield_pct": null
+    },
+    {
+      "name": "Parts UBS (Lux) Money Market",
+      "category": "Money Market",
+      "currency": "CHF",
+      "quantity": 240,
+      "depositary": "ETRANGER",
+      "market_value_chf": 251455,
+      "percentage": 12.00,
+      "yield_pct": 0.93
+    },
+    {
+      "name": "Parts UBS (Lux) Medium Term - CHF A",
+      "isin": null,
+      "category": "Obligations",
+      "sub_category": "Medium Term",
+      "currency": "CHF",
+      "depositary": "ETRANGER",
+      "nominal_value": 1000,
+      "quantity": null,
+      "price": 103.106,
+      "market_value_chf": 103220,
+      "percentage": 4.92,
+      "yield_pct": 1.78,
+      "maturity_date": null
+    },
+    {
+      "name": "Parts UBS (Lux) Medium Term - CHF T",
+      "category": "Obligations",
+      "sub_category": "Medium Term",
+      "currency": "CHF",
+      "depositary": "ETRANGER",
+      "nominal_value": 1000,
+      "price": 109.530,
+      "market_value_chf": 111910,
+      "percentage": 5.34,
+      "yield_pct": 1.78
+    },
+    {
+      "name": "7% Finlande 1991-18.12.1998",
+      "category": "Obligations",
+      "sub_category": "Position sous prêt",
+      "currency": "CHF",
+      "depositary": "CHF",
+      "nominal_value": 50000,
+      "coupon_rate": 7.0,
+      "price": 101.2500,
+      "market_value_chf": 50625,
+      "accrued_interest": 2362,
+      "percentage": 2.42,
+      "yield_pct": 6.89,
+      "maturity_date": "1998-12-18"
+    },
+    {
+      "name": "7 1/8% Hypothekenbank AG DEPFA",
+      "category": "Obligations",
+      "currency": "DEM",
+      "depositary": "ETRANGER",
+      "nominal_value": 100000,
+      "coupon_rate": 7.125,
+      "price": 101.2000,
+      "market_value_chf": 101700,
+      "accrued_interest": 2255,
+      "percentage": 4.85,
+      "yield_pct": 3.44,
+      "maturity_date": "1999-12-29"
+    },
+    {
+      "name": "6 0/9% Landesbank Rheinland-Pfalz Girozentrale 1997-27.12.2002",
+      "category": "Obligations",
+      "currency": "CHF",
+      "depositary": "ETRANGER",
+      "nominal_value": 100000,
+      "coupon_rate": 6.09,
+      "price": 99.2500,
+      "market_value_chf": 97950,
+      "accrued_interest": 1300,
+      "percentage": 4.67,
+      "yield_pct": 2.04
+    },
+    {
+      "name": "2 1/2% Caisse d'Amortissement et de Dette Sociale 1998-17.3.2003",
+      "category": "Obligations",
+      "currency": "CHF",
+      "depositary": "CHF",
+      "nominal_value": 70000,
+      "coupon_rate": 2.5,
+      "price": 100.0500,
+      "market_value_chf": 70035,
+      "accrued_interest": 748,
+      "percentage": 3.34,
+      "yield_pct": 2.50
+    },
+    {
+      "name": "6% Euro Medium-Term Notes Rabobank Nederland 1996-31.12.1999",
+      "category": "Obligations",
+      "currency": "USD",
+      "depositary": "ETRANGER",
+      "nominal_value": 60000,
+      "coupon_rate": 6.0,
+      "price": 98.9500,
+      "market_value_chf": 90273,
+      "accrued_interest": 3467,
+      "percentage": 4.31,
+      "yield_pct": 5.99
+    },
+    {
+      "name": "6 3/4% Euro Medium-Term Notes Landeskredibank Baden-Württ. Förderbank 1996-8.8.2000",
+      "category": "Obligations",
+      "currency": "XEU",
+      "depositary": "ETRANGER",
+      "nominal_value": 220,
+      "coupon_rate": 6.75,
+      "price": 120.630,
+      "market_value_chf": 44486,
+      "percentage": 2.12,
+      "yield_pct": 3.56
+    },
+    {
+      "name": "5 1/4% Euro Medium-Term Notes SUEDRA 1993-5.10.1998",
+      "category": "Obligations",
+      "currency": "XEU",
+      "depositary": "ETRANGER",
+      "nominal_value": 88000,
+      "coupon_rate": 5.25,
+      "price": 100.0500,
+      "market_value_chf": 145205,
+      "accrued_interest": 7319,
+      "percentage": 6.93,
+      "yield_pct": 5.74
+    },
+    {
+      "name": "7 1/8% Abbey National Treasury Services PLC 1996-14.3.2001",
+      "category": "Obligations",
+      "currency": "GBP",
+      "depositary": "ETRANGER",
+      "nominal_value": 25000,
+      "coupon_rate": 7.125,
+      "price": 99.3000,
+      "market_value_chf": 61414,
+      "accrued_interest": 1904,
+      "percentage": 2.93,
+      "yield_pct": 7.20
+    },
+    {
+      "name": "5 1/2% DSL Finance NV 1995-6.12.2000",
+      "category": "Obligations",
+      "currency": "DEM",
+      "depositary": "ETRANGER",
+      "nominal_value": 110000,
+      "coupon_rate": 5.5,
+      "price": 102.3500,
+      "market_value_chf": 94806,
+      "accrued_interest": 3577,
+      "percentage": 4.52,
+      "yield_pct": 5.33
+    },
+    {
+      "name": "5 1/4% Dresdner Finance BV 1996-11.1.2001",
+      "category": "Obligations",
+      "currency": "DEM",
+      "depositary": "ETRANGER",
+      "nominal_value": 50000,
+      "coupon_rate": 5.25,
+      "price": 97.9800,
+      "market_value_chf": 42989,
+      "accrued_interest": 1339,
+      "percentage": 2.05,
+      "yield_pct": 5.12
+    },
+    {
+      "name": "5 1/8% Euro Medium-Term Notes NV Bank Nederlandse Gemeenten 1996-19.3.2001",
+      "category": "Obligations",
+      "currency": "DEM",
+      "depositary": "ETRANGER",
+      "nominal_value": 100000,
+      "coupon_rate": 5.125,
+      "price": 99.6500,
+      "market_value_chf": 85874,
+      "accrued_interest": 1806,
+      "percentage": 4.10,
+      "yield_pct": 5.02
+    },
+    {
+      "name": "Credit Suisse Group",
+      "category": "Actions",
+      "sector": "CHF 20",
+      "currency": "CHF",
+      "depositary": "CHF",
+      "quantity": 100,
+      "price": 329.980,
+      "market_value_chf": 30050,
+      "percentage": 1.43,
+      "yield_pct": 1.66
+    },
+    {
+      "name": "ACT NOM. Nestlé SA Cham et Vevey",
+      "category": "Actions",
+      "sector": "CHF 10",
+      "currency": "CHF",
+      "depositary": "CHF",
+      "quantity": 20,
+      "price": 835.128,
+      "market_value_chf": 58580,
+      "percentage": 2.79,
+      "yield_pct": 1.19
+    },
+    {
+      "name": "Titres UBS SA Bâle",
+      "category": "Actions",
+      "sector": "CHF 20",
+      "currency": "CHF",
+      "depositary": "CHF",
+      "quantity": 35,
+      "price": 2194.057,
+      "market_value_chf": 84595,
+      "percentage": 4.04,
+      "yield_pct": 1.03
+    },
+    {
+      "name": "ACT Roche Holding SA Bâle",
+      "category": "Actions",
+      "sector": "CHF 100",
+      "currency": "CHF",
+      "depositary": "CHF",
+      "quantity": 2,
+      "price": 3700.610,
+      "market_value_chf": 46800,
+      "percentage": 2.23,
+      "yield_pct": 0.35
+    },
+    {
+      "name": "Bon(s) de jouissance Roche Holding SA Bâle",
+      "category": "Actions",
+      "currency": "CHF",
+      "depositary": "CHF",
+      "quantity": 3,
+      "price": 13285.000,
+      "market_value_chf": 47325,
+      "percentage": 2.26,
+      "yield_pct": 0.53
+    },
+    {
+      "name": "ACT NOM. UBS SA Enregistré au Nominee SEGA",
+      "category": "Actions",
+      "currency": "CHF",
+      "depositary": "CHF",
+      "quantity": 150,
+      "price": 187.688,
+      "market_value_chf": 79200,
+      "percentage": 3.78,
+      "yield_pct": null
+    },
+    {
+      "name": "UBS-Units Union de Banque Suisses Luxembourg 1998-29.4.1999 European Cyclical Basket II",
+      "category": "Actions",
+      "sub_category": "Structured Product",
+      "currency": "XEU",
+      "depositary": "ETRANGER",
+      "quantity": 27,
+      "price": 891.500,
+      "market_value_chf": 39645,
+      "percentage": 1.89,
+      "yield_pct": 1.40
+    },
+    {
+      "name": "UBS Equity Invest USA",
+      "category": "Actions",
+      "sub_category": "Fund",
+      "currency": "USD",
+      "depositary": "ETRANGER",
+      "quantity": 444,
+      "price": 66.045,
+      "market_value_chf": 43979,
+      "percentage": 2.10,
+      "yield_pct": 1.40
+    },
+    {
+      "name": "Parts UBS Equity Invest Great Britain",
+      "category": "Actions",
+      "sub_category": "Fund",
+      "currency": "GBP",
+      "depositary": "ETRANGER",
+      "quantity": 194,
+      "price": 97.438,
+      "market_value_chf": 50929,
+      "percentage": 2.43,
+      "yield_pct": 2.80
+    },
+    {
+      "name": "Parts UBS Equity Invest France",
+      "category": "Actions",
+      "sub_category": "Fund",
+      "currency": "FRF",
+      "depositary": "FRANCE",
+      "quantity": 100,
+      "price": 1461.600,
+      "market_value_chf": 39192,
+      "percentage": 1.87,
+      "yield_pct": 0.64
+    }
+  ],
+  "cash_flow_schedule": {
+    "next_12_months": {
+      "total_chf": 243000,
+      "by_month": [
+        {
+          "month": "Août 1998",
+          "capital": 154,
+          "interest": null
+        },
+        {
+          "month": "Septembre 1998",
+          "capital": 70,
+          "interest": null
+        },
+        {
+          "month": "Octobre 1998",
+          "capital": null,
+          "interest": null
+        },
+        {
+          "month": "Novembre 1998",
+          "capital": null,
+          "interest": null
+        },
+        {
+          "month": "Décembre 1998",
+          "capital": 3,
+          "interest": null
+        },
+        {
+          "month": "Janvier 1999",
+          "capital": 59,
+          "interest": 6
+        },
+        {
+          "month": "Février 1999",
+          "capital": 1,
+          "interest": 3
+        },
+        {
+          "month": "Mars 1999",
+          "capital": 2,
+          "interest": 5
+        },
+        {
+          "month": "Avril 1999",
+          "capital": 1,
+          "interest": null
+        },
+        {
+          "month": "Mai 1999",
+          "capital": 1,
+          "interest": null
+        },
+        {
+          "month": "Juin 1999",
+          "capital": null,
+          "interest": 1
+        },
+        {
+          "month": "Juillet 1999",
+          "capital": 5,
+          "interest": 3
+        }
+      ]
+    },
+    "capital_maturities_by_year": [
+      {
+        "year": 1999,
+        "total_chf": 190,
+        "percentage": 23.08
+      },
+      {
+        "year": 2000,
+        "total_chf": 277,
+        "percentage": 33.63
+      },
+      {
+        "year": 2001,
+        "total_chf": 187,
+        "percentage": 22.65
+      },
+      {
+        "year": 2002,
+        "total_chf": 100,
+        "percentage": 12.14
+      },
+      {
+        "year": 2003,
+        "total_chf": 70,
+        "percentage": 8.50
+      }
+    ]
+  },
+  "accounts_included": [
+    {
+      "account": "0268-912.154.N1",
+      "type": "CHF Dépôt Normal Privé UBS"
+    },
+    {
+      "account": "0268-912.154.01A",
+      "type": "CHF Compte Courant Privé UBS"
+    },
+    {
+      "account": "0268-912.154.60N",
+      "type": "USD Compte Courant Privé UBS"
+    },
+    {
+      "account": "0268-912.154.61X",
+      "type": "GBP Compte Courant Privé UBS"
+    },
+    {
+      "account": "0268-912.154.70C",
+      "type": "DEM Compte Courant Privé UBS"
+    },
+    {
+      "account": "0268-912.154.79A",
+      "type": "XEU Compte Courant Privé UBS"
+    }
+  ],
+  "exchange_rates": [
+    {
+      "currency": "USD",
+      "rate": 1.5008,
+      "base": "CHF"
+    },
+    {
+      "currency": "GBP",
+      "rate": 2.4535,
+      "base": "CHF"
+    },
+    {
+      "currency": "FRF",
+      "rate": 0.2509,
+      "base": "CHF"
+    },
+    {
+      "currency": "DEM",
+      "rate": 0.8424,
+      "base": "CHF"
+    },
+    {
+      "currency": "XEU",
+      "rate": 1.6480,
+      "base": "CHF"
+    }
+  ],
+  "performance": {
+    "total_return_pct": 2.88,
+    "yield_pct": {
+      "cash": 0.54,
+      "fixed_income": 4.14,
+      "equities": 0.92,
+      "total": 2.88
+    }
+  },
+  "_classification": {
+    "total_pages": 14,
+    "by_type": {
+      "cover": 1,
+      "table_of_contents": 1,
+      "balance_summary": 1,
+      "asset_allocation": 1,
+      "analysis": 1,
+      "cash_positions": 1,
+      "bond_positions": 3,
+      "equity_positions": 2,
+      "cash_flow_schedule": 2,
+      "legend": 1
+    }
+  },
+  "_document_info": {
+    "doc_id": "1998_19980821_portfolio_01",
+    "year": "1998",
+    "date": "1998-08-21",
+    "portfolio_type": "01",
+    "document_language": "French",
+    "document_format": "Legacy (dot matrix)",
+    "source_folder": "98_08_24-Antigo",
+    "processed_at": "2025-12-16T14:30:00.000000"
+  },
+  "_notes": [
+    "Document in legacy format (1998) - different structure from modern statements",
+    "Currency is CHF (Swiss Franc), not EUR",
+    "Contains historical currencies: DEM (Deutsche Mark), FRF (French Franc), XEU (ECU)",
+    "Some positions are 'sous prêt' (on loan)",
+    "Values in thousands (CHF 1'000) in some tables"
+  ]
+}
