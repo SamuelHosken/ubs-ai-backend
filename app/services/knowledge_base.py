@@ -135,6 +135,70 @@ LISTA DE SAQUES (RETIRADAS) POR ANO - PORTFOLIO 01:
 TOTAL DE SAQUES 1999-2008: EUR 730.500
 TOTAL DE SAQUES 2006-2017: EUR 459.800
 TOTAL GERAL DE SAQUES: EUR 1.133.600
+
+═══════════════════════════════════════════════════════════════════════════════
+EVOLUÇÃO PATRIMONIAL - PORTFOLIO 01 (1998-2017)
+═══════════════════════════════════════════════════════════════════════════════
+
+┌──────┬─────────────────┬────────────────────────────────────────────────────┐
+│ Ano  │ Patrimônio EUR  │ Observação                                         │
+├──────┼─────────────────┼────────────────────────────────────────────────────┤
+│ 1998 │ 1.310.048       │ Valor inicial (convertido de CHF)                  │
+│ 1999 │ 1.174.300       │ Transição CHF → EUR                                │
+│ 2000 │ 1.057.200       │ Crise dot-com                                      │
+│ 2001 │ 890.900         │ Pós-crise dot-com                                  │
+│ 2002 │ 780.800         │ Continuação crise                                  │
+│ 2003 │ 723.500         │ Início recuperação                                 │
+│ 2004 │ 674.300         │ Recuperação                                        │
+│ 2005 │ 671.200         │ Estável                                            │
+│ 2006 │ 637.400         │ Estável                                            │
+│ 2007 │ 615.200         │ Pré-crise 2008                                     │
+│ 2008 │ 477.000         │ Crise financeira global                            │
+│ 2009 │ 422.900         │ Recuperação pós-crise                              │
+│ 2010 │ 399.600         │ Recuperação                                        │
+│ 2011 │ 370.900         │ Crise europeia                                     │
+│ 2012 │ 390.200         │ Recuperação                                        │
+│ 2013 │ 372.300         │ Estável                                            │
+│ 2014 │ 371.900         │ Estável                                            │
+│ 2015 │ 364.600         │ Estável                                            │
+│ 2016 │ 229.400         │ Grande saque de EUR 140.700                        │
+│ 2017 │ 229.700         │ Valor final                                        │
+└──────┴─────────────────┴────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+RETORNOS ANUAIS (TWR%) - PORTFOLIO 01
+═══════════════════════════════════════════════════════════════════════════════
+
+┌──────┬────────────┬────────────────┬───────────────────────────────────────┐
+│ Ano  │ TWR %      │ Acumulado %    │ Contexto                              │
+├──────┼────────────┼────────────────┼───────────────────────────────────────┤
+│ 2000 │ -2,00%     │ -2,00%         │ Crise dot-com                         │
+│ 2001 │ -8,85%     │ -10,67%        │ Pós-11 de setembro                    │
+│ 2002 │ -10,35%    │ -19,91%        │ Enron/WorldCom                        │
+│ 2003 │ +4,25%     │ -16,49%        │ Início recuperação                    │
+│ 2004 │ +2,62%     │ -14,28%        │ Recuperação                           │
+│ 2005 │ +8,74%     │ -6,79%         │ Bom ano                               │
+│ 2006 │ +2,57%     │ -4,39%         │ Estável                               │
+│ 2007 │ +0,32%     │ -4,09%         │ Pré-crise                             │
+│ 2008 │ -17,73%    │ -21,28%        │ CRISE FINANCEIRA GLOBAL               │
+│ 2009 │ +11,26%    │ -8,17%         │ Recuperação forte                     │
+│ 2010 │ +5,19%     │ -3,41%         │ Recuperação                           │
+│ 2011 │ -2,46%     │ -5,79%         │ Crise europeia                        │
+│ 2012 │ +8,34%     │ +2,07%         │ Recuperação - volta ao positivo       │
+│ 2013 │ +5,14%     │ +7,32%         │ Bom ano                               │
+│ 2014 │ +6,54%     │ +14,35%        │ Bom ano                               │
+│ 2015 │ +1,41%     │ +15,96%        │ Estável                               │
+│ 2016 │ +1,32%     │ +17,49%        │ Estável                               │
+│ 2017 │ +0,15%     │ +17,66%        │ Período parcial (Jan)                 │
+└──────┴────────────┴────────────────┴───────────────────────────────────────┘
+
+RESUMO RETORNOS P01:
+- Performance Cumulativa Final (2006-2017): +17,65%
+- Média Anual: +1,63%
+- Melhor Ano: 2009 (+11,26%)
+- Pior Ano: 2008 (-17,73%)
+- Anos Positivos: 12 de 17
+- Win Rate: 70,6%
 """)
 
         # =========================================================
@@ -200,6 +264,86 @@ RESPONSABILIDADE:
 - UBS: 90% de culpa
 - Mercado: 10%
 - Cliente: 0% (estava preso, não teve escolha)
+
+═══════════════════════════════════════════════════════════════════════════════
+EVOLUÇÃO PATRIMONIAL - PORTFOLIO 02 (2009-2017)
+═══════════════════════════════════════════════════════════════════════════════
+
+┌──────┬─────────────────┬────────────────────────────────────────────────────┐
+│ Ano  │ Patrimônio EUR  │ Observação                                         │
+├──────┼─────────────────┼────────────────────────────────────────────────────┤
+│ 2009 │ 28.600          │ Valor inicial (Fev/2009) - FUNDO JÁ TRAVADO        │
+│ 2009 │ 20.800          │ Fim do ano - Perda de -27,44%                      │
+│ 2010 │ 17.300          │ Perda adicional de -16,62%                         │
+│ 2011 │ 15.400          │ Primeiro ano com resgates possíveis                │
+│ 2012 │ 12.500          │ Patrimônio em queda                                │
+│ 2013 │ 8.300           │ PIOR MOMENTO: -47,40% acumulado                    │
+│ 2014 │ 6.500           │ Início recuperação                                 │
+│ 2015 │ 3.600           │ Após resgates                                      │
+│ 2016 │ 2.700           │ Próximo ao fim                                     │
+│ 2017 │ 2.700           │ Valor final                                        │
+└──────┴─────────────────┴────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+RESGATES POR ANO - PORTFOLIO 02
+═══════════════════════════════════════════════════════════════════════════════
+
+┌──────┬─────────────┬────────────────────────────────────────────────────────┐
+│ Ano  │ Resgate EUR │ Observação                                             │
+├──────┼─────────────┼────────────────────────────────────────────────────────┤
+│ 2009 │ 0           │ FUNDO TRAVADO (gating) - cliente não podia sacar       │
+│ 2010 │ 0           │ FUNDO TRAVADO (gating) - cliente não podia sacar       │
+│ 2011 │ 2.700       │ Primeiras retiradas possíveis após desbloqueio parcial │
+│ 2012 │ 3.000       │ Resgates limitados                                     │
+│ 2013 │ 2.100       │ Resgates limitados                                     │
+│ 2014 │ 2.600       │ Resgates limitados                                     │
+│ 2015 │ 3.900       │ Maior resgate do período                               │
+│ 2016 │ 1.000       │ Resgate final                                          │
+│ 2017 │ 0           │ Sem resgates (período parcial)                         │
+├──────┼─────────────┼────────────────────────────────────────────────────────┤
+│TOTAL │ 15.300      │ Total de resgates realizados                           │
+└──────┴─────────────┴────────────────────────────────────────────────────────┘
+
+IMPORTANTE: Os resgates NÃO explicam a perda. Quando começaram (2011),
+o patrimônio já havia caído de EUR 28.600 para EUR 15.400 (-46%).
+
+═══════════════════════════════════════════════════════════════════════════════
+PERFORMANCE CUMULATIVA - PORTFOLIO 02
+═══════════════════════════════════════════════════════════════════════════════
+
+┌──────┬────────────┬────────────────┬───────────────────────────────────────┐
+│ Ano  │ TWR %      │ Acumulado %    │ Observação                            │
+├──────┼────────────┼────────────────┼───────────────────────────────────────┤
+│ 2009 │ -27,44%    │ -27,44%        │ FUNDO TRAVADO - Cliente preso         │
+│ 2010 │ -16,62%    │ -39,50%        │ FUNDO TRAVADO - Cliente preso         │
+│ 2011 │ +4,30%     │ -36,90%        │ Primeira recuperação                  │
+│ 2012 │ -0,25%     │ -37,05%        │ Estagnação                            │
+│ 2013 │ -16,44%    │ -47,40%        │ PIOR MOMENTO - Violação de tolerância │
+│ 2014 │ +11,02%    │ -41,60%        │ Recuperação                           │
+│ 2015 │ +16,45%    │ -32,00%        │ Melhor ano                            │
+│ 2016 │ +0,18%     │ -31,88%        │ Estável                               │
+│ 2017 │ +1,09%     │ -31,13%        │ Performance final                     │
+└──────┴────────────┴────────────────┴───────────────────────────────────────┘
+
+RESUMO PERFORMANCE P02:
+- Performance Cumulativa Final: -31,13%
+- Média Anual: -4,58%
+- Melhor Ano: 2015 (+16,45%)
+- Pior Ano: 2009 (-27,44%)
+- Pior Momento: 2013 (-47,40% acumulado)
+- Tolerância do Perfil: -20%
+- Violação da Tolerância: 27,40 pontos percentuais além do limite
+
+ANÁLISE DE VIOLAÇÃO:
+┌─────────────────────────┬──────────────┬──────────────────────────────────┐
+│ Métrica                 │ Valor        │ Análise                          │
+├─────────────────────────┼──────────────┼──────────────────────────────────┤
+│ Tolerância Máxima       │ -20%         │ Perfil Classe C (Yield)          │
+│ Perda Final             │ -31,13%      │ 11,13pp acima do limite          │
+│ Pior Momento            │ -47,40%      │ 27,40pp acima do limite          │
+│ Anos em Violação        │ 6 de 9       │ 2010, 2011, 2012, 2013, 2014, 15 │
+│ Excesso Máximo          │ 137%         │ Perda 2,37x o limite tolerado    │
+└─────────────────────────┴──────────────┴──────────────────────────────────┘
 """)
 
         cls._context_cache = "\n".join(context_parts)
