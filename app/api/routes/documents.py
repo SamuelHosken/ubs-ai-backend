@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException, status, BackgroundTasks
+from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-from typing import List, Dict
+from typing import List, Dict, Optional
 from app.models import get_db, User, Document
 from app.schemas.document import DocumentResponse, DocumentStats
 from app.core.dependencies import get_current_active_user, get_current_dev_user
@@ -9,7 +10,9 @@ from app.services.embedding_service import EmbeddingService
 import logging
 import subprocess
 import sys
+import os
 from pathlib import Path
+from pydantic import BaseModel
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/documents", tags=["documents"])
@@ -167,3 +170,208 @@ async def reindex_embeddings(
         "message": "Re-indexação iniciada em background. Verifique os logs para acompanhar o progresso.",
         "scripts": scripts
     }
+
+
+# ============================================================
+# ENDPOINTS DE IMAGENS DE PORTFOLIOS
+# ============================================================
+
+# Caminho base das imagens de portfolios
+PORTFOLIOS_IMAGES_PATH = Path(__file__).parent.parent.parent.parent.parent / "portfolios_corrigidos"
+
+
+class PortfolioImage(BaseModel):
+    """Schema para imagem de portfolio"""
+    year: str
+    document_name: str
+    page_number: int
+    filename: str
+    path: str
+
+
+class PortfolioImageStats(BaseModel):
+    """Estatísticas das imagens"""
+    total_images: int
+    years: List[str]
+    document_types: List[str]
+
+
+@router.get("/images/list", response_model=List[PortfolioImage])
+def list_portfolio_images(
+    year: Optional[str] = None,
+    document_type: Optional[str] = None,
+    search: Optional[str] = None,
+    skip: int = 0,
+    limit: int = 50,
+    current_user: User = Depends(get_current_active_user)
+) -> List[PortfolioImage]:
+    """
+    Lista todas as imagens de portfolios disponíveis.
+    Suporta filtros por ano, tipo de documento e busca por texto.
+    """
+    if not PORTFOLIOS_IMAGES_PATH.exists():
+        logger.warning(f"Pasta de imagens não encontrada: {PORTFOLIOS_IMAGES_PATH}")
+        return []
+
+    images = []
+
+    # Percorrer estrutura de pastas
+    for year_folder in sorted(PORTFOLIOS_IMAGES_PATH.iterdir()):
+        if not year_folder.is_dir() or year_folder.name.startswith('.'):
+            continue
+
+        folder_year = year_folder.name
+
+        # Filtro por ano
+        if year and folder_year != year:
+            continue
+
+        # Procurar imagens diretamente na pasta do ano
+        for item in year_folder.iterdir():
+            if item.is_file() and item.suffix.lower() in ['.jpg', '.jpeg', '.png']:
+                _add_image_to_list(images, item, folder_year, year_folder.name, document_type, search)
+            elif item.is_dir():
+                # Subpasta com imagens (ex: 13.03.31-Statement of assets...)
+                doc_folder_name = item.name
+                for img_file in item.iterdir():
+                    if img_file.is_file() and img_file.suffix.lower() in ['.jpg', '.jpeg', '.png']:
+                        _add_image_to_list(images, img_file, folder_year, doc_folder_name, document_type, search)
+
+    # Ordenar por ano e página
+    images.sort(key=lambda x: (x.year, x.document_name, x.page_number))
+
+    # Paginação
+    return images[skip:skip + limit]
+
+
+def _add_image_to_list(
+    images: List[PortfolioImage],
+    img_file: Path,
+    year: str,
+    doc_name: str,
+    document_type: Optional[str],
+    search: Optional[str]
+):
+    """Adiciona imagem à lista se passar nos filtros"""
+    filename = img_file.name
+
+    # Extrair número da página do nome do arquivo
+    page_num = 1
+    if '-page-' in filename:
+        try:
+            page_str = filename.split('-page-')[-1].split('.')[0]
+            page_num = int(page_str)
+        except (ValueError, IndexError):
+            pass
+
+    # Extrair tipo de documento
+    doc_type = _extract_document_type(doc_name)
+
+    # Filtro por tipo de documento
+    if document_type and document_type.lower() not in doc_type.lower():
+        return
+
+    # Filtro por busca de texto
+    if search:
+        search_lower = search.lower()
+        if (search_lower not in filename.lower() and
+            search_lower not in doc_name.lower() and
+            search_lower not in year):
+            return
+
+    images.append(PortfolioImage(
+        year=year,
+        document_name=doc_name,
+        page_number=page_num,
+        filename=filename,
+        path=str(img_file.relative_to(PORTFOLIOS_IMAGES_PATH))
+    ))
+
+
+def _extract_document_type(doc_name: str) -> str:
+    """Extrai o tipo de documento do nome da pasta/arquivo"""
+    doc_name_lower = doc_name.lower()
+    if 'statement' in doc_name_lower:
+        return 'Statement'
+    elif 'agreement' in doc_name_lower:
+        return 'Agreement'
+    elif 'report' in doc_name_lower:
+        return 'Report'
+    elif 'fee' in doc_name_lower:
+        return 'Fee'
+    else:
+        return 'Other'
+
+
+@router.get("/images/stats", response_model=PortfolioImageStats)
+def get_portfolio_images_stats(
+    current_user: User = Depends(get_current_active_user)
+) -> PortfolioImageStats:
+    """Retorna estatísticas das imagens de portfolios"""
+    if not PORTFOLIOS_IMAGES_PATH.exists():
+        return PortfolioImageStats(total_images=0, years=[], document_types=[])
+
+    total = 0
+    years = set()
+    doc_types = set()
+
+    for year_folder in PORTFOLIOS_IMAGES_PATH.iterdir():
+        if not year_folder.is_dir() or year_folder.name.startswith('.'):
+            continue
+
+        years.add(year_folder.name)
+
+        for item in year_folder.iterdir():
+            if item.is_file() and item.suffix.lower() in ['.jpg', '.jpeg', '.png']:
+                total += 1
+                doc_types.add(_extract_document_type(item.name))
+            elif item.is_dir():
+                doc_types.add(_extract_document_type(item.name))
+                for img_file in item.iterdir():
+                    if img_file.is_file() and img_file.suffix.lower() in ['.jpg', '.jpeg', '.png']:
+                        total += 1
+
+    return PortfolioImageStats(
+        total_images=total,
+        years=sorted(list(years)),
+        document_types=sorted(list(doc_types))
+    )
+
+
+@router.get("/images/file/{image_path:path}")
+def get_portfolio_image(image_path: str):
+    """
+    Retorna o arquivo de imagem.
+    Nota: Esta rota não requer autenticação para permitir uso em tags <img>.
+    A segurança é garantida pela validação do caminho.
+    """
+    # Decodificar o caminho (pode vir URL encoded)
+    from urllib.parse import unquote
+    image_path = unquote(image_path)
+
+    full_path = PORTFOLIOS_IMAGES_PATH / image_path
+
+    # Segurança: verificar se o caminho está dentro da pasta permitida
+    try:
+        full_path.resolve().relative_to(PORTFOLIOS_IMAGES_PATH.resolve())
+    except ValueError:
+        raise HTTPException(status_code=403, detail="Acesso negado")
+
+    if not full_path.exists():
+        raise HTTPException(status_code=404, detail="Imagem não encontrada")
+
+    # Determinar media type baseado na extensão
+    suffix = full_path.suffix.lower()
+    media_types = {
+        '.jpg': 'image/jpeg',
+        '.jpeg': 'image/jpeg',
+        '.png': 'image/png',
+        '.gif': 'image/gif',
+    }
+    media_type = media_types.get(suffix, 'image/jpeg')
+
+    return FileResponse(
+        path=str(full_path),
+        media_type=media_type,
+        filename=full_path.name
+    )
