@@ -20,8 +20,8 @@ class Settings(BaseSettings):
     # Cohere Configuration (Optional)
     COHERE_API_KEY: str = Field(default="")
     
-    # Vector Database
-    CHROMA_PERSIST_DIRECTORY: str = "./data/embeddings"
+    # Vector Database - Em produção, usar volume persistente (ex: /data/embeddings)
+    CHROMA_PERSIST_DIRECTORY: str = Field(default="./data/embeddings")
     
     # JWT Settings - MUST come from environment!
     SECRET_KEY: str = Field(default="")
