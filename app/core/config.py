@@ -34,6 +34,17 @@ class Settings(BaseSettings):
     # Logging
     LOG_LEVEL: str = "INFO"
 
+    # Storage Configuration (S3/R2 for production, local for development)
+    STORAGE_TYPE: str = "local"  # "local" or "s3"
+    S3_BUCKET_NAME: str = ""
+    S3_ENDPOINT_URL: str = ""  # For R2: https://<account_id>.r2.cloudflarestorage.com
+    S3_ACCESS_KEY_ID: str = ""
+    S3_SECRET_ACCESS_KEY: str = ""
+    S3_REGION: str = "auto"  # For R2 use "auto"
+
+    # Local images path (for development)
+    LOCAL_IMAGES_PATH: str = ""
+
     class Config:
         env_file = ".env"
         extra = "ignore"

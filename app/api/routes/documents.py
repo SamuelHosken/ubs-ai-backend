@@ -176,8 +176,7 @@ async def reindex_embeddings(
 # ENDPOINTS DE IMAGENS DE PORTFOLIOS
 # ============================================================
 
-# Caminho base das imagens de portfolios
-PORTFOLIOS_IMAGES_PATH = Path(__file__).parent.parent.parent.parent.parent / "portfolios_corrigidos"
+from app.services.storage_service import storage_service
 
 
 class PortfolioImage(BaseModel):
@@ -196,6 +195,39 @@ class PortfolioImageStats(BaseModel):
     document_types: List[str]
 
 
+class PortfolioDocument(BaseModel):
+    """Schema para documento/portfolio dentro de um ano"""
+    name: str
+    document_type: str
+    image_count: int
+    thumbnail_path: str
+
+
+class PortfolioYear(BaseModel):
+    """Schema para ano com seus documentos"""
+    year: str
+    year_label: str
+    document_count: int
+    image_count: int
+    documents: List[PortfolioDocument]
+
+
+def _is_image_file(filename: str) -> bool:
+    """Verifica se o arquivo e uma imagem"""
+    return filename.lower().endswith(('.jpg', '.jpeg', '.png'))
+
+
+def _extract_page_number(filename: str) -> int:
+    """Extrai numero da pagina do nome do arquivo"""
+    if '-page-' in filename:
+        try:
+            page_str = filename.split('-page-')[-1].split('.')[0]
+            return int(page_str)
+        except (ValueError, IndexError):
+            pass
+    return 1
+
+
 @router.get("/images/list", response_model=List[PortfolioImage])
 def list_portfolio_images(
     year: Optional[str] = None,
@@ -206,86 +238,83 @@ def list_portfolio_images(
     current_user: User = Depends(get_current_active_user)
 ) -> List[PortfolioImage]:
     """
-    Lista todas as imagens de portfolios disponíveis.
+    Lista todas as imagens de portfolios disponiveis.
     Suporta filtros por ano, tipo de documento e busca por texto.
     """
-    if not PORTFOLIOS_IMAGES_PATH.exists():
-        logger.warning(f"Pasta de imagens não encontrada: {PORTFOLIOS_IMAGES_PATH}")
-        return []
-
     images = []
 
-    # Percorrer estrutura de pastas
-    for year_folder in sorted(PORTFOLIOS_IMAGES_PATH.iterdir()):
-        if not year_folder.is_dir() or year_folder.name.startswith('.'):
+    # Listar anos (pastas raiz)
+    year_folders = storage_service.list_directory("")
+
+    for folder_year in sorted(year_folders):
+        if folder_year.startswith('.'):
             continue
 
-        folder_year = year_folder.name
+        if not storage_service.is_directory(folder_year):
+            continue
 
         # Filtro por ano
         if year and folder_year != year:
             continue
 
-        # Procurar imagens diretamente na pasta do ano
-        for item in year_folder.iterdir():
-            if item.is_file() and item.suffix.lower() in ['.jpg', '.jpeg', '.png']:
-                _add_image_to_list(images, item, folder_year, year_folder.name, document_type, search)
-            elif item.is_dir():
-                # Subpasta com imagens (ex: 13.03.31-Statement of assets...)
-                doc_folder_name = item.name
-                for img_file in item.iterdir():
-                    if img_file.is_file() and img_file.suffix.lower() in ['.jpg', '.jpeg', '.png']:
-                        _add_image_to_list(images, img_file, folder_year, doc_folder_name, document_type, search)
+        # Listar conteudo do ano
+        year_items = storage_service.list_directory(folder_year)
 
-    # Ordenar por ano e página
+        for item_name in year_items:
+            if item_name.startswith('.'):
+                continue
+
+            item_path = f"{folder_year}/{item_name}"
+
+            if _is_image_file(item_name):
+                # Imagem solta na pasta do ano
+                doc_type = _extract_document_type(item_name)
+                if document_type and document_type.lower() not in doc_type.lower():
+                    continue
+                if search and search.lower() not in item_name.lower():
+                    continue
+
+                images.append(PortfolioImage(
+                    year=folder_year,
+                    document_name=folder_year,
+                    page_number=_extract_page_number(item_name),
+                    filename=item_name,
+                    path=item_path
+                ))
+            elif storage_service.is_directory(item_path):
+                # Subpasta com imagens
+                doc_name = item_name
+                doc_type = _extract_document_type(doc_name)
+
+                if document_type and document_type.lower() not in doc_type.lower():
+                    continue
+
+                # Listar imagens na subpasta
+                doc_items = storage_service.list_directory(item_path)
+                for img_name in doc_items:
+                    if not _is_image_file(img_name):
+                        continue
+
+                    if search:
+                        search_lower = search.lower()
+                        if (search_lower not in img_name.lower() and
+                            search_lower not in doc_name.lower() and
+                            search_lower not in folder_year):
+                            continue
+
+                    images.append(PortfolioImage(
+                        year=folder_year,
+                        document_name=doc_name,
+                        page_number=_extract_page_number(img_name),
+                        filename=img_name,
+                        path=f"{item_path}/{img_name}"
+                    ))
+
+    # Ordenar por ano e pagina
     images.sort(key=lambda x: (x.year, x.document_name, x.page_number))
 
-    # Paginação
+    # Paginacao
     return images[skip:skip + limit]
-
-
-def _add_image_to_list(
-    images: List[PortfolioImage],
-    img_file: Path,
-    year: str,
-    doc_name: str,
-    document_type: Optional[str],
-    search: Optional[str]
-):
-    """Adiciona imagem à lista se passar nos filtros"""
-    filename = img_file.name
-
-    # Extrair número da página do nome do arquivo
-    page_num = 1
-    if '-page-' in filename:
-        try:
-            page_str = filename.split('-page-')[-1].split('.')[0]
-            page_num = int(page_str)
-        except (ValueError, IndexError):
-            pass
-
-    # Extrair tipo de documento
-    doc_type = _extract_document_type(doc_name)
-
-    # Filtro por tipo de documento
-    if document_type and document_type.lower() not in doc_type.lower():
-        return
-
-    # Filtro por busca de texto
-    if search:
-        search_lower = search.lower()
-        if (search_lower not in filename.lower() and
-            search_lower not in doc_name.lower() and
-            search_lower not in year):
-            return
-
-    images.append(PortfolioImage(
-        year=year,
-        document_name=doc_name,
-        page_number=page_num,
-        filename=filename,
-        path=str(img_file.relative_to(PORTFOLIOS_IMAGES_PATH))
-    ))
 
 
 def _extract_document_type(doc_name: str) -> str:
@@ -303,32 +332,123 @@ def _extract_document_type(doc_name: str) -> str:
         return 'Other'
 
 
+@router.get("/images/structure", response_model=List[PortfolioYear])
+def get_portfolio_images_structure(
+    current_user: User = Depends(get_current_active_user)
+) -> List[PortfolioYear]:
+    """
+    Retorna a estrutura hierarquica das imagens:
+    Anos -> Documentos -> (imagens via outro endpoint)
+    """
+    years_data = []
+
+    # Listar anos (pastas raiz)
+    year_folders = storage_service.list_directory("")
+
+    for year in sorted(year_folders):
+        if year.startswith('.'):
+            continue
+
+        if not storage_service.is_directory(year):
+            continue
+
+        year_num = int(year) if year.isdigit() else 0
+        year_label = f"20{year.zfill(2)}" if year_num < 50 else f"19{year.zfill(2)}" if year_num < 100 else year
+
+        documents = []
+        total_images = 0
+
+        # Listar conteudo do ano
+        year_items = storage_service.list_directory(year)
+
+        for item_name in sorted(year_items):
+            if item_name.startswith('.'):
+                continue
+
+            item_path = f"{year}/{item_name}"
+
+            if _is_image_file(item_name):
+                # Imagem solta na pasta do ano
+                total_images += 1
+                doc_name = item_name.rsplit('.', 1)[0]  # Remove extensao
+                doc_type = _extract_document_type(doc_name)
+                documents.append(PortfolioDocument(
+                    name=doc_name,
+                    document_type=doc_type,
+                    image_count=1,
+                    thumbnail_path=item_path
+                ))
+            elif storage_service.is_directory(item_path):
+                # Subpasta com imagens
+                doc_name = item_name
+                doc_type = _extract_document_type(doc_name)
+
+                # Contar imagens na subpasta
+                doc_items = storage_service.list_directory(item_path)
+                image_files = [f for f in sorted(doc_items) if _is_image_file(f)]
+
+                if image_files:
+                    total_images += len(image_files)
+                    # Usar primeira imagem como thumbnail
+                    thumbnail = f"{item_path}/{image_files[0]}"
+                    documents.append(PortfolioDocument(
+                        name=doc_name,
+                        document_type=doc_type,
+                        image_count=len(image_files),
+                        thumbnail_path=thumbnail
+                    ))
+
+        if documents:
+            years_data.append(PortfolioYear(
+                year=year,
+                year_label=year_label,
+                document_count=len(documents),
+                image_count=total_images,
+                documents=documents
+            ))
+
+    return years_data
+
+
 @router.get("/images/stats", response_model=PortfolioImageStats)
 def get_portfolio_images_stats(
     current_user: User = Depends(get_current_active_user)
 ) -> PortfolioImageStats:
-    """Retorna estatísticas das imagens de portfolios"""
-    if not PORTFOLIOS_IMAGES_PATH.exists():
-        return PortfolioImageStats(total_images=0, years=[], document_types=[])
-
+    """Retorna estatisticas das imagens de portfolios"""
     total = 0
     years = set()
     doc_types = set()
 
-    for year_folder in PORTFOLIOS_IMAGES_PATH.iterdir():
-        if not year_folder.is_dir() or year_folder.name.startswith('.'):
+    # Listar anos
+    year_folders = storage_service.list_directory("")
+
+    for year in year_folders:
+        if year.startswith('.'):
             continue
 
-        years.add(year_folder.name)
+        if not storage_service.is_directory(year):
+            continue
 
-        for item in year_folder.iterdir():
-            if item.is_file() and item.suffix.lower() in ['.jpg', '.jpeg', '.png']:
+        years.add(year)
+
+        # Listar conteudo do ano
+        year_items = storage_service.list_directory(year)
+
+        for item_name in year_items:
+            if item_name.startswith('.'):
+                continue
+
+            item_path = f"{year}/{item_name}"
+
+            if _is_image_file(item_name):
                 total += 1
-                doc_types.add(_extract_document_type(item.name))
-            elif item.is_dir():
-                doc_types.add(_extract_document_type(item.name))
-                for img_file in item.iterdir():
-                    if img_file.is_file() and img_file.suffix.lower() in ['.jpg', '.jpeg', '.png']:
+                doc_types.add(_extract_document_type(item_name))
+            elif storage_service.is_directory(item_path):
+                doc_types.add(_extract_document_type(item_name))
+                # Contar imagens na subpasta
+                doc_items = storage_service.list_directory(item_path)
+                for img_name in doc_items:
+                    if _is_image_file(img_name):
                         total += 1
 
     return PortfolioImageStats(
@@ -342,26 +462,31 @@ def get_portfolio_images_stats(
 def get_portfolio_image(image_path: str):
     """
     Retorna o arquivo de imagem.
-    Nota: Esta rota não requer autenticação para permitir uso em tags <img>.
-    A segurança é garantida pela validação do caminho.
+    Suporta tanto storage local quanto S3/R2.
     """
-    # Decodificar o caminho (pode vir URL encoded)
     from urllib.parse import unquote
+    from fastapi.responses import RedirectResponse, Response
+
     image_path = unquote(image_path)
 
-    full_path = PORTFOLIOS_IMAGES_PATH / image_path
+    # Verificar se arquivo existe
+    if not storage_service.file_exists(image_path):
+        raise HTTPException(status_code=404, detail="Imagem nao encontrada")
 
-    # Segurança: verificar se o caminho está dentro da pasta permitida
-    try:
-        full_path.resolve().relative_to(PORTFOLIOS_IMAGES_PATH.resolve())
-    except ValueError:
-        raise HTTPException(status_code=403, detail="Acesso negado")
+    # Se for S3, redirecionar para URL pre-assinada
+    if not storage_service.is_local():
+        presigned_url = storage_service.get_file_url(image_path)
+        if presigned_url:
+            return RedirectResponse(url=presigned_url)
+        raise HTTPException(status_code=500, detail="Erro ao gerar URL da imagem")
 
-    if not full_path.exists():
-        raise HTTPException(status_code=404, detail="Imagem não encontrada")
+    # Se for local, servir o arquivo diretamente
+    local_path = storage_service.get_local_path(image_path)
+    if not local_path:
+        raise HTTPException(status_code=404, detail="Imagem nao encontrada")
 
-    # Determinar media type baseado na extensão
-    suffix = full_path.suffix.lower()
+    # Determinar media type baseado na extensao
+    suffix = local_path.suffix.lower()
     media_types = {
         '.jpg': 'image/jpeg',
         '.jpeg': 'image/jpeg',
@@ -371,7 +496,7 @@ def get_portfolio_image(image_path: str):
     media_type = media_types.get(suffix, 'image/jpeg')
 
     return FileResponse(
-        path=str(full_path),
+        path=str(local_path),
         media_type=media_type,
-        filename=full_path.name
+        filename=local_path.name
     )
