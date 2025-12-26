@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     
     # OpenAI Configuration
     OPENAI_API_KEY: str = Field(default="")
-    OPENAI_MODEL: str = "gpt-4-turbo-preview"
+    OPENAI_MODEL: str = "gpt-4.1"
     
     # Cohere Configuration (Optional)
     COHERE_API_KEY: str = Field(default="")

@@ -44,16 +44,14 @@ AGENTES DISPONÍVEIS:
    USAR: Para questões sobre responsabilidade, culpa, violações, má conduta, erros do banco
    Exemplos: "foi culpa de quem?", "o UBS errou?", "houve má conduta?", "violação"
 
-4. chart - Geração de gráficos ⭐ USAR FREQUENTEMENTE
-   USAR SEMPRE quando a pergunta envolver:
-   - Valores, quantias, "quanto" → gráfico de barras
-   - Evolução, "ao longo do tempo", "como mudou" → gráfico de linha
-   - Comparação, "diferença", "vs", "qual foi pior" → gráfico comparativo
-   - "Para onde foi", distribuição → gráfico de pizza
-   - Saques, retiradas, outflows → gráfico de barras
-   - Performance, retornos anuais → gráfico de linha
-   - "Me mostra", "mostre", "visualizar" → SEMPRE gráfico
-   IMPORTANTE: Na dúvida, INCLUA "chart" - visualizações ajudam o cliente leigo!
+4. chart - Geração de gráficos
+   USAR APENAS quando a pergunta EXPLICITAMENTE pedir visualização:
+   - "mostre um gráfico", "faça um gráfico", "visualize"
+   - "evolução patrimonial", "evolução do patrimônio"
+   - "saques por ano", "retiradas por ano"
+   - "retornos anuais", "performance anual"
+   - "compare os portfolios"
+   NÃO USAR para perguntas gerais como "o que aconteceu?", "qual foi a perda?"
 
 5. calculation - Cálculos matemáticos
    USAR: Para contas específicas, percentuais, totais
@@ -71,13 +69,13 @@ AGENTES DISPONÍVEIS:
 REGRAS DE ROTEAMENTO:
 
 Para PERGUNTAS SOBRE DADOS, VALORES, PERFORMANCE:
-→ ["search", "analysis", "chart"]
+→ ["search", "analysis"]
 
 Para PERGUNTAS SOBRE RESPONSABILIDADE, CULPA, VIOLAÇÕES:
 → ["search", "forensic"]
 
 Para PERGUNTAS GERAIS SOBRE O CASO ("o que aconteceu?"):
-→ ["search", "analysis", "chart"]
+→ ["search", "analysis"]
 
 Para SEQUÊNCIA DE EVENTOS, CRONOLOGIA:
 → ["search", "timeline"]
@@ -85,7 +83,7 @@ Para SEQUÊNCIA DE EVENTOS, CRONOLOGIA:
 Para CONTEXTO HISTÓRICO (APENAS SE EXPLICITAMENTE PEDIDO):
 → ["search", "context"]
 
-Para COMPARAÇÕES ENTRE PORTFOLIOS:
+Para VISUALIZAÇÃO/GRÁFICOS (APENAS SE PEDIDO):
 → ["search", "analysis", "chart"]
 
 Para CÁLCULOS:
@@ -113,8 +111,7 @@ IMPORTANTE:
 - Este é um CASO JURÍDICO contra o UBS
 - FOQUE nos DOCUMENTOS, DADOS e FATOS do caso
 - NÃO adicione "context" automaticamente - só se o usuário pedir
-- O cliente é LEIGO - precisa de visualizações!
-- SEMPRE inclua "chart" para perguntas sobre valores, saques, evolução
+- NÃO adicione "chart" automaticamente - só se o usuário pedir gráfico/visualização
 """
 
     def __init__(self):
@@ -123,7 +120,7 @@ IMPORTANTE:
     def decide_agents(self, user_query: str) -> AgentDecision:
         """Decide quais agentes usar para uma query"""
         decision = self.client.chat.completions.create(
-            model="gpt-4-turbo-preview",
+            model="gpt-4.1",
             response_model=AgentDecision,
             messages=[
                 {"role": "system", "content": self.SYSTEM_PROMPT},

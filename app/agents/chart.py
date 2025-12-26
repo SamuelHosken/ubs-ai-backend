@@ -293,7 +293,7 @@ Crie gráficos com dados ANO A ANO, nunca agrupe períodos.
 Use valores absolutos (positivos) para gráficos."""
 
         chart_spec = self.client.chat.completions.create(
-            model="gpt-4-turbo-preview",
+            model="gpt-4.1",
             response_model=ChartSpecification,
             messages=[
                 {"role": "system", "content": system_prompt},

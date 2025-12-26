@@ -88,7 +88,7 @@ Responda em português.
         formatted_context = self._format_context(context)
 
         response = self.client.chat.completions.create(
-            model="gpt-4-turbo-preview",
+            model="gpt-4.1",
             response_model=Timeline,
             messages=[
                 {"role": "system", "content": self.SYSTEM_PROMPT.format(context=formatted_context)},

@@ -92,7 +92,7 @@ DOCUMENTOS DISPONÍVEIS:
 
         # Chamar LLM com structured output
         response = self.client.chat.completions.create(
-            model="gpt-4-turbo-preview",
+            model="gpt-4.1",
             response_model=ViolationAnalysis,
             messages=[
                 {"role": "system", "content": self.SYSTEM_PROMPT.format(context=formatted_context)},

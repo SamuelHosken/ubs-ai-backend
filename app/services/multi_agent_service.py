@@ -83,13 +83,19 @@ class MultiAgentChatService:
         include_tertiary = "context" in agents_to_use or "timeline" in agents_to_use
 
         # 3. BUSCA HIERÁRQUICA - Prioriza COMPLETE_ANALYSIS
-        search_results = await self.agents["search"].search_hierarchical(
-            query=query,
-            n_primary=10,  # Mais resultados da fonte principal
-            n_secondary=5,  # Menos das secundárias
-            include_tertiary=include_tertiary,
-            use_rerank=True
-        )
+        # Com fallback para KnowledgeBase se embeddings falharem
+        try:
+            search_results = await self.agents["search"].search_hierarchical(
+                query=query,
+                n_primary=10,  # Mais resultados da fonte principal
+                n_secondary=5,  # Menos das secundárias
+                include_tertiary=include_tertiary,
+                use_rerank=True
+            )
+        except Exception as e:
+            print(f"⚠️ Embedding search failed, using KnowledgeBase fallback: {e}")
+            # Fallback: usar KnowledgeBase diretamente
+            search_results = {}
 
         # 4. Formatar fontes para o resultado
         formatted_sources = self._extract_sources(search_results)
@@ -240,13 +246,17 @@ class MultiAgentChatService:
         # 3. BUSCA HIERÁRQUICA - Prioriza COMPLETE_ANALYSIS
         yield {"type": "thinking", "data": {"step": "search", "message": "Consultando base de conhecimento principal..."}}
 
-        search_results = await self.agents["search"].search_hierarchical(
-            query=query,
-            n_primary=10,
-            n_secondary=5,
-            include_tertiary=include_tertiary,
-            use_rerank=True
-        )
+        try:
+            search_results = await self.agents["search"].search_hierarchical(
+                query=query,
+                n_primary=10,
+                n_secondary=5,
+                include_tertiary=include_tertiary,
+                use_rerank=True
+            )
+        except Exception as e:
+            print(f"⚠️ Embedding search failed, using KnowledgeBase fallback: {e}")
+            search_results = {}
 
         # Contar documentos encontrados
         total_docs = sum(len(r.get("documents", [])) for r in search_results.values())
@@ -613,54 +623,34 @@ ANÁLISE DOS AGENTES:
 {combined_context}
 
 ══════════════════════════════════════════════════════════════════════════════
-REGRAS OBRIGATÓRIAS DE FORMATAÇÃO:
+COMO RESPONDER:
 ══════════════════════════════════════════════════════════════════════════════
 
-1. ESTRUTURA DA RESPOSTA:
-   a) RESPOSTA DIRETA (1-2 frases respondendo a pergunta)
-   b) EXPLICAÇÃO SIMPLES (2-3 frases em linguagem de 5ª série)
-   c) NÚMEROS-CHAVE (tabela ou lista curta com dados importantes)
-   d) PRÓXIMO PASSO (1 frase: "Quer que eu detalhe algo?")
+Responda de forma NATURAL e CONVERSACIONAL, como se estivesse explicando para um amigo.
 
-2. DIFERENCIAÇÃO P01 vs P02 - SEMPRE separar claramente:
+REGRAS:
+- Seja direto e vá ao ponto
+- Use linguagem simples, sem jargões financeiros
+- Mencione números importantes em **negrito**
+- Parágrafos curtos e fáceis de ler
+- NÃO use estruturas rígidas como "a) b) c)" ou "1. 2. 3."
+- NÃO termine sempre com "Quer que eu detalhe algo?"
+- Varie o estilo das respostas
 
-   **Portfolio 01 (Principal)** = BOM ✅
-   - Performance: +17,65%
-   - Motivo da queda: SAQUES do cliente (95%)
-   - Problema: Nenhum grave
+DADOS IMPORTANTES (use quando relevante):
+- Portfolio 01: performance +17,65%, queda foi por saques do cliente (95%)
+- Portfolio 02: perda de -31,13%, UBS tem 90% da culpa
 
-   **Portfolio 02 (Imobiliário)** = RUIM ❌
-   - Performance: -31,13%
-   - Pior momento: -47,40% (2013)
-   - Problema: Violações graves do UBS
-   - Perfil tolerava -20%, perdeu -47%
-
-3. NÚMEROS-CHAVE A MENCIONAR (conforme contexto):
-   - P01: EUR 1.174.300 inicial → EUR 229.700 final
-   - P01: Saques de EUR 1.133.600 (95% da redução)
-   - P02: EUR 29.408 inicial → EUR 2.692 final
-   - P02: Perda de -31,13% (violação de -47,40% em 2013)
-   - P02: Tolerância era -20%, excedeu em 2,37x
-   - UBS: 90% culpa no P02
-
-4. LINGUAGEM SIMPLES:
-   ❌ ERRADO: "A performance cumulativa TWR foi de +17,65%..."
-   ✅ CERTO: "Você NÃO perdeu dinheiro no Portfolio 01. Na verdade, seus investimentos renderam **+17,65%** - isso é bom!"
-
-5. Use **negrito** para números importantes
-6. Parágrafos curtos (2-3 linhas máximo)
-7. Use emojis com moderação (✅ ❌ 📁 ⚖️)
-
-Resposta consolidada:"""
+Responda agora:"""
 
         try:
             response = self.openai_client.chat.completions.create(
-                model="gpt-4-turbo-preview",
+                model="gpt-4.1",
                 messages=[
-                    {"role": "system", "content": "Você é um assistente empático que explica casos financeiros para CLIENTES LEIGOS. Use linguagem SIMPLES. Sempre diferencie P01 (bom) de P02 (ruim). NUNCA diga que não pode gerar gráficos."},
+                    {"role": "system", "content": "Você é um assistente que explica casos financeiros de forma natural e conversacional. Fale como um amigo que entende do assunto, não como um robô. Varie seu estilo de resposta."},
                     {"role": "user", "content": consolidation_prompt}
                 ],
-                temperature=0.3,
+                temperature=0.7,
                 max_tokens=2000
             )
             return response.choices[0].message.content
@@ -697,25 +687,17 @@ DOCUMENTOS COMPLEMENTARES:
 
 PERGUNTA: {query}
 
-INSTRUÇÕES:
-1. USE os dados das TABELAS OFICIAIS acima
-2. NUNCA diga "não tem dados"
-
-FORMATO:
-- Use **negrito** para números e informações importantes
-- Parágrafos curtos (2-3 linhas)
-- Use bullet points para listas
-- NÃO mostre dados técnicos
-- Linguagem natural e amigável"""
+Responda de forma natural e conversacional, como explicaria para um amigo.
+Use **negrito** para números importantes. Seja direto e evite estruturas rígidas."""
 
         try:
             response = self.openai_client.chat.completions.create(
-                model="gpt-4-turbo-preview",
+                model="gpt-4.1",
                 messages=[
-                    {"role": "system", "content": "Você analisa documentos financeiros de um caso jurídico. Responda APENAS com dados dos documentos. Não invente contexto histórico. IMPORTANTE: O sistema TEM capacidade de gerar gráficos automaticamente - nunca diga que não pode criar gráficos."},
+                    {"role": "system", "content": "Você explica casos financeiros de forma natural e amigável. Fale como um amigo, não como um robô. Varie seu estilo."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.3,
+                temperature=0.7,
                 max_tokens=1500
             )
             return response.choices[0].message.content
