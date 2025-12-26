@@ -15,7 +15,7 @@ BASE_URL = "https://ubs-ai-backend-production.up.railway.app"
 EMAIL = "dev@ubs.com"
 PASSWORD = "dev123"
 
-# 45 Perguntas organizadas em 9 categorias
+# 50 Perguntas organizadas em 9 categorias
 PERGUNTAS = [
     # CATEGORIA 1: VALORES E EVOLUÇÃO (8 perguntas)
     {"id": "1.1", "categoria": "Valores e Evolução", "pergunta": "Qual foi o valor máximo que meu portfolio teve?",
@@ -47,7 +47,7 @@ PERGUNTAS = [
     {"id": "2.5", "categoria": "Moedas", "pergunta": "Quando meu portfolio passou a ser em Euro?",
      "pontos_chave": ["1999", "euro", "conversão"]},
 
-    # CATEGORIA 3: ALOCAÇÃO (5 perguntas)
+    # CATEGORIA 3: ALOCAÇÃO (10 perguntas)
     {"id": "3.1", "categoria": "Alocação", "pergunta": "Como meu dinheiro está dividido por tipo de investimento?",
      "pontos_chave": ["bonds", "50%", "equities", "24%", "hedge"]},
     {"id": "3.2", "categoria": "Alocação", "pergunta": "Quando começaram os investimentos alternativos?",
@@ -58,6 +58,16 @@ PERGUNTAS = [
      "pontos_chave": ["2.815", "157", "cotas"]},
     {"id": "3.5", "categoria": "Alocação", "pergunta": "Quanto o fundo imobiliário perdeu?",
      "pontos_chave": ["35%", "34%", "10,64", "6,92"]},
+    {"id": "3.6", "categoria": "Alocação", "pergunta": "Como estava a alocação em 2000?",
+     "pontos_chave": ["47%", "49%", "equities", "bonds", "2000"]},
+    {"id": "3.7", "categoria": "Alocação", "pergunta": "Como estava a alocação durante a crise de 2008?",
+     "pontos_chave": ["45%", "22%", "19%", "7%", "2008"]},
+    {"id": "3.8", "categoria": "Alocação", "pergunta": "Quais hedge funds eu tinha em 2008?",
+     "pontos_chave": ["multi-strategy", "multi-manager", "ubs", "11%"]},
+    {"id": "3.9", "categoria": "Alocação", "pergunta": "Quais hedge funds eu tinha em 2017?",
+     "pontos_chave": ["key", "multi-manager", "dci", "15%"]},
+    {"id": "3.10", "categoria": "Alocação", "pergunta": "Quando o Real Estate teve maior alocação?",
+     "pontos_chave": ["7%", "2008", "31.009", "gating"]},
 
     # CATEGORIA 4: TRANSAÇÕES (5 perguntas)
     {"id": "4.1", "categoria": "Transações", "pergunta": "Qual foi o maior depósito que eu fiz?",
@@ -374,7 +384,7 @@ def gerar_relatorio_md(resultados: list, output_path: Path, categorias_stats: di
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("   TESTE DA BASE DE CONHECIMENTO - 45 Perguntas")
+    print("   TESTE DA BASE DE CONHECIMENTO - 50 Perguntas")
     print("=" * 60)
 
     asyncio.run(run_tests())

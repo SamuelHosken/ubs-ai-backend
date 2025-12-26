@@ -500,6 +500,76 @@ GLOSSÁRIO
 - NAV: Net Asset Value - Valor líquido dos ativos
 - Hedge Fund: Fundo alternativo com estratégias sofisticadas
 - Alternative Investments: Hedge funds, private equity, commodities
+
+═══════════════════════════════════════════════════════════════════════════════
+ALOCAÇÃO DE ATIVOS POR ANO (ASSET ALLOCATION)
+═══════════════════════════════════════════════════════════════════════════════
+
+TABELA COMPLETA DE ALOCAÇÃO (%):
+┌──────────┬───────┬──────────┬─────────┬───────────┬───────┬─────────────┐
+│ Data     │ Bonds │ Equities │ Alt.Inv │ RealEstate│ Cash  │ Total EUR   │
+├──────────┼───────┼──────────┼─────────┼───────────┼───────┼─────────────┤
+│ Nov/1998 │ 51%   │ 24%      │ 0%      │ 0%        │ 25%   │ CHF 2.034M  │
+│ Ago/2000 │ 49%   │ 47%      │ 0%      │ 0%        │ 4%    │ EUR 1.251M  │
+│ Dez/2005 │ 48%   │ 26%      │ 15%     │ 2%        │ 5%    │ EUR 673K    │
+│ Dez/2008 │ 45%   │ 22%      │ 19%     │ 7%        │ 3%    │ EUR 477K    │
+│ Mar/2013 │ 56%   │ 28%      │ 15%     │ 0%*       │ 2%    │ EUR 380K    │
+│ Jun/2014 │ 56%   │ 27%      │ 16%     │ 0%*       │ 1%    │ EUR 371K    │
+│ Jun/2016 │ 51%   │ 25%      │ 20%     │ 0%*       │ 3%    │ EUR 356K    │
+│ Jan/2017 │ 51%   │ 24%      │ 20%     │ 1%*       │ 5%    │ EUR 229K    │
+└──────────┴───────┴──────────┴─────────┴───────────┴───────┴─────────────┘
+*Real Estate ficou separado no Portfolio 02 após gating
+
+DETALHES AGOSTO 2000 (PICO - Bolha Dot-com):
+- Bonds: EUR 610.988 (49%)
+- Equities: EUR 588.107 (47%) ← MUITO ALTO para perfil conservador!
+- Money Market: EUR 52.674 (4%)
+- Total: EUR 1.251.769
+
+DETALHES DEZEMBRO 2008 (Crise Financeira):
+- Bonds: EUR 213.455 (45%)
+- Equities: EUR 103.217 (22%)
+- Alternative Investments: EUR 91.842 (19%)
+  - UBS Multi-Strategy Alternative Fund: EUR 54.139 (11,35%) | +0,26%
+  - UBS Multi-Manager Alternative Fund II: EUR 30.572 (6,41%) | -11,74%
+  - UBS Multi-Manager Alternative Fund SPC: EUR 7.131 (1,49%) | -20,11%
+- Real Estate: EUR 31.009 (7%) - 2.815 cotas | GATING!
+- Asset Allocation Funds: EUR 15.219 (3%)
+- Money Market: EUR 15.450 (3%)
+- Precious Metals: EUR 7.835 (2%) | -18,90%
+- Total: EUR 477.029
+
+DETALHES JANEIRO 2017 (Pré-liquidação):
+- Bonds: EUR 116.920 (51%)
+- Equities: EUR 55.421 (24%)
+- Hedge Funds: EUR 45.994 (20%)
+  - Key Multi-Manager Hedge Fund - Diversified: EUR 34.531 (15%) | +22,72%
+  - DCI Diversified Credit Investment: EUR 11.463 (5%) | +39,18%
+- Liquidity: EUR 11.376 (5%)
+- Total P01: EUR 229.711
+- P02 (separado): EUR 2.692 (Property Fund - 157 cotas)
+
+EVOLUÇÃO DOS ALTERNATIVE INVESTMENTS (Hedge Funds):
+- 1998: 0% (não existiam)
+- 2000: 0%
+- 2003: Início dos hedge funds
+- 2005: 15% (Quellos + UBS Multi-Strategy)
+- 2008: 19% (UBS Multi-Strategy 11% + Multi-Manager II 6%)
+- 2016: 20%
+- 2017: 20% (Key Multi-Manager 15% + DCI Credit 5%)
+
+EVOLUÇÃO DO REAL ESTATE:
+- 1998-2004: 0%
+- Dez/2005: 2% (entrada - 1.375 cotas, EUR 14.768)
+- Dez/2008: 7% (pico - 2.815 cotas, EUR 31.009) → GATING
+- 2009-2016: Separado no P02 (travado)
+- Jan/2017: 1% (157 cotas, EUR 2.692)
+
+TENDÊNCIAS OBSERVADAS:
+1. Bonds sempre dominantes (45-56%) - consistente com perfil Yield
+2. Equities variaram muito (22-47%) - pico perigoso em 2000
+3. Alternative Investments cresceram (0% → 20%)
+4. Real Estate problemático - entrou em 2005, congelou em 2008
 """)
 
         cls._context_cache = "\n".join(context_parts)
