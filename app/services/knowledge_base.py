@@ -16,6 +16,7 @@ class KnowledgeBase:
     # Cache dos dados
     _portfolio_01: Optional[Dict] = None
     _portfolio_02: Optional[Dict] = None
+    _base_conhecimento: Optional[Dict] = None
     _context_cache: Optional[str] = None
 
     @classmethod
@@ -26,14 +27,21 @@ class KnowledgeBase:
         if p01_path.exists():
             with open(p01_path, 'r', encoding='utf-8') as f:
                 cls._portfolio_01 = json.load(f)
-            print(f"  Carregado: Complete Portfolio 01.json")
+            print(f"  ✅ Carregado: Complete Portfolio 01.json")
 
         # Portfolio 02
         p02_path = cls.FORENSIC_DIR / "Complete Portfolio 02.json"
         if p02_path.exists():
             with open(p02_path, 'r', encoding='utf-8') as f:
                 cls._portfolio_02 = json.load(f)
-            print(f"  Carregado: Complete Portfolio 02.json")
+            print(f"  ✅ Carregado: Complete Portfolio 02.json")
+
+        # Base de Conhecimento Adicional
+        base_path = cls.FORENSIC_DIR / "base_conhecimento.json"
+        if base_path.exists():
+            with open(base_path, 'r', encoding='utf-8') as f:
+                cls._base_conhecimento = json.load(f)
+            print(f"  ✅ Carregado: base_conhecimento.json")
 
     @classmethod
     def get_fixed_context(cls) -> str:
@@ -344,6 +352,154 @@ ANÁLISE DE VIOLAÇÃO:
 │ Anos em Violação        │ 6 de 9       │ 2010, 2011, 2012, 2013, 2014, 15 │
 │ Excesso Máximo          │ 137%         │ Perda 2,37x o limite tolerado    │
 └─────────────────────────┴──────────────┴──────────────────────────────────┘
+""")
+
+        # =========================================================
+        # CONHECIMENTO ADICIONAL
+        # =========================================================
+        if cls._base_conhecimento:
+            bc = cls._base_conhecimento
+
+            # Evolução Patrimonial Completa
+            context_parts.append("""
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    CONHECIMENTO ADICIONAL                                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════════════
+DADOS DO CLIENTE
+═══════════════════════════════════════════════════════════════════════════════
+- Cliente: CQUE 913017
+- Banco: UBS Switzerland AG
+- Assessor: Philippe Poisson (Crans-Montana)
+- Telefone: +41 27 486 91 22
+- Email: philippe.poisson@ubs.com
+- Perfil: C - Yield (conservador, tolerância -20%)
+- Período de análise: 1998-2017 (19 anos)
+- Moeda base: EUR (desde 1999, antes CHF)
+
+═══════════════════════════════════════════════════════════════════════════════
+EVOLUÇÃO PATRIMONIAL COMPLETA (1998-2017)
+═══════════════════════════════════════════════════════════════════════════════
+
+MARCOS IMPORTANTES:
+- Nov/1998: CHF 2.034.713 → PICO ABSOLUTO (equivalente ~EUR 1.270.000)
+- Dez/1999: EUR 1.174.300 → Conversão para Euro
+- Ago/2000: EUR 1.251.769 → PICO EM EUROS (antes crash dot-com)
+- Dez/2002: EUR 780.800 → Fundo do crash dot-com
+- Dez/2005: EUR 673.794 → Entrada no Property Fund
+- Dez/2008: EUR 477.029 → CRISE FINANCEIRA GLOBAL
+- Dez/2017: EUR 3.312 → LIQUIDAÇÃO QUASE TOTAL
+
+CAUSAS DA QUEDA DE -99,74%:
+- Saques do cliente: EUR 1.148.900 (95% da causa)
+- Perdas de mercado P01: EUR 47.000 (4%)
+- Perdas P02: EUR 26.000 (1%)
+
+═══════════════════════════════════════════════════════════════════════════════
+CRISE 2008 - DETALHES
+═══════════════════════════════════════════════════════════════════════════════
+
+Performance anual: -17,73%
+Valor inicial: EUR 615.200
+Valor final: EUR 477.029
+Perda absoluta: EUR 138.171
+
+TRIMESTRAL:
+- Q1 2008: -4,66%
+- Q2 2008: -1,97%
+- Q3 2008: -3,50%
+- Q4 2008: -8,78% (Colapso Lehman Brothers)
+
+MENSAL:
+- Setembro: -5,00% (Lehman faliu 15/09)
+- Outubro: -5,00% (Pânico global)
+
+═══════════════════════════════════════════════════════════════════════════════
+PROPERTY FUND - UBS GLOBAL PROPERTY FUND LTD
+═══════════════════════════════════════════════════════════════════════════════
+
+ISIN: GB00B0386M46
+Classe: C-EUR-acc
+
+HISTÓRICO DE COTAS:
+- Dez/2005: 1.375 cotas | Preço: EUR 10,74 | Valor: EUR 14.768
+- Dez/2008: 2.815 cotas | Preço: EUR 11,02 | Valor: EUR 31.009 | GATING!
+- Jan/2017: 157 cotas | Preço: EUR 6,92 | Valor: EUR 2.692
+- Dez/2017: 157 cotas | Preço: EUR 6,92 | Valor: EUR 1.088
+
+PROBLEMA: Cotas reduzidas de 2.815 para 157 através de resgates parciais
+quando liquidez foi liberada (após anos de espera).
+
+═══════════════════════════════════════════════════════════════════════════════
+MOEDAS - ANTES E DEPOIS DO EURO
+═══════════════════════════════════════════════════════════════════════════════
+
+EM 1998 (PRÉ-EURO):
+- CHF (Franco Suíço): 61%
+- DEM (Marco Alemão): 13% → EXTINTA em 2002 (1 EUR = 1,95583 DEM)
+- USD (Dólar): 10%
+- XEU (ECU): 9% → VIROU EURO em 1999 (1 EUR = 1 XEU)
+- GBP (Libra): 2%
+- FRF (Franco Francês): 1% → EXTINTA em 2002 (1 EUR = 6,55957 FRF)
+
+EM 2017:
+- EUR: 84%
+- USD: 10%
+- Outras: 6%
+
+═══════════════════════════════════════════════════════════════════════════════
+AÇÕES INDIVIDUAIS (1998)
+═══════════════════════════════════════════════════════════════════════════════
+
+Em 1998 o portfolio tinha ações suíças individuais:
+- Roche Holding: +571,51% ✅ (MELHOR AÇÃO)
+- UBS: +97,67% (quase dobrou)
+- Zurich Insurance: +16,45%
+- Novartis: +13,49%
+- Credit Suisse: -36,81% ❌ (PIOR AÇÃO)
+
+Depois foram substituídas por fundos de investimento.
+
+═══════════════════════════════════════════════════════════════════════════════
+PERFIS DE INVESTIMENTO UBS
+═══════════════════════════════════════════════════════════════════════════════
+
+O cliente tinha perfil C - YIELD (conservador):
+
+┌────────┬────────────────┬─────────┬─────────────┬───────────┬───────────┐
+│ Código │ Nome           │ Retorno │ Volatilidade│ Perda Max │ Horizonte │
+├────────┼────────────────┼─────────┼─────────────┼───────────┼───────────┤
+│ A      │ Fixed Income   │ ~1%     │ ~4%         │ -15%      │ 2 anos    │
+│ B      │ Income         │ ~2%     │ ~5%         │ -17%      │ 3 anos    │
+│ C      │ Yield          │ ~3%     │ ~6%         │ -20%      │ 4 anos    │ ← CLIENTE
+│ D      │ Balanced       │ ~4%     │ ~8%         │ -30%      │ 5 anos    │
+│ E      │ Growth         │ ~5%     │ ~10%        │ -40%      │ 7 anos    │
+│ F      │ Equities       │ ~6%     │ ~13%        │ -45%      │ 8 anos    │
+└────────┴────────────────┴─────────┴─────────────┴───────────┴───────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+TAXAS UBS
+═══════════════════════════════════════════════════════════════════════════════
+
+- Money Market Funds: até 1,00%/ano
+- Bond Funds: 0,25% - 2,05%/ano
+- Equity Funds: até 2,30%/ano
+- Asset Allocation Funds: 0,50% - 0,80%/ano
+- Hedge Funds: 0,65% - 2,30%/ano
+- Real Estate Funds: 0,60% - 1,50%/ano
+- Structured Products: até 3,00% (upfront)
+
+═══════════════════════════════════════════════════════════════════════════════
+GLOSSÁRIO
+═══════════════════════════════════════════════════════════════════════════════
+
+- TWR: Time-Weighted Return - Retorno ponderado pelo tempo, neutraliza saques
+- Gating: Suspensão temporária de resgates, geralmente por falta de liquidez
+- Suitability: Adequação - verificar se produto é apropriado para o perfil
+- NAV: Net Asset Value - Valor líquido dos ativos
+- Hedge Fund: Fundo alternativo com estratégias sofisticadas
+- Alternative Investments: Hedge funds, private equity, commodities
 """)
 
         cls._context_cache = "\n".join(context_parts)

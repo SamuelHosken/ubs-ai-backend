@@ -18,6 +18,8 @@ class AgentDecision(BaseModel):
     reasoning: str = Field(description="Explicação da decisão")
     parallel: bool = Field(default=True, description="Se os agentes podem rodar em paralelo")
     language: str = Field(default="pt", description="Idioma da resposta")
+    is_emotional: bool = Field(default=False, description="Se a pergunta expressa emoção/frustração")
+    needs_next_steps: bool = Field(default=False, description="Se precisa incluir próximos passos")
 
 
 class OrchestratorAgent:
@@ -42,8 +44,16 @@ AGENTES DISPONÍVEIS:
    USAR: Para questões sobre responsabilidade, culpa, violações, má conduta, erros do banco
    Exemplos: "foi culpa de quem?", "o UBS errou?", "houve má conduta?", "violação"
 
-4. chart - Geração de gráficos
-   USAR: Quando pedir visualização, gráfico, evolução visual
+4. chart - Geração de gráficos ⭐ USAR FREQUENTEMENTE
+   USAR SEMPRE quando a pergunta envolver:
+   - Valores, quantias, "quanto" → gráfico de barras
+   - Evolução, "ao longo do tempo", "como mudou" → gráfico de linha
+   - Comparação, "diferença", "vs", "qual foi pior" → gráfico comparativo
+   - "Para onde foi", distribuição → gráfico de pizza
+   - Saques, retiradas, outflows → gráfico de barras
+   - Performance, retornos anuais → gráfico de linha
+   - "Me mostra", "mostre", "visualizar" → SEMPRE gráfico
+   IMPORTANTE: Na dúvida, INCLUA "chart" - visualizações ajudam o cliente leigo!
 
 5. calculation - Cálculos matemáticos
    USAR: Para contas específicas, percentuais, totais
@@ -61,35 +71,50 @@ AGENTES DISPONÍVEIS:
 REGRAS DE ROTEAMENTO:
 
 Para PERGUNTAS SOBRE DADOS, VALORES, PERFORMANCE:
-→ ["search", "analysis"]
+→ ["search", "analysis", "chart"]
 
 Para PERGUNTAS SOBRE RESPONSABILIDADE, CULPA, VIOLAÇÕES:
 → ["search", "forensic"]
 
-Para PERGUNTAS GERAIS SOBRE O CASO:
-→ ["search", "forensic"]
-Exemplos: "resuma o caso", "o que aconteceu?", "explique a situação"
+Para PERGUNTAS GERAIS SOBRE O CASO ("o que aconteceu?"):
+→ ["search", "analysis", "chart"]
 
 Para SEQUÊNCIA DE EVENTOS, CRONOLOGIA:
 → ["search", "timeline"]
 
 Para CONTEXTO HISTÓRICO (APENAS SE EXPLICITAMENTE PEDIDO):
 → ["search", "context"]
-Exemplos: "o que acontecia em 2008?", "qual era o contexto da época?", "fale sobre a crise"
 
-Para GRÁFICOS:
-→ Adicionar "chart" aos agentes relevantes
+Para COMPARAÇÕES ENTRE PORTFOLIOS:
+→ ["search", "analysis", "chart"]
 
 Para CÁLCULOS:
 → Adicionar "calculation" quando precisar de contas
+
+═══════════════════════════════════════════════════════════════════
+DETECÇÃO DE PERGUNTAS EMOCIONAIS (is_emotional = true):
+═══════════════════════════════════════════════════════════════════
+Marque is_emotional = true se a pergunta contiver:
+- Expressões de frustração: "me sinto roubado", "fui enganado", "não entendo"
+- Sentimentos: "raiva", "frustração", "triste", "decepcionado"
+- Desabafo: "minha família dependia", "como isso foi permitido"
+- Palavras emocionais: "absurdo", "injusto", "revoltado"
+
+═══════════════════════════════════════════════════════════════════
+DETECÇÃO DE PRÓXIMOS PASSOS (needs_next_steps = true):
+═══════════════════════════════════════════════════════════════════
+Marque needs_next_steps = true se a pergunta for sobre:
+- "O que fazer agora?", "próximos passos", "como proceder"
+- "Posso processar?", "tenho direito?", "devo fazer o que?"
+- "Recomendação", "o que você sugere"
 
 IMPORTANTE:
 - O usuário fala PORTUGUÊS, responda em português
 - Este é um CASO JURÍDICO contra o UBS
 - FOQUE nos DOCUMENTOS, DADOS e FATOS do caso
 - NÃO adicione "context" automaticamente - só se o usuário pedir
-- O cliente quer entender os DADOS: "para onde foi o dinheiro e foi culpa de quem?"
-- Sempre inclua "search" quando precisar de dados dos documentos
+- O cliente é LEIGO - precisa de visualizações!
+- SEMPRE inclua "chart" para perguntas sobre valores, saques, evolução
 """
 
     def __init__(self):

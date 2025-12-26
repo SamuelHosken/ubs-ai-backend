@@ -1,0 +1,424 @@
+{
+  "_instrucoes": "ESTA É A BASE DE CONHECIMENTO DOS PORTFOLIOS DO CLIENTE. USE ESTES DADOS PARA RESPONDER PERGUNTAS SOBRE O HISTÓRICO DE INVESTIMENTOS.",
+  
+  "resumo_executivo": {
+    "cliente": "CQUE 913017",
+    "banco": "UBS Switzerland AG",
+    "periodo_analise": "1998-2017 (19 anos)",
+    "moeda_base": "EUR (desde 1999, antes CHF)",
+    "assessor_principal": "Philippe Poisson (Crans-Montana)",
+    "perfil_risco": "C - Yield (conservador, tolerância -20%)",
+    "conclusao": "Portfolio 01 teve performance positiva (+17,65%), mas 95% da redução patrimonial foi devido a saques do cliente. Portfolio 02 teve perdas graves (-31%) por má gestão e violações."
+  },
+
+  "evolucao_patrimonial": {
+    "pico_absoluto": {
+      "data": "1998-11-06",
+      "valor": 2034713,
+      "moeda": "CHF",
+      "equivalente_eur": 1270000,
+      "contexto": "Pico histórico antes da conversão para Euro"
+    },
+    "pico_em_euros": {
+      "data": "2000-08-24",
+      "valor": 1251769,
+      "moeda": "EUR",
+      "contexto": "Pico da bolha dot-com, antes do crash"
+    },
+    "timeline": [
+      {"data": "1998-11-06", "valor": 2034713, "moeda": "CHF", "evento": "PICO ABSOLUTO"},
+      {"data": "1999-12-30", "valor": 1174300, "moeda": "EUR", "evento": "Conversão para Euro"},
+      {"data": "2000-08-24", "valor": 1251769, "moeda": "EUR", "evento": "PICO EM EUROS"},
+      {"data": "2000-12-29", "valor": 1057200, "moeda": "EUR", "evento": "Início crash dot-com"},
+      {"data": "2001-12-31", "valor": 890900, "moeda": "EUR", "evento": "Crash dot-com"},
+      {"data": "2002-12-31", "valor": 780800, "moeda": "EUR", "evento": "Fundo do crash dot-com"},
+      {"data": "2003-12-31", "valor": 734620, "moeda": "EUR", "evento": "Início recuperação"},
+      {"data": "2005-12-23", "valor": 673794, "moeda": "EUR", "evento": "Entrada Property Fund"},
+      {"data": "2007-12-31", "valor": 615200, "moeda": "EUR", "evento": "Pré-crise 2008"},
+      {"data": "2008-12-31", "valor": 477029, "moeda": "EUR", "evento": "CRISE FINANCEIRA GLOBAL"},
+      {"data": "2009-12-31", "valor": 422900, "moeda": "EUR", "evento": "Recuperação pós-crise"},
+      {"data": "2010-12-31", "valor": 399600, "moeda": "EUR", "evento": "Continuação recuperação"},
+      {"data": "2011-12-30", "valor": 370900, "moeda": "EUR", "evento": "Crise dívida europeia"},
+      {"data": "2012-12-31", "valor": 390200, "moeda": "EUR", "evento": "Recuperação"},
+      {"data": "2013-03-31", "valor": 380602, "moeda": "EUR", "evento": "Estabilização"},
+      {"data": "2013-12-31", "valor": 372300, "moeda": "EUR", "evento": "Fim do ano"},
+      {"data": "2014-12-31", "valor": 371900, "moeda": "EUR", "evento": "Estável"},
+      {"data": "2015-12-31", "valor": 364600, "moeda": "EUR", "evento": "Leve queda"},
+      {"data": "2016-06-30", "valor": 356783, "moeda": "EUR", "evento": "Pré-grande saque"},
+      {"data": "2016-12-30", "valor": 229400, "moeda": "EUR", "evento": "Após grande saque EUR 140.700"},
+      {"data": "2017-01-20", "valor": 229711, "moeda": "EUR", "evento": "Início 2017"},
+      {"data": "2017-12-31", "valor": 3312, "moeda": "EUR", "evento": "LIQUIDAÇÃO QUASE TOTAL"}
+    ],
+    "queda_total": {
+      "de": {"valor": 2034713, "moeda": "CHF", "equivalente_eur": 1270000},
+      "para": {"valor": 3312, "moeda": "EUR"},
+      "percentual": -99.74,
+      "causas": {
+        "saques_cliente": {"valor": 1148900, "percentual_causa": 95},
+        "perdas_mercado_p01": {"valor": 47000, "percentual_causa": 4},
+        "perdas_p02": {"valor": 26000, "percentual_causa": 1}
+      }
+    }
+  },
+
+  "portfolio_01": {
+    "descricao": "Portfolio Principal - Gestão Discricionária",
+    "numero": "268-913017-01",
+    "valor_inicial": {"data": "1999-12-30", "valor": 1174300, "moeda": "EUR"},
+    "valor_final": {"data": "2017-01-20", "valor": 229711, "moeda": "EUR"},
+    "total_aportes": 236000,
+    "total_saques": 1133600,
+    "saques_liquidos": 897600,
+    "perda_performance": 47000,
+    "performance_cumulativa": {
+      "percentual": 17.65,
+      "periodo": "2006-2017",
+      "media_anual": 1.63
+    },
+    "conclusao": "Performance POSITIVA. 95% da redução foi por SAQUES do cliente, não por perdas."
+  },
+
+  "portfolio_02": {
+    "descricao": "Portfolio Imobiliário - UBS Global Property Fund",
+    "numero": "268-913017-02",
+    "valor_inicial": {"data": "2009-02", "valor": 29408, "moeda": "EUR"},
+    "valor_final": {"data": "2017-12-31", "valor": 2692, "moeda": "EUR"},
+    "total_saques": 15300,
+    "perda_performance": 11400,
+    "perda_percentual": -31.13,
+    "pior_momento": {"data": "2013", "perda_acumulada": -47.40},
+    "fundo": {
+      "nome": "UBS Wealth Management - Global Property Fund Ltd",
+      "isin": "GB00B0386M46",
+      "classe": "C-EUR-acc",
+      "data_gating": "2008-12",
+      "data_entrada_cliente": "2009-02",
+      "problema": "Cliente alocado 3 meses APÓS o fundo ser congelado"
+    },
+    "violacoes": [
+      "Conflito de interesses - produto próprio UBS",
+      "Negligência grosseira - alocação após gating",
+      "Violação de suitability - perda 47% vs tolerância 20%",
+      "Concentração inadequada - 100% em produto ilíquido",
+      "Falha no dever de cuidado - 5 anos sem intervenção"
+    ],
+    "responsabilidade": {"ubs": 90, "mercado": 10, "cliente": 0}
+  },
+
+  "property_fund_evolucao": {
+    "nome": "UBS Global Property Fund Ltd",
+    "isin": "GB00B0386M46",
+    "historico": [
+      {"data": "2005-12", "cotas": 1375, "preco_custo": 9.748, "preco_mercado": 10.74, "variacao_pct": 10.18, "valor_eur": 14768},
+      {"data": "2008-12", "cotas": 2815, "preco_custo": 10.644, "preco_mercado": 11.02, "variacao_pct": 3.49, "valor_eur": 31009, "evento": "GATING - Fundo congelado"},
+      {"data": "2017-01", "cotas": 157, "preco_custo": 10.644, "preco_mercado": 6.92, "variacao_pct": -34.97, "valor_eur": 2692},
+      {"data": "2017-12", "cotas": 157.185, "preco_custo": 10.644, "preco_mercado": 6.9216, "variacao_pct": -34.97, "valor_eur": 1088}
+    ],
+    "observacao": "Cotas reduzidas de 2815 para 157 através de resgates parciais quando liquidez foi liberada"
+  },
+
+  "performance_anual": {
+    "melhor_ano": {"ano": 2009, "retorno": 11.26, "contexto": "Recuperação pós-crise 2008"},
+    "pior_ano": {"ano": 2008, "retorno": -17.73, "contexto": "Crise financeira global - Lehman Brothers"},
+    "historico": [
+      {"ano": 1999, "retorno": 4.78, "acumulado": 4.78},
+      {"ano": 2000, "retorno": -2.03, "acumulado": 2.70},
+      {"ano": 2001, "retorno": -8.91, "acumulado": -6.50},
+      {"ano": 2002, "retorno": -10.35, "acumulado": -16.30},
+      {"ano": 2003, "retorno": 4.27, "acumulado": -12.70},
+      {"ano": 2004, "retorno": 2.76, "acumulado": -10.40},
+      {"ano": 2005, "retorno": 8.74, "acumulado": -2.80},
+      {"ano": 2006, "retorno": 2.85, "acumulado": 0.00},
+      {"ano": 2007, "retorno": 0.32, "acumulado": 0.32},
+      {"ano": 2008, "retorno": -17.73, "acumulado": -17.46, "destaque": "PIOR ANO"},
+      {"ano": 2009, "retorno": 11.26, "acumulado": -8.17, "destaque": "MELHOR ANO"},
+      {"ano": 2010, "retorno": 5.19, "acumulado": -3.41},
+      {"ano": 2011, "retorno": -2.46, "acumulado": -5.79},
+      {"ano": 2012, "retorno": 8.34, "acumulado": 2.07, "destaque": "Recuperou perdas"},
+      {"ano": 2013, "retorno": 5.14, "acumulado": 7.32},
+      {"ano": 2014, "retorno": 6.54, "acumulado": 14.35},
+      {"ano": 2015, "retorno": 1.41, "acumulado": 15.96},
+      {"ano": 2016, "retorno": 1.32, "acumulado": 17.49},
+      {"ano": 2017, "retorno": 0.15, "acumulado": 17.65}
+    ],
+    "anos_positivos": 12,
+    "anos_negativos": 5,
+    "win_rate": 70.6
+  },
+
+  "crise_2008_detalhes": {
+    "performance_anual": -17.73,
+    "valor_inicial": 615200,
+    "valor_final": 477029,
+    "perda_absoluta": 138171,
+    "saques_no_ano": 32300,
+    "perda_mercado_pura": 105900,
+    "trimestral": [
+      {"periodo": "Q1 2008", "retorno": -4.66, "acumulado": -4.66},
+      {"periodo": "Q2 2008", "retorno": -1.97, "acumulado": -6.54},
+      {"periodo": "Q3 2008", "retorno": -3.50, "acumulado": -9.81},
+      {"periodo": "Q4 2008", "retorno": -8.78, "acumulado": -17.73, "evento": "Colapso Lehman Brothers"}
+    ],
+    "mensal": [
+      {"mes": "Janeiro", "retorno": -2.0},
+      {"mes": "Fevereiro", "retorno": 0.5},
+      {"mes": "Março", "retorno": -0.5},
+      {"mes": "Abril", "retorno": 0.5},
+      {"mes": "Maio", "retorno": 0.0},
+      {"mes": "Junho", "retorno": -3.0},
+      {"mes": "Julho", "retorno": -0.5},
+      {"mes": "Agosto", "retorno": 0.0},
+      {"mes": "Setembro", "retorno": -5.0, "evento": "Lehman Brothers faliu 15/09"},
+      {"mes": "Outubro", "retorno": -5.0, "evento": "Pânico global"},
+      {"mes": "Novembro", "retorno": -2.5},
+      {"mes": "Dezembro", "retorno": -0.5}
+    ]
+  },
+
+  "transacoes_principais": {
+    "maior_deposito": {
+      "data": "2000-05-25",
+      "valor": 126432.59,
+      "moeda": "EUR",
+      "descricao": "Cheque/transferência"
+    },
+    "maiores_saques_anuais": [
+      {"ano": 2000, "valor": 256400, "destaque": "MAIOR SAQUE ANUAL"},
+      {"ano": 2016, "valor": 140700, "destaque": "Segundo maior"},
+      {"ano": 2009, "valor": 99700},
+      {"ano": 2003, "valor": 88600},
+      {"ano": 2002, "valor": 77900},
+      {"ano": 2001, "valor": 73800}
+    ],
+    "padrao_saques_mensais": {
+      "valor_tipico": "6000-10000 EUR",
+      "descricao": "Order (ordem de pagamento programada)",
+      "frequencia": "Mensal, geralmente fim do mês"
+    },
+    "transacoes_2000": [
+      {"data": "2000-01-28", "tipo": "saque", "valor": -9401.44, "moeda": "EUR"},
+      {"data": "2000-02-29", "tipo": "saque", "valor": -18873.86, "moeda": "EUR"},
+      {"data": "2000-03-24", "tipo": "saque", "valor": -314.22, "moeda": "EUR", "original": "CHF 500"},
+      {"data": "2000-03-30", "tipo": "saque", "valor": -6345.18, "moeda": "EUR"},
+      {"data": "2000-04-28", "tipo": "saque", "valor": -9661.84, "moeda": "EUR"},
+      {"data": "2000-05-25", "tipo": "deposito", "valor": 126432.59, "moeda": "EUR", "destaque": "MAIOR DEPÓSITO"},
+      {"data": "2000-06-05", "tipo": "saque", "valor": -6435.01, "moeda": "EUR"},
+      {"data": "2000-06-27", "tipo": "saque", "valor": -13089.00, "moeda": "EUR"},
+      {"data": "2000-07-28", "tipo": "saque", "valor": -6525.28, "moeda": "EUR"},
+      {"data": "2000-08-24", "tipo": "saque", "valor": -6531.68, "moeda": "EUR"}
+    ],
+    "resumo_2000": {
+      "total_depositos": 126432.59,
+      "total_saques": -77177.51,
+      "fluxo_liquido": 49255.08
+    }
+  },
+
+  "alocacao_ativos": {
+    "janeiro_2017": {
+      "bonds": {"valor": 116920, "percentual": 50.90},
+      "equities": {"valor": 55421, "percentual": 24.13},
+      "hedge_funds": {"valor": 45994, "percentual": 20.02},
+      "liquidity": {"valor": 11376, "percentual": 4.95},
+      "real_estate": {"valor": 2692, "percentual": 1.16, "nota": "No Portfolio 02"}
+    },
+    "dezembro_2008": {
+      "bonds": {"valor": 213455, "percentual": 44.75},
+      "equities": {"valor": 103217, "percentual": 21.64},
+      "alternative_investments": {"valor": 91842, "percentual": 19.25},
+      "real_estate": {"valor": 31009, "percentual": 6.50},
+      "asset_allocation_funds": {"valor": 15219, "percentual": 3.19},
+      "money_market": {"valor": 15450, "percentual": 3.24},
+      "precious_metals": {"valor": 7835, "percentual": 1.64}
+    },
+    "dezembro_2005": {
+      "bonds": {"valor": 326602, "percentual": 48.47},
+      "equities": {"valor": 174280, "percentual": 25.87},
+      "alternative_investments": {"valor": 103271, "percentual": 15.33},
+      "money_market": {"valor": 33634, "percentual": 4.99},
+      "structured_products": {"valor": 15395, "percentual": 2.28},
+      "real_estate": {"valor": 14768, "percentual": 2.19}
+    },
+    "novembro_1998": {
+      "bonds": {"valor": 1038616, "percentual": 51.05, "moeda": "CHF"},
+      "equities": {"valor": 487162, "percentual": 23.94, "moeda": "CHF"},
+      "money_market": {"valor": 251968, "percentual": 12.38, "moeda": "CHF"},
+      "cash": {"valor": 238951, "percentual": 11.74, "moeda": "CHF"}
+    },
+    "evolucao_alternative_investments": [
+      {"ano": 2003, "percentual": 4.71},
+      {"ano": 2005, "percentual": 15.33},
+      {"ano": 2006, "percentual": 10.80},
+      {"ano": 2008, "percentual": 19.25, "nota": "Pico - durante crise"},
+      {"ano": 2013, "percentual": 14.98},
+      {"ano": 2017, "percentual": 20.02}
+    ]
+  },
+
+  "distribuicao_moedas": {
+    "novembro_1998_pre_euro": [
+      {"moeda": "CHF", "nome": "Franco Suíço", "percentual": 61.00, "valor": 1241322},
+      {"moeda": "DEM", "nome": "Marco Alemão", "percentual": 12.87, "valor": 261835, "extinta": true},
+      {"moeda": "USD", "nome": "Dólar Americano", "percentual": 9.81, "valor": 199624},
+      {"moeda": "XEU", "nome": "ECU (European Currency Unit)", "percentual": 9.47, "valor": 192648, "extinta": true},
+      {"moeda": "GBP", "nome": "Libra Esterlina", "percentual": 2.25, "valor": 45794},
+      {"moeda": "FRF", "nome": "Franco Francês", "percentual": 1.37, "valor": 27895, "extinta": true},
+      {"moeda": "Outras", "percentual": 3.23, "valor": 65624}
+    ],
+    "janeiro_2017": [
+      {"moeda": "EUR", "nome": "Euro", "percentual": 84.40},
+      {"moeda": "USD", "nome": "Dólar Americano", "percentual": 10.47},
+      {"moeda": "EUP", "nome": "Europa", "percentual": 2.32},
+      {"moeda": "EMM", "nome": "Mercados Emergentes", "percentual": 1.72},
+      {"moeda": "PAC", "nome": "Pacífico", "percentual": 1.14},
+      {"moeda": "CHF", "nome": "Franco Suíço", "percentual": -0.05}
+    ],
+    "moedas_extintas": {
+      "DEM": {
+        "nome": "Deutsche Mark (Marco Alemão)",
+        "pais": "Alemanha",
+        "extinta_em": "2002-03-01",
+        "taxa_conversao": "1 EUR = 1.95583 DEM"
+      },
+      "XEU": {
+        "nome": "ECU (European Currency Unit)",
+        "descricao": "Unidade monetária europeia predecessora do Euro",
+        "extinta_em": "1999-01-01",
+        "taxa_conversao": "1 EUR = 1 XEU"
+      },
+      "FRF": {
+        "nome": "Franc Français (Franco Francês)",
+        "pais": "França",
+        "extinta_em": "2002-02-17",
+        "taxa_conversao": "1 EUR = 6.55957 FRF"
+      }
+    }
+  },
+
+  "acoes_individuais_1998": {
+    "nota": "Em 1998 o portfolio tinha ações suíças individuais. Depois foram substituídas por fundos.",
+    "posicoes": [
+      {"acao": "Zurich Insurance", "quantidade": 12, "custo": 6000, "preco": 6987, "variacao": 16.45, "valor_chf": 83850},
+      {"acao": "Roche Holding", "quantidade": 3, "custo": 3700, "preco": 24850, "variacao": 571.51, "valor_chf": 74550, "destaque": "MELHOR AÇÃO +571%"},
+      {"acao": "UBS", "quantidade": 150, "custo": 188, "preco": 371, "variacao": 97.67, "valor_chf": 55650, "destaque": "Quase dobrou"},
+      {"acao": "Novartis", "quantidade": 20, "custo": 2194, "preco": 2490, "variacao": 13.49, "valor_chf": 49800},
+      {"acao": "Credit Suisse", "quantidade": 100, "custo": 2522, "preco": 1594, "variacao": -36.81, "valor_chf": 15940, "destaque": "PIOR AÇÃO -37%"}
+    ]
+  },
+
+  "hedge_funds_detalhes": {
+    "em_2005": [
+      {"nome": "Quellos Appreciation Index (UBS Investment Bank)", "valor": 37410, "percentual": 5.55, "retorno": 23.47},
+      {"nome": "UBS Multi-Strategy Alternative Fund Ltd", "valor": 65861, "percentual": 9.77, "retorno": 7.97}
+    ],
+    "em_2008": [
+      {"nome": "UBS Multi-Strategy Alternative Fund Ltd", "valor": 54139, "percentual": 11.35, "retorno": 0.26, "nota": "Resistiu bem à crise"},
+      {"nome": "UBS Multi-Manager Alternative Fund II", "valor": 30572, "percentual": 6.41, "retorno": -11.74},
+      {"nome": "UBS Multi-Manager Alternative Fund SPC (Portfolio D)", "valor": 7131, "percentual": 1.49, "retorno": -20.11}
+    ],
+    "em_2017": [
+      {"nome": "Key Multi-Manager Hedge Fund - Diversified", "valor": 34531, "percentual": 15.03, "retorno": 22.72},
+      {"nome": "DCI Diversified Credit Investment", "valor": 11463, "percentual": 4.99, "retorno": 39.18}
+    ]
+  },
+
+  "estrategia_investimento": {
+    "evolucao": [
+      {"periodo": "1998", "estrategia": "Não especificada", "programa": "Gestion de Fortune UBS"},
+      {"periodo": "2000", "estrategia": "Balanced (EU)", "programa": "UBS Portfolio Management"},
+      {"periodo": "2005", "estrategia": "Yield", "programa": "UBS Portfolio Management - Classic"},
+      {"periodo": "2008", "estrategia": "Yield", "programa": "UBS Managed Fund Portfolio - Classic"},
+      {"periodo": "2013-2016", "estrategia": "Yield", "programa": "UBS Manage Advanced"},
+      {"periodo": "2017", "estrategia": "Yield (C)", "programa": "UBS Manage Advanced [Managed Fund]"}
+    ],
+    "perfil_c_yield": {
+      "nome": "Yield",
+      "codigo": "C",
+      "objetivo": "Valorização moderada do patrimônio no longo prazo",
+      "retorno_alvo": "~3% ao ano",
+      "volatilidade_esperada": "~6% ao ano",
+      "tolerancia_perda": "-20%",
+      "horizonte_minimo": "4 anos",
+      "classificacao": "Conservador a moderado"
+    },
+    "todos_perfis_ubs": [
+      {"codigo": "A", "nome": "Fixed Income", "retorno": "~1%", "volatilidade": "~4%", "perda_max": "-15%", "horizonte": "2 anos"},
+      {"codigo": "B", "nome": "Income", "retorno": "~2%", "volatilidade": "~5%", "perda_max": "-17%", "horizonte": "3 anos"},
+      {"codigo": "C", "nome": "Yield", "retorno": "~3%", "volatilidade": "~6%", "perda_max": "-20%", "horizonte": "4 anos"},
+      {"codigo": "D", "nome": "Balanced", "retorno": "~4%", "volatilidade": "~8%", "perda_max": "-30%", "horizonte": "5 anos"},
+      {"codigo": "E", "nome": "Growth", "retorno": "~5%", "volatilidade": "~10%", "perda_max": "-40%", "horizonte": "7 anos"},
+      {"codigo": "F", "nome": "Equities", "retorno": "~6%", "volatilidade": "~13%", "perda_max": "-45%", "horizonte": "8 anos"}
+    ]
+  },
+
+  "assessor_e_agencia": {
+    "assessor_principal": {
+      "nome": "Philippe Poisson",
+      "endereco": "Rue du Prado, 3963 Crans",
+      "telefone": "+41 27 486 91 22",
+      "fax": "+41 27 486 91 10",
+      "email": "philippe.poisson@ubs.com"
+    },
+    "agencias": [
+      {"periodo": "1998-2016", "local": "3960 Sierre / 3963 Crans-Montana", "telefone": "+41 27 452 81 11"},
+      {"periodo": "2017", "local": "8098 Zürich Paradeplatz (sede)", "telefone": "+41-44-234 11 11"}
+    ]
+  },
+
+  "taxas_custos": {
+    "por_tipo_produto": [
+      {"tipo": "Money Market Funds", "taxa_anual": "até 1.00%", "media": "~0.30%"},
+      {"tipo": "Bond Funds", "taxa_anual": "0.25% - 2.05%", "media": "~0.50%"},
+      {"tipo": "Equity Funds", "taxa_anual": "até 2.30%", "media": "~0.65%"},
+      {"tipo": "Asset Allocation Funds", "taxa_anual": "0.50% - 0.80%"},
+      {"tipo": "Hedge Funds", "taxa_anual": "0.65% - 2.30%", "media": "~0.65%"},
+      {"tipo": "Real Estate Funds", "taxa_anual": "0.60% - 1.50%", "media": "~0.05%"},
+      {"tipo": "Structured Products", "taxa": "até 3.00%", "tipo_taxa": "upfront (única)"}
+    ],
+    "nota": "Em mandatos de gestão discricionária, taxas de distribuição geralmente não são cobradas adicionalmente"
+  },
+
+  "contas_incluidas": {
+    "portfolio_01": [
+      {"conta": "268-913017.N1", "moeda": "EUR", "tipo": "Custody Account"},
+      {"conta": "268-913017.01Q", "moeda": "CHF", "tipo": "Cash Account"},
+      {"conta": "268-913017.60B", "moeda": "USD", "tipo": "Cash Account"},
+      {"conta": "268-913017.79Q", "moeda": "EUR", "tipo": "Cash Account"},
+      {"conta": "268-913017.62M", "moeda": "GBP", "tipo": "Cash Account"},
+      {"conta": "268-913017.61E", "moeda": "JPY", "tipo": "Cash Account"}
+    ],
+    "portfolio_02": [
+      {"conta": "268-913017.V9", "moeda": "EUR", "tipo": "Custody Account"}
+    ]
+  },
+
+  "contexto_mercado": {
+    "crise_dotcom_2000_2002": {
+      "descricao": "Estouro da bolha das empresas de internet",
+      "pico_nasdaq": "Março 2000",
+      "queda_nasdaq": "-78% até outubro 2002",
+      "impacto_portfolio": "De EUR 1.25M para EUR 780K (-38%)"
+    },
+    "crise_2008": {
+      "descricao": "Crise financeira global - subprime e Lehman Brothers",
+      "data_lehman": "15 de setembro de 2008",
+      "impacto_portfolio": "-17.73% no ano",
+      "comentario_ubs": "Pior ano para ações desde 1930"
+    },
+    "gating_property_fund": {
+      "descricao": "Congelamento de resgates do fundo imobiliário",
+      "data": "Dezembro 2008",
+      "motivo": "Crise imobiliária global, falta de liquidez",
+      "impacto": "Cliente não conseguiu resgatar por anos"
+    }
+  },
+
+  "glossario": {
+    "TWR": "Time-Weighted Return - Retorno ponderado pelo tempo, neutraliza efeito de aportes/saques",
+    "Gating": "Suspensão temporária de resgates em um fundo, geralmente por falta de liquidez",
+    "Suitability": "Adequação - verificar se produto é apropriado para o perfil do cliente",
+    "NAV": "Net Asset Value - Valor líquido dos ativos",
+    "Hedge Fund": "Fundo de investimento alternativo com estratégias sofisticadas",
+    "Alternative Investments": "Investimentos alternativos como hedge funds, private equity, commodities"
+  }
+}

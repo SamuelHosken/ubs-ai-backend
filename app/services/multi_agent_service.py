@@ -94,6 +94,10 @@ class MultiAgentChatService:
         # 4. Formatar fontes para o resultado
         formatted_sources = self._extract_sources(search_results)
 
+        # Guardar flags do orchestrator
+        is_emotional = getattr(decision, 'is_emotional', False)
+        needs_next_steps = getattr(decision, 'needs_next_steps', False)
+
         # 5. Preparar resultado base
         result = {
             "response": "",
@@ -185,7 +189,9 @@ class MultiAgentChatService:
 
         # 7. Consolidar resposta final (com histórico da conversa)
         if responses:
-            result["response"] = self._consolidate_responses(query, responses, history_context)
+            result["response"] = self._consolidate_responses(
+                query, responses, history_context, is_emotional, needs_next_steps
+            )
         else:
             # Resposta padrão com busca simples
             context_text = self.agents["search"].format_context_for_llm(search_results)
@@ -223,6 +229,10 @@ class MultiAgentChatService:
                 "reasoning": decision.reasoning
             }
         }
+
+        # Guardar flags do orchestrator
+        is_emotional = getattr(decision, 'is_emotional', False)
+        needs_next_steps = getattr(decision, 'needs_next_steps', False)
 
         # 2. Determinar se precisa de fontes terciárias
         include_tertiary = "context" in agents_to_use or "timeline" in agents_to_use
@@ -346,7 +356,9 @@ class MultiAgentChatService:
         yield {"type": "thinking", "data": {"step": "consolidate", "message": "Consolidando resposta final..."}}
 
         if responses:
-            result["response"] = self._consolidate_responses(query, responses, history_context)
+            result["response"] = self._consolidate_responses(
+                query, responses, history_context, is_emotional, needs_next_steps
+            )
         else:
             context_text = self.agents["search"].format_context_for_llm(search_results)
             result["response"] = await self._generate_simple_response(query, context_text, history_context)
@@ -501,7 +513,14 @@ class MultiAgentChatService:
 
         return response
 
-    def _consolidate_responses(self, query: str, responses: List[Dict], history_context: str = "") -> str:
+    def _consolidate_responses(
+        self,
+        query: str,
+        responses: List[Dict],
+        history_context: str = "",
+        is_emotional: bool = False,
+        needs_next_steps: bool = False
+    ) -> str:
         """Consolida respostas de múltiplos agentes em uma resposta coerente"""
         # Montar contexto com todas as respostas
         context_parts = []
@@ -515,20 +534,76 @@ class MultiAgentChatService:
         if history_context:
             history_section = f"""
 {history_context}
-IMPORTANTE: Use o histórico acima para entender o contexto da conversa. Se o usuário se referir a algo mencionado antes, use essa informação.
+IMPORTANTE: Use o histórico acima para entender o contexto da conversa.
 
 """
 
         # Obter contexto fixo da Knowledge Base
         fixed_knowledge = KnowledgeBase.get_fixed_context()
 
+        # Seção de empatia (se pergunta emocional)
+        empathy_section = ""
+        if is_emotional:
+            empathy_section = """
+═══════════════════════════════════════════════════════════════════════════════
+⚠️ REGRA DE EMPATIA - ESTA É UMA PERGUNTA EMOCIONAL
+═══════════════════════════════════════════════════════════════════════════════
+O usuário está expressando frustração/emoção. Você DEVE:
+
+1. PRIMEIRO: Reconheça o sentimento (1-2 frases)
+   Exemplos: "Entendo perfeitamente sua frustração."
+             "É completamente compreensível você se sentir assim."
+             "Essa situação é realmente difícil."
+
+2. DEPOIS: Valide a preocupação
+   "Com base nos documentos, suas preocupações são justificadas..."
+
+3. POR FIM: Ofereça direção concreta
+   "Você tem direito de buscar reparação..."
+
+PALAVRAS OBRIGATÓRIAS NA RESPOSTA:
+- frustração OU preocupação OU entendo
+- reparação OU direito OU advogado
+
+"""
+
+        # Seção de próximos passos (se solicitado)
+        next_steps_section = ""
+        if needs_next_steps:
+            next_steps_section = """
+═══════════════════════════════════════════════════════════════════════════════
+⚠️ INCLUIR PRÓXIMOS PASSOS CONCRETOS
+═══════════════════════════════════════════════════════════════════════════════
+VOCÊ DEVE incluir uma seção "O que fazer agora:" com:
+
+1. **DOCUMENTAÇÃO** 📁 (ação imediata)
+   - "Guarde todos os extratos e relatórios do UBS"
+   - "Solicite ao banco o histórico completo de transações"
+
+2. **CONSULTA JURÍDICA** ⚖️ (ação importante)
+   - "Procure um advogado especializado em direito bancário"
+   - "O caso do Portfolio 02 tem fortes indícios de má conduta"
+
+3. **SOBRE O PORTFOLIO 02** 🏢
+   - "Há evidências de negligência e violação de suitability"
+   - "O valor residual ainda pode ser resgatado"
+
+4. **SOBRE O PORTFOLIO 01** 💰
+   - "Performance foi positiva (+17,65%)"
+   - "Considere se deseja manter ou transferir"
+
+NUNCA dê conselho jurídico definitivo, mas SEMPRE mencione a opção de advogado.
+
+"""
+
         # Usar GPT para consolidar
         consolidation_prompt = f"""Você é um assistente especializado em análise de casos jurídicos contra bancos.
-{history_section}
+Você fala com um CLIENTE LEIGO que não entende de investimentos.
+{history_section}{empathy_section}{next_steps_section}
 O usuário perguntou: "{query}"
 
 ══════════════════════════════════════════════════════════════════════════════
-DADOS OFICIAIS DOS PORTFOLIOS (USE ESTES DADOS - SÃO A FONTE PRINCIPAL):
+DADOS OFICIAIS DOS PORTFOLIOS (FONTE PRINCIPAL):
 ══════════════════════════════════════════════════════════════════════════════
 {fixed_knowledge}
 
@@ -537,27 +612,44 @@ ANÁLISE DOS AGENTES:
 ══════════════════════════════════════════════════════════════════════════════
 {combined_context}
 
-INSTRUÇÕES CRÍTICAS:
-1. USE os dados das TABELAS OFICIAIS acima
-2. Para perguntas sobre retiradas/saques: consulte "LISTA DE SAQUES POR ANO"
-3. NUNCA diga "não tem dados" - os dados estão nas tabelas acima
+══════════════════════════════════════════════════════════════════════════════
+REGRAS OBRIGATÓRIAS DE FORMATAÇÃO:
+══════════════════════════════════════════════════════════════════════════════
 
-FORMATO DA RESPOSTA (IMPORTANTE):
-- Use **negrito** para destacar números e informações importantes
-- Divida em parágrafos curtos (2-3 linhas cada)
-- Use listas com bullet points para dados
-- NÃO mostre dados técnicos (type:, xAxis:, data:, etc.)
-- Seja conciso mas bem formatado
+1. ESTRUTURA DA RESPOSTA:
+   a) RESPOSTA DIRETA (1-2 frases respondendo a pergunta)
+   b) EXPLICAÇÃO SIMPLES (2-3 frases em linguagem de 5ª série)
+   c) NÚMEROS-CHAVE (tabela ou lista curta com dados importantes)
+   d) PRÓXIMO PASSO (1 frase: "Quer que eu detalhe algo?")
 
-EXEMPLO DE FORMATAÇÃO IDEAL:
-"Aqui está o gráfico com todas as **retiradas do Portfolio 01** entre **2000 e 2016**.
+2. DIFERENCIAÇÃO P01 vs P02 - SEMPRE separar claramente:
 
-**Destaques principais:**
-- **Total sacado:** EUR 1.133.600
-- **Maior saque:** 2016 com EUR 140.700
-- **Primeiro grande saque:** 2000 com EUR 256.400
+   **Portfolio 01 (Principal)** = BOM ✅
+   - Performance: +17,65%
+   - Motivo da queda: SAQUES do cliente (95%)
+   - Problema: Nenhum grave
 
-O gráfico evidencia que **95% da redução patrimonial** foi causada por saques do próprio cliente, não por perdas de mercado."
+   **Portfolio 02 (Imobiliário)** = RUIM ❌
+   - Performance: -31,13%
+   - Pior momento: -47,40% (2013)
+   - Problema: Violações graves do UBS
+   - Perfil tolerava -20%, perdeu -47%
+
+3. NÚMEROS-CHAVE A MENCIONAR (conforme contexto):
+   - P01: EUR 1.174.300 inicial → EUR 229.700 final
+   - P01: Saques de EUR 1.133.600 (95% da redução)
+   - P02: EUR 29.408 inicial → EUR 2.692 final
+   - P02: Perda de -31,13% (violação de -47,40% em 2013)
+   - P02: Tolerância era -20%, excedeu em 2,37x
+   - UBS: 90% culpa no P02
+
+4. LINGUAGEM SIMPLES:
+   ❌ ERRADO: "A performance cumulativa TWR foi de +17,65%..."
+   ✅ CERTO: "Você NÃO perdeu dinheiro no Portfolio 01. Na verdade, seus investimentos renderam **+17,65%** - isso é bom!"
+
+5. Use **negrito** para números importantes
+6. Parágrafos curtos (2-3 linhas máximo)
+7. Use emojis com moderação (✅ ❌ 📁 ⚖️)
 
 Resposta consolidada:"""
 
@@ -565,7 +657,7 @@ Resposta consolidada:"""
             response = self.openai_client.chat.completions.create(
                 model="gpt-4-turbo-preview",
                 messages=[
-                    {"role": "system", "content": "Você responde com base em DOCUMENTOS FINANCEIROS. Foque em dados, valores, datas e fatos concretos. Não adicione contexto histórico não solicitado. IMPORTANTE: Você TEM capacidade de gerar gráficos - se um gráfico foi solicitado, ele será exibido automaticamente. Não diga que não pode criar gráficos."},
+                    {"role": "system", "content": "Você é um assistente empático que explica casos financeiros para CLIENTES LEIGOS. Use linguagem SIMPLES. Sempre diferencie P01 (bom) de P02 (ruim). NUNCA diga que não pode gerar gráficos."},
                     {"role": "user", "content": consolidation_prompt}
                 ],
                 temperature=0.3,
@@ -574,7 +666,6 @@ Resposta consolidada:"""
             return response.choices[0].message.content
         except Exception as e:
             print(f"Erro na consolidação: {e}")
-            # Fallback: retornar respostas concatenadas
             return combined_context
 
     async def _generate_simple_response(self, query: str, context: str, history_context: str = "") -> str:
